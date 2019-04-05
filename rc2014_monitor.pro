@@ -1,4 +1,4 @@
-update=Friday, April 05, 2019 at 01:24:35 AM
+update=Friday, April 05, 2019 at 11:58:39 AM
 version=1
 last_client=kicad
 [general]
@@ -58,6 +58,9 @@ SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[pcbnew/Layer.B.Cu]
+Name=B.Cu
+Type=2
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Power

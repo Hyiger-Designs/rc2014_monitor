@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Display_Character:TIL311 DISP5
+L rc2014_monitor-rescue:TIL311-Display_Character DISP5
 U 1 1 5CB4BA92
 P 1950 1500
 F 0 "DISP5" H 1650 900 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "http://www.mouser.com/ds/2/588/til311-e4-519224.pdf" H 1950 1450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Character:TIL311 DISP4
+L rc2014_monitor-rescue:TIL311-Display_Character DISP4
 U 1 1 5CB4CB07
 P 3500 1500
 F 0 "DISP4" H 3200 900 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "http://www.mouser.com/ds/2/588/til311-e4-519224.pdf" H 3500 1450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Character:TIL311 DISP3
+L rc2014_monitor-rescue:TIL311-Display_Character DISP3
 U 1 1 5CB4D9E8
 P 5050 1500
 F 0 "DISP3" H 4750 900 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "http://www.mouser.com/ds/2/588/til311-e4-519224.pdf" H 5050 1450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Character:TIL311 DISP2
+L rc2014_monitor-rescue:TIL311-Display_Character DISP2
 U 1 1 5CB570C9
 P 6600 1500
 F 0 "DISP2" H 6300 900 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "http://www.mouser.com/ds/2/588/til311-e4-519224.pdf" H 6600 1450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Character:TIL311 DISP0
+L rc2014_monitor-rescue:TIL311-Display_Character DISP0
 U 1 1 5CB570D5
 P 9750 1500
 F 0 "DISP0" H 9450 900 50  0000 C CNN
@@ -205,7 +205,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C023" Ref="U?"  Part="1"
 F 0 "U3" H 6450 4200 50  0000 C CNN
 F 1 "74HCT244" H 6450 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6450 3850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 6450 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 6450 3850 50  0001 C CNN
+F 4 "595-SN74HCT244N" H 0   0   50  0001 C CNN "MouserPN"
 	1    6450 3850
 	1    0    0    -1  
 $EndComp
@@ -251,7 +252,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C039" Ref="U?"  Part="1"
 F 0 "U4" H 8350 4200 50  0000 C CNN
 F 1 "74HCT244" H 8350 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 8350 3850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 8350 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 8350 3850 50  0001 C CNN
+F 4 "595-SN74HCT244N" H 0   0   50  0001 C CNN "MouserPN"
 	1    8350 3850
 	1    0    0    -1  
 $EndComp
@@ -319,7 +321,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C061" Ref="LED?"  Part="1"
 F 0 "LED1" H 5000 3550 50  0000 C CNN
 F 1 "WR" H 4750 3550 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4850 3500 50  0001 C CNN
-F 3 "~" V 4850 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4850 3500 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 0   0   50  0001 C CNN "MouserPN"
 	1    4850 3500
 	1    0    0    -1  
 $EndComp
@@ -333,7 +336,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C067" Ref="LED?"  Part="1"
 F 0 "LED2" H 5000 3650 50  0000 C CNN
 F 1 "RD" H 4750 3650 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4850 3600 50  0001 C CNN
-F 3 "~" V 4850 3600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4850 3600 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 0   0   50  0001 C CNN "MouserPN"
 	1    4850 3600
 	1    0    0    -1  
 $EndComp
@@ -347,7 +351,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C06D" Ref="LED?"  Part="1"
 F 0 "LED3" H 5000 3750 50  0000 C CNN
 F 1 "IORQ" H 4750 3750 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4850 3700 50  0001 C CNN
-F 3 "~" V 4850 3700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4850 3700 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 0   0   50  0001 C CNN "MouserPN"
 	1    4850 3700
 	1    0    0    -1  
 $EndComp
@@ -361,7 +366,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C073" Ref="LED?"  Part="1"
 F 0 "LED4" H 5000 3850 50  0000 C CNN
 F 1 "MREQ" H 4750 3850 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4850 3800 50  0001 C CNN
-F 3 "~" V 4850 3800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4850 3800 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 0   0   50  0001 C CNN "MouserPN"
 	1    4850 3800
 	1    0    0    -1  
 $EndComp
@@ -375,7 +381,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C079" Ref="LED?"  Part="1"
 F 0 "LED5" H 5000 3950 50  0000 C CNN
 F 1 "M1" H 4750 3950 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4850 3900 50  0001 C CNN
-F 3 "~" V 4850 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4850 3900 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 0   0   50  0001 C CNN "MouserPN"
 	1    4850 3900
 	1    0    0    -1  
 $EndComp
@@ -409,7 +416,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C08F" Ref="C?"  Part="1"
 F 0 "C2" H 8515 5596 50  0000 L CNN
 F 1 "100nf" H 8515 5505 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8438 5400 50  0001 C CNN
-F 3 "~" H 8400 5550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 8400 5550 50  0001 C CNN
+F 4 "75-1C10Z5U104M050R" H 0   0   50  0001 C CNN "MouserPN"
 	1    8400 5550
 	1    0    0    -1  
 $EndComp
@@ -423,7 +431,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C095" Ref="C?"  Part="1"
 F 0 "C1" H 8065 5596 50  0000 L CNN
 F 1 "100nf" H 8065 5505 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7988 5400 50  0001 C CNN
-F 3 "~" H 7950 5550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 7950 5550 50  0001 C CNN
+F 4 "75-1C10Z5U104M050R" H 0   0   50  0001 C CNN "MouserPN"
 	1    7950 5550
 	1    0    0    -1  
 $EndComp
@@ -523,6 +532,7 @@ F 0 "U2" H 4000 5950 50  0000 C CNN
 F 1 "74LS151" H 4050 5800 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4000 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS151" H 4000 5950 50  0001 C CNN
+F 4 "595-SN74LS151N" H 0   0   50  0001 C CNN "MouserPN"
 	1    4000 5950
 	1    0    0    -1  
 $EndComp
@@ -571,20 +581,6 @@ F 3 "" H 4000 3000 50  0001 C CNN
 	1    4000 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Coded_Octal SW?
-U 1 1 5CA7C108
-P 2400 3550
-AR Path="/5CB5AB00/5CB63856/5CA7C108" Ref="SW?"  Part="1" 
-AR Path="/5CA7C108" Ref="SW1"  Part="1" 
-F 0 "SW1" H 2532 4025 50  0000 C CNN
-F 1 "SW_Coded_Octal" H 2532 3934 50  0000 C CNN
-F 2 "Button_Switch_SMD:Nidec_Copal_SH-7010B" H 2375 3575 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 2375 3575 50  0001 C CNN
-F 4 "706-94HBB08RAT" H 2500 3150 50  0001 C CNN "Mouser PN"
-	1    2400 3550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4500 4200
 NoConn ~ 4500 4100
 NoConn ~ 4500 4000
@@ -598,6 +594,7 @@ F 0 "U1" H 4000 3900 50  0000 C CNN
 F 1 "74LS138" H 4000 3750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4000 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 4000 3800 50  0001 C CNN
+F 4 "595-SN74LS138N" H 0   0   50  0001 C CNN "MouserPN"
 	1    4000 3800
 	1    0    0    -1  
 $EndComp
@@ -644,7 +641,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C130" Ref="C?"  Part="1"
 F 0 "C4" H 9515 5596 50  0000 L CNN
 F 1 "100nf" H 9515 5505 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 9438 5400 50  0001 C CNN
-F 3 "~" H 9400 5550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 9400 5550 50  0001 C CNN
+F 4 "75-1C10Z5U104M050R" H 0   0   50  0001 C CNN "MouserPN"
 	1    9400 5550
 	1    0    0    -1  
 $EndComp
@@ -662,7 +660,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C138" Ref="C?"  Part="1"
 F 0 "C5" H 10015 5596 50  0000 L CNN
 F 1 "100nf" H 10015 5505 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 9938 5400 50  0001 C CNN
-F 3 "~" H 9900 5550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 9900 5550 50  0001 C CNN
+F 4 "75-1C10Z5U104M050R" H 0   0   50  0001 C CNN "MouserPN"
 	1    9900 5550
 	1    0    0    -1  
 $EndComp
@@ -723,7 +722,6 @@ Wire Wire Line
 Connection ~ 3000 3600
 Wire Wire Line
 	3000 3600 3500 3600
-Connection ~ 2900 3500
 Connection ~ 4000 4500
 Connection ~ 9400 5400
 Connection ~ 9400 5700
@@ -819,7 +817,7 @@ Wire Wire Line
 	8000 800  8200 800 
 Connection ~ 8200 800 
 $Comp
-L Display_Character:TIL311 DISP1
+L rc2014_monitor-rescue:TIL311-Display_Character DISP1
 U 1 1 5CB570CF
 P 8100 1500
 F 0 "DISP1" H 7800 900 50  0000 C CNN
@@ -895,7 +893,8 @@ AR Path="/5CB5AB00/5CB63856/5CA7C04F" Ref="U?"  Part="1"
 F 0 "U5" H 10250 4200 50  0000 C CNN
 F 1 "74HCT244" H 10250 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 10250 3850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 10250 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 10250 3850 50  0001 C CNN
+F 4 "595-SN74HCT244N" H 0   0   50  0001 C CNN "MouserPN"
 	1    10250 3850
 	1    0    0    -1  
 $EndComp
@@ -984,8 +983,6 @@ D_A13
 Text GLabel 1350 1550 0    50   Input ~ 0
 D_A12
 Wire Wire Line
-	2900 3500 2900 3600
-Wire Wire Line
 	3500 5850 3350 5850
 Wire Wire Line
 	3350 5850 3350 5950
@@ -1063,16 +1060,10 @@ F 0 "RN1" V 4833 3800 50  0000 C CNN
 F 1 "R_Network06" V 4924 3800 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP7" V 5725 3800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 5350 3800 50  0001 C CNN
-F 4 "652-4607X-1LF-270" V 5350 3800 50  0001 C CNN "Mouser PN"
+F 4 "652-4607X-1LF-270" V 5350 3800 50  0001 C CNN "MouserPN"
 	1    5350 3800
 	0    1    1    0   
 $EndComp
-Connection ~ 2900 3600
-Wire Wire Line
-	2900 3600 2900 3700
-Connection ~ 2900 3700
-Wire Wire Line
-	2900 3700 2900 6450
 Wire Wire Line
 	5650 3100 5650 3500
 Wire Wire Line
@@ -1095,4 +1086,21 @@ NoConn ~ 1600 5700
 NoConn ~ 1600 5800
 Text GLabel 10750 3550 2    50   Output ~ 0
 D_D2
+Wire Wire Line
+	2900 3500 2900 6450
+Connection ~ 2900 3500
+$Comp
+L rc2014_monitor-rescue:SW_Coded_Octal-Switch SW?
+U 1 1 5CA7C108
+P 2400 3550
+AR Path="/5CB5AB00/5CB63856/5CA7C108" Ref="SW?"  Part="1" 
+AR Path="/5CA7C108" Ref="SW1"  Part="1" 
+F 0 "SW1" H 2532 4025 50  0000 C CNN
+F 1 "SW_Coded_Octal" H 2532 3934 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2375 3575 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 2375 3575 50  0001 C CNN
+F 4 "706-94HBB08RAT" H 2500 3150 50  0001 C CNN "MouserPN"
+	1    2400 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
