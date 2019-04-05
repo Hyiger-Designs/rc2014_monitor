@@ -279,37 +279,35 @@ Text GLabel 8850 3550 2    50   Output ~ 0
 D_A5
 Text GLabel 8850 3650 2    50   Output ~ 0
 D_A4
-Text GLabel 9750 3850 0    50   Input ~ 0
+Text GLabel 9750 3650 0    50   Input ~ 0
 D3
-Text GLabel 9750 3450 0    50   Input ~ 0
+Text GLabel 9750 3550 0    50   Input ~ 0
 D2
-Text GLabel 9750 3750 0    50   Input ~ 0
+Text GLabel 9750 3450 0    50   Input ~ 0
 D1
 Text GLabel 9750 3350 0    50   Input ~ 0
 D0
 Text GLabel 9750 4050 0    50   Input ~ 0
 D7
-Text GLabel 9750 3650 0    50   Input ~ 0
-D6
 Text GLabel 9750 3950 0    50   Input ~ 0
+D6
+Text GLabel 9750 3850 0    50   Input ~ 0
 D5
-Text GLabel 9750 3550 0    50   Input ~ 0
+Text GLabel 9750 3750 0    50   Input ~ 0
 D4
-Text GLabel 10750 3850 2    50   Output ~ 0
+Text GLabel 10750 3650 2    50   Output ~ 0
 D_D3
 Text GLabel 10750 3450 2    50   Output ~ 0
-D_D2
-Text GLabel 10750 3750 2    50   Output ~ 0
 D_D1
 Text GLabel 10750 3350 2    50   Output ~ 0
 D_D0
 Text GLabel 10750 4050 2    50   Output ~ 0
 D_D7
-Text GLabel 10750 3650 2    50   Output ~ 0
-D_D6
 Text GLabel 10750 3950 2    50   Output ~ 0
+D_D6
+Text GLabel 10750 3850 2    50   Output ~ 0
 D_D5
-Text GLabel 10750 3550 2    50   Output ~ 0
+Text GLabel 10750 3750 2    50   Output ~ 0
 D_D4
 $Comp
 L Device:LED_Small LED1
@@ -1095,4 +1093,6 @@ NoConn ~ 1600 5500
 NoConn ~ 1600 5600
 NoConn ~ 1600 5700
 NoConn ~ 1600 5800
+Text GLabel 10750 3550 2    50   Output ~ 0
+D_D2
 $EndSCHEMATC
