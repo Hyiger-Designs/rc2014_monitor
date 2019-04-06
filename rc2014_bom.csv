@@ -1,0 +1,15 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+C2;C1;C4;C5,100nf,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,4,Vishay/Sprague,1C10Z5U104M050R,Mouser,75-1C10Z5U104M050R
+J2,Conn_01x23,Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical,1,-,-,-,-
+J1,RC2014Pro,Connector_PinHeader_2.54mm:PinHeader_1x39_P2.54mm_Vertical,1,-,-,-,-
+SW1,SW_Coded_Octal,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,1,-,-,-,-
+LED3,IORQ,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,ROHM Semiconductor,SML-H12U8TT86C,Mouser,755-SML-H12U8TT86C
+LED5,M1,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,ROHM Semiconductor,SML-H12U8TT86C,Mouser,755-SML-H12U8TT86C
+LED4,MREQ,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,ROHM Semiconductor,SML-H12U8TT86C,Mouser,755-SML-H12U8TT86C
+LED2,RD,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,ROHM Semiconductor,SML-H12U8TT86C,Mouser,755-SML-H12U8TT86C
+LED1,WR,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,ROHM Semiconductor,SML-H12U8TT86C,Mouser,755-SML-H12U8TT86C
+DISP5;DISP4;DISP3;DISP2;DISP0;DISP1,TIL311,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,6,-,-,-,-
+U1,74LS138,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,1,Texas Instruments,SN74LS138N,Mouser,595-SN74LS138N
+U2,74LS151,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,1,Texas Instruments,SN74LS138N,Mouser,595-SN74LS138N
+U3;U4;U5,74HCT244,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,3,Texas Instruments,SN74HCT244N,Mouser,595-SN74HCT244N
+RN1,R_Network06,Resistor_THT:R_Array_SIP7,1,Bourns,4607X-101-271LF,Mouser,652-4607X-1LF-270
