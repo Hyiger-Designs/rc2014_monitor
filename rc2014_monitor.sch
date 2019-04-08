@@ -95,24 +95,6 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
-U 1 1 5CA62B20
-P 1400 5300
-AR Path="/5CB5AB00/5CA62B20" Ref="J?"  Part="1" 
-AR Path="/5CA62B20" Ref="J2"  Part="1" 
-F 0 "J2" H 1400 5950 50  0000 C CNN
-F 1 "Conn_01x10" H 1350 5850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1400 5300 50  0001 C CNN
-F 3 "~" H 1400 5300 50  0001 C CNN
-F 4 "-" H 0   -700 50  0001 C CNN "MFR"
-F 5 "-" H 0   -700 50  0001 C CNN "MPN"
-F 6 "-" H 0   -700 50  0001 C CNN "SPR"
-F 7 "-" H 0   -700 50  0001 C CNN "SPN"
-F 8 "-" H 0   -700 50  0001 C CNN "SPURL"
-	1    1400 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x39 J?
 U 1 1 5CA62B4A
 P 800 5200
@@ -355,20 +337,6 @@ F 3 "" H 4000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
-U 1 1 5CAA9BF0
-P 5950 700
-AR Path="/5CAA9BF0" Ref="#PWR0109"  Part="1" 
-AR Path="/5CB63856/5CAA9BF0" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CAA9BF0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0109" H 5950 550 50  0001 C CNN
-F 1 "+5V" H 5965 873 50  0000 C CNN
-F 2 "" H 5950 700 50  0001 C CNN
-F 3 "" H 5950 700 50  0001 C CNN
-	1    5950 700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5CAAC638
 P 9750 2350
@@ -463,8 +431,6 @@ F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    5350 3800
 	0    1    1    0   
 $EndComp
-Text GLabel 1600 4900 2    50   Output ~ 0
-GND
 Text GLabel 1000 5900 2    50   Output ~ 0
 D0
 Text GLabel 1000 6000 2    50   Output ~ 0
@@ -527,8 +493,6 @@ Text GLabel 1000 3700 2    50   Output ~ 0
 A11
 Text GLabel 1000 3800 2    50   Output ~ 0
 A10
-Text GLabel 1600 5000 2    50   Output ~ 0
-5V
 Text Notes 600  3000 0    50   ~ 0
 RC2014 Pro Bus
 Text GLabel 5950 3750 0    50   Input ~ 0
@@ -691,14 +655,6 @@ Text GLabel 7500 1550 0    50   Input ~ 0
 D_D4
 Text GLabel 10750 3550 2    50   Output ~ 0
 D_D2
-Wire Notes Line
-	550  2850 2050 2850
-Wire Notes Line
-	2050 2850 2050 7400
-Wire Notes Line
-	2050 7400 550  7400
-Wire Notes Line
-	550  7400 550  2850
 Wire Wire Line
 	8350 3050 10250 3050
 Wire Wire Line
@@ -766,7 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 800  9850 800 
 Wire Wire Line
-	5950 700  5950 800 
+	5850 700  5850 800 
 Wire Wire Line
 	1350 1900 1350 2200
 Wire Wire Line
@@ -787,8 +743,6 @@ Wire Wire Line
 	6350 2200 6600 2200
 Wire Wire Line
 	6000 2200 6600 2200
-Wire Wire Line
-	5950 800  6500 800 
 Wire Wire Line
 	9150 1750 9000 1750
 Wire Wire Line
@@ -846,7 +800,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 800  4950 800 
 Wire Wire Line
-	5150 800  5950 800 
+	5150 800  5850 800 
 Wire Wire Line
 	2050 800  3400 800 
 Wire Wire Line
@@ -917,7 +871,6 @@ Connection ~ 4300 2500
 Connection ~ 2900 2200
 Connection ~ 2750 2500
 Connection ~ 4950 800 
-Connection ~ 5950 800 
 Connection ~ 3400 800 
 Connection ~ 3350 5950
 Connection ~ 3350 6050
@@ -947,14 +900,6 @@ NoConn ~ 1000 6800
 NoConn ~ 1000 5200
 NoConn ~ 1000 5300
 NoConn ~ 1000 5400
-NoConn ~ 1600 5100
-NoConn ~ 1600 5200
-NoConn ~ 1600 5300
-NoConn ~ 1600 5400
-NoConn ~ 1600 5500
-NoConn ~ 1600 5600
-NoConn ~ 1600 5700
-NoConn ~ 1600 5800
 Text Notes 4550 3500 0    50   ~ 0
 IO_RD\n
 Text Notes 4550 3600 0    50   ~ 0
@@ -1030,7 +975,7 @@ F 3 "~" H 9800 5200 50  0001 C CNN
 $EndComp
 Connection ~ 9800 5200
 $Comp
-L Switch:SW_Coded_Octal-8 SW1
+L rc2014_monitor-rescue:SW_Coded_Octal-8-Switch SW1
 U 1 1 5CBFAB4E
 P 2800 3200
 F 0 "SW1" H 2775 3667 50  0000 C CNN
@@ -1083,7 +1028,7 @@ Wire Wire Line
 	2250 6450 3500 6450
 Connection ~ 2250 3700
 $Comp
-L 74xx:74HCT151 U2
+L rc2014_monitor-rescue:74HCT151-74xx U2
 U 1 1 5CC642BF
 P 4000 5950
 F 0 "U2" H 4000 6000 50  0000 C CNN
@@ -1095,7 +1040,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hct151.pdf" H 4000 5950 50  0001 C CNN
 $EndComp
 Connection ~ 4000 6950
 $Comp
-L 74xx:74HCT138 U1
+L rc2014_monitor-rescue:74HCT138-74xx U1
 U 1 1 5CC7ABA6
 P 4000 3800
 F 0 "U1" H 4000 3850 50  0000 C CNN
@@ -1162,56 +1107,56 @@ IO_RD
 Text GLabel 3500 5450 0    50   Input ~ 0
 IO_WR
 $Comp
-L 74xx:74HCT32 U6
+L rc2014_monitor-rescue:74HCT32-74xx U6
 U 1 1 5CDC2417
 P 5450 5400
 F 0 "U6" H 5450 5725 50  0000 C CNN
 F 1 "74HCT32" H 5450 5634 50  0000 C CNN
-F 2 "" H 5450 5400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5450 5400 50  0001 C CNN
 	1    5450 5400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT32 U6
+L rc2014_monitor-rescue:74HCT32-74xx U6
 U 2 1 5CDC49EF
 P 5450 5950
 F 0 "U6" H 5450 6275 50  0000 C CNN
 F 1 "74HCT32" H 5450 6184 50  0000 C CNN
-F 2 "" H 5450 5950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5450 5950 50  0001 C CNN
 	2    5450 5950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT32 U6
+L rc2014_monitor-rescue:74HCT32-74xx U6
 U 3 1 5CDEC76B
 P 6600 5950
 F 0 "U6" H 6600 6275 50  0000 C CNN
 F 1 "74HCT32" H 6600 6184 50  0000 C CNN
-F 2 "" H 6600 5950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6600 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6600 5950 50  0001 C CNN
 	3    6600 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT32 U6
+L rc2014_monitor-rescue:74HCT32-74xx U6
 U 4 1 5CDFB601
 P 6600 5400
 F 0 "U6" H 6600 5725 50  0000 C CNN
 F 1 "74HCT32" H 6600 5634 50  0000 C CNN
-F 2 "" H 6600 5400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6600 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6600 5400 50  0001 C CNN
 	4    6600 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT32 U6
+L rc2014_monitor-rescue:74HCT32-74xx U6
 U 5 1 5CE094FD
 P 7500 5650
 F 0 "U6" H 7730 5696 50  0000 L CNN
 F 1 "74HCT32" H 7730 5605 50  0000 L CNN
-F 2 "" H 7500 5650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7500 5650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7500 5650 50  0001 C CNN
 	5    7500 5650
 	1    0    0    -1  
@@ -1221,4 +1166,21 @@ M_RD
 Text GLabel 3500 5650 0    50   Input ~ 0
 M_WR
 NoConn ~ 4500 5350
+$Comp
+L power:+5V #PWR0109
+U 1 1 5CAA9BF0
+P 5850 700
+AR Path="/5CAA9BF0" Ref="#PWR0109"  Part="1" 
+AR Path="/5CB63856/5CAA9BF0" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CAA9BF0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 5850 550 50  0001 C CNN
+F 1 "+5V" H 5865 873 50  0000 C CNN
+F 2 "" H 5850 700 50  0001 C CNN
+F 3 "" H 5850 700 50  0001 C CNN
+	1    5850 700 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 800 
+Wire Wire Line
+	5850 800  6500 800 
 $EndSCHEMATC
