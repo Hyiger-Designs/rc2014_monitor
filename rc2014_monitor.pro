@@ -1,4 +1,4 @@
-update=Friday, April 05, 2019 at 11:58:39 AM
+update=Friday, April 05, 2019 at 07:41:28 PM
 version=1
 last_client=kicad
 [general]
@@ -63,6 +63,17 @@ Name=B.Cu
 Type=2
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
+Name=Net-(D1-Pad1)\tDefault\r
+Clearance=0.2
+TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.2
 TrackWidth=0.5
