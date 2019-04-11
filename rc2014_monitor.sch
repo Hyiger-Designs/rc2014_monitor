@@ -436,7 +436,7 @@ U 1 1 5CBFAB4E
 P 2350 4850
 F 0 "SW1" H 2325 5317 50  0000 C CNN
 F 1 "SW_Coded_Octal-8" H 2325 5226 50  0000 C CNN
-F 2 "Button_Switch_THT:Nidec_Copal_SH-7010C" H 2275 4975 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Greyhill_94HBB08RAT_Octal_Angled" H 2275 4975 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 2275 4975 50  0001 C CNN
 F 4 "706-94HBB08RAT" H 2450 4450 50  0001 C CNN "Mouser PN"
 F 5 "Grayhill" H 50  1600 50  0001 C CNN "MFR"
