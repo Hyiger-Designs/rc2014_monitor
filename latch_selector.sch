@@ -24,7 +24,7 @@ AR Path="/5CBED028" Ref="U?"  Part="4"
 AR Path="/5CBDBC11/5CBED028" Ref="U6"  Part="4" 
 F 0 "U6" H 6600 1675 50  0000 C CNN
 F 1 "74HCT32" H 6600 1584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6600 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6600 1350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hct32.pdf" H 6600 1350 50  0001 C CNN
 F 4 "Texas Instruments" H 400 -3800 50  0001 C CNN "MFR"
 F 5 "SN74HCT32N" H 400 -3800 50  0001 C CNN "MPN"
@@ -42,7 +42,7 @@ AR Path="/5CBED033" Ref="U?"  Part="3"
 AR Path="/5CBDBC11/5CBED033" Ref="U6"  Part="3" 
 F 0 "U6" H 6600 2225 50  0000 C CNN
 F 1 "74HCT32" H 6600 2134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6600 1900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6600 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hct32.pdf" H 6600 1900 50  0001 C CNN
 F 4 "Texas Instruments" H 400 -3800 50  0001 C CNN "MFR"
 F 5 "SN74HCT32N" H 400 -3800 50  0001 C CNN "MPN"
@@ -60,7 +60,7 @@ AR Path="/5CBED03E" Ref="U?"  Part="2"
 AR Path="/5CBDBC11/5CBED03E" Ref="U6"  Part="2" 
 F 0 "U6" H 5450 2225 50  0000 C CNN
 F 1 "74HCT32" H 5450 2134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5450 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hct32.pdf" H 5450 1900 50  0001 C CNN
 F 4 "Texas Instruments" H 400 -3800 50  0001 C CNN "MFR"
 F 5 "SN74HCT32N" H 400 -3800 50  0001 C CNN "MPN"
@@ -78,7 +78,7 @@ AR Path="/5CBED049" Ref="U?"  Part="1"
 AR Path="/5CBDBC11/5CBED049" Ref="U6"  Part="1" 
 F 0 "U6" H 5450 1675 50  0000 C CNN
 F 1 "74HCT32" H 5450 1584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5450 1350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hct32.pdf" H 5450 1350 50  0001 C CNN
 F 4 "Texas Instruments" H 400 -3800 50  0001 C CNN "MFR"
 F 5 "SN74HCT32N" H 400 -3800 50  0001 C CNN "MPN"
@@ -304,7 +304,7 @@ AR Path="/5CC19E47" Ref="U?"  Part="1"
 AR Path="/5CBDBC11/5CC19E47" Ref="U2"  Part="1" 
 F 0 "U2" H 2650 3900 50  0000 C CNN
 F 1 "74HCT151" H 2700 3750 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2650 3850 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2650 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct151.pdf" H 2650 3850 50  0001 C CNN
 F 4 "Texas Instruments" H -850 -2150 50  0001 C CNN "MFR"
 F 5 "CD74HCT151E" H -850 -2150 50  0001 C CNN "MPN"
@@ -464,7 +464,7 @@ AR Path="/5CC2B794" Ref="U?"  Part="5"
 AR Path="/5CBDBC11/5CC2B794" Ref="U6"  Part="5" 
 F 0 "U6" H 7880 1696 50  0000 L CNN
 F 1 "74HCT32" H 7880 1605 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7650 1650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7650 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hct32.pdf" H 7650 1650 50  0001 C CNN
 F 4 "Texas Instruments" H 150 -4000 50  0001 C CNN "MFR"
 F 5 "SN74HCT32N" H 150 -4000 50  0001 C CNN "MPN"
@@ -628,7 +628,7 @@ AR Path="/5CC19E52" Ref="U?"  Part="1"
 AR Path="/5CBDBC11/5CC19E52" Ref="U1"  Part="1" 
 F 0 "U1" H 2650 1750 50  0000 C CNN
 F 1 "74HCT138" H 2600 1650 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2650 1700 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2650 1700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 2650 1700 50  0001 C CNN
 F 4 "Texas Instruments" H -850 -2150 50  0001 C CNN "MFR"
 F 5 "SN74HCT138N" H -850 -2150 50  0001 C CNN "MPN"
@@ -654,14 +654,15 @@ $Comp
 L Diode:SD103ATW D1
 U 1 1 5CB2381C
 P 3500 1900
-F 0 "D1" H 3500 1550 50  0000 C CNN
-F 1 "SD103ATW" H 3500 1450 50  0000 C CNN
+F 0 "D1" H 3250 1950 50  0000 C CNN
+F 1 "SD103ATW" H 3500 1600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 1900 50  0001 C CNN
 F 4 "Diodes Incorporated" H 3500 1900 50  0001 C CNN "MFR"
 F 5 "SD103ATW-7-F" H 3500 1900 50  0001 C CNN "MPN"
 F 6 "Mouser" H 3500 1900 50  0001 C CNN "SPR"
 F 7 "621-SD103ATW-F" H 3500 1900 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/SD103ATW-7-F?qs=%2Fha2pyFadugDGjjBrIiZL0DOY1Gy23gp1dHZHpATh%2FKBhtYLvEjSow%3D%3D" H 0   0   50  0001 C CNN "SPURL"
 	1    3500 1900
 	1    0    0    -1  
 $EndComp
@@ -669,10 +670,15 @@ $Comp
 L Diode:SD103ATW D1
 U 2 1 5CB2450A
 P 3500 2100
-F 0 "D1" H 3500 1650 50  0000 C CNN
-F 1 "SD103ATW" H 3500 1550 50  0000 C CNN
+F 0 "D1" H 3250 2250 50  0000 C CNN
+F 1 "SD103ATW" H 3500 2000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 2100 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "MFR"
+F 5 "SD103ATW-7-F" H 0   0   50  0001 C CNN "MPN"
+F 6 "621-SD103ATW-F" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/SD103ATW-7-F?qs=%2Fha2pyFadugDGjjBrIiZL0DOY1Gy23gp1dHZHpATh%2FKBhtYLvEjSow%3D%3D" H 0   0   50  0001 C CNN "SPURL"
 	2    3500 2100
 	1    0    0    -1  
 $EndComp
@@ -680,10 +686,15 @@ $Comp
 L Diode:SD103ATW D1
 U 3 1 5CB253E2
 P 3500 2000
-F 0 "D1" H 3500 1500 50  0000 C CNN
-F 1 "SD103ATW" H 3500 1400 50  0000 C CNN
+F 0 "D1" H 3250 1950 50  0000 C CNN
+F 1 "SD103ATW" H 3500 1800 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 2000 50  0001 C CNN
+F 4 "Diodes Incorporated" H 0   0   50  0001 C CNN "MFR"
+F 5 "SD103ATW-7-F" H 0   0   50  0001 C CNN "MPN"
+F 6 "621-SD103ATW-F" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/SD103ATW-7-F?qs=%2Fha2pyFadugDGjjBrIiZL0DOY1Gy23gp1dHZHpATh%2FKBhtYLvEjSow%3D%3D" H 0   0   50  0001 C CNN "SPURL"
 	3    3500 2000
 	1    0    0    -1  
 $EndComp
