@@ -401,23 +401,6 @@ F 3 "" H 10600 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network06 RN1
-U 1 1 5CBFD2C7
-P 4850 3850
-F 0 "RN1" V 4333 3850 50  0000 C CNN
-F 1 "R_Network06" V 4424 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP7" V 5225 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 4850 3850 50  0001 C CNN
-F 4 "652-4607X-1LF-270" V 4850 3850 50  0001 C CNN "MouserPN"
-F 5 "Bourns" H -500 50  50  0001 C CNN "MFR"
-F 6 "4607X-101-271LF" H -500 50  50  0001 C CNN "MPN"
-F 7 "Mouser" H -500 50  50  0001 C CNN "SPR"
-F 8 "652-4607X-1LF-270" H -500 50  50  0001 C CNN "SPN"
-F 9 "-" H -500 50  50  0001 C CNN "SPURL"
-	1    4850 3850
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0114
 U 1 1 5CB5974C
 P 7800 6150
@@ -1279,9 +1262,6 @@ Connection ~ 6200 6850
 NoConn ~ 1000 6900
 NoConn ~ 1000 7000
 NoConn ~ 1000 7100
-NoConn ~ 4000 4250
-NoConn ~ 4000 4150
-NoConn ~ 4000 4050
 NoConn ~ 2550 1650
 NoConn ~ 2550 1750
 NoConn ~ 4100 1650
@@ -1294,7 +1274,6 @@ NoConn ~ 8700 1650
 NoConn ~ 8700 1750
 NoConn ~ 10350 1650
 NoConn ~ 10350 1750
-NoConn ~ 4650 4050
 NoConn ~ 1000 6700
 NoConn ~ 1000 6800
 NoConn ~ 1000 5200
@@ -1495,4 +1474,60 @@ Wire Wire Line
 Connection ~ 5550 6850
 Wire Wire Line
 	5550 6850 5750 6850
+$Comp
+L Device:R_Network08 RN1
+U 1 1 5CAEF515
+P 4850 3950
+F 0 "RN1" V 4233 3950 50  0000 C CNN
+F 1 "270R Bussed" V 4324 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 5325 3950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 4850 3950 50  0001 C CNN
+F 4 "Bourns" V 4850 3950 50  0001 C CNN "MFR"
+F 5 "4609X-101-271LF" V 4850 3950 50  0001 C CNN "MPN"
+F 6 "Mouser" V 4850 3950 50  0001 C CNN "SPR"
+F 7 "652-4609X-1LF-270" V 4850 3950 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/652-4609X-1LF-270" V 4850 3950 50  0001 C CNN "SPURL"
+	1    4850 3950
+	0    1    1    0   
+$EndComp
+NoConn ~ 4650 4150
+NoConn ~ 4650 4250
+$Comp
+L Device:LED_Small LED6
+U 1 1 5CB2ECC4
+P 4350 4050
+AR Path="/5CB2ECC4" Ref="LED6"  Part="1" 
+AR Path="/5CB63856/5CB2ECC4" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CB2ECC4" Ref="LED?"  Part="1" 
+F 0 "LED6" H 4500 4100 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 4250 4100 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4350 4050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 4350 4050 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H -500 150 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H -500 150 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H -500 150 50  0001 C CNN "MPN"
+F 7 "Mouser" H -500 150 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H -500 150 50  0001 C CNN "SPN"
+F 9 "-" H -500 150 50  0001 C CNN "SPURL"
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4050 4650 4050
+Wire Wire Line
+	4250 4050 4050 4050
+Text Notes 4050 4050 0    50   ~ 0
+5V
+Wire Wire Line
+	4000 4150 4050 4150
+Wire Wire Line
+	4050 4150 4050 4050
+Connection ~ 4050 4050
+Wire Wire Line
+	4050 4050 4000 4050
+Wire Wire Line
+	4000 4250 4050 4250
+Wire Wire Line
+	4050 4250 4050 4150
+Connection ~ 4050 4150
 $EndSCHEMATC
