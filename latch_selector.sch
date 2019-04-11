@@ -314,24 +314,6 @@ F 8 "-" H -850 -2150 50  0001 C CNN "SPURL"
 	1    2650 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT138-74xx U?
-U 1 1 5CC19E52
-P 2650 1700
-AR Path="/5CC19E52" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E52" Ref="U1"  Part="1" 
-F 0 "U1" H 2650 1750 50  0000 C CNN
-F 1 "74HCT138" H 2600 1650 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2650 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 2650 1700 50  0001 C CNN
-F 4 "Texas Instruments" H -850 -2150 50  0001 C CNN "MFR"
-F 5 "SN74HCT138N" H -850 -2150 50  0001 C CNN "MPN"
-F 6 "Mouser" H -850 -2150 50  0001 C CNN "SPR"
-F 7 "595-SN74HCT138N" H -850 -2150 50  0001 C CNN "SPN"
-F 8 "-" H -850 -2150 50  0001 C CNN "SPURL"
-	1    2650 1700
-	1    0    0    -1  
-$EndComp
 Text GLabel 2150 3650 0    50   Input ~ 0
 ~M1
 Text Notes 3600 1400 0    50   ~ 0
@@ -352,16 +334,6 @@ Text GLabel 2150 3450 0    50   Input ~ 0
 M_RD
 Text GLabel 2150 3550 0    50   Input ~ 0
 M_WR
-Wire Wire Line
-	4000 1400 4200 1400
-Wire Wire Line
-	4000 1500 4200 1500
-Wire Wire Line
-	4000 1600 4200 1600
-Wire Wire Line
-	4000 1700 4200 1700
-Wire Wire Line
-	4000 1800 4200 1800
 Wire Wire Line
 	2650 1000 2650 1100
 Wire Wire Line
@@ -391,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 4850 2650 4850
 Wire Wire Line
-	4700 1400 4600 1400
+	4800 1400 4700 1400
 Wire Wire Line
 	2050 1000 2050 1900
 Wire Wire Line
@@ -404,17 +376,11 @@ Wire Wire Line
 	900  4350 900  2750
 Wire Wire Line
 	900  4350 2150 4350
-Wire Wire Line
-	2150 2000 2150 2100
-Wire Wire Line
-	2150 2400 2150 2100
 Connection ~ 2650 1000
 Connection ~ 2000 3850
 Connection ~ 2000 3950
 Connection ~ 2000 4550
 Connection ~ 2650 4850
-Connection ~ 2650 2400
-Connection ~ 2150 2100
 NoConn ~ 3150 3250
 Wire Wire Line
 	2150 1400 800  1400
@@ -450,23 +416,23 @@ Connection ~ 2050 1000
 $Comp
 L Device:R_Network08 RN?
 U 1 1 5CC19EA4
-P 4400 1800
+P 4500 1800
 AR Path="/5CC19EA4" Ref="RN?"  Part="1" 
 AR Path="/5CBDBC11/5CC19EA4" Ref="RN1"  Part="1" 
-F 0 "RN1" V 3783 1800 50  0000 C CNN
-F 1 "270R Bussed" V 3874 1800 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 4875 1800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 4400 1800 50  0001 C CNN
-F 4 "Bourns" V 4400 1800 50  0001 C CNN "MFR"
-F 5 "4609X-101-271LF" V 4400 1800 50  0001 C CNN "MPN"
-F 6 "Mouser" V 4400 1800 50  0001 C CNN "SPR"
-F 7 "652-4609X-1LF-270" V 4400 1800 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/652-4609X-1LF-270" V 4400 1800 50  0001 C CNN "SPURL"
-	1    4400 1800
+F 0 "RN1" V 3883 1800 50  0000 C CNN
+F 1 "270R Bussed" V 3974 1800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4975 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 4500 1800 50  0001 C CNN
+F 4 "Bourns" V 4500 1800 50  0001 C CNN "MFR"
+F 5 "4609X-101-271LF" V 4500 1800 50  0001 C CNN "MPN"
+F 6 "Mouser" V 4500 1800 50  0001 C CNN "SPR"
+F 7 "652-4609X-1LF-270" V 4500 1800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/652-4609X-1LF-270" V 4500 1800 50  0001 C CNN "SPURL"
+	1    4500 1800
 	0    1    1    0   
 $EndComp
-NoConn ~ 4200 2000
-NoConn ~ 4200 2100
+NoConn ~ 4300 2000
+NoConn ~ 4300 2100
 $Comp
 L Device:LED_Small LED?
 U 1 1 5CC19EB2
@@ -488,12 +454,8 @@ F 9 "-" H -950 -2000 50  0001 C CNN "SPURL"
 	1    3900 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 1900 4200 1900
 Text Notes 3650 1900 0    50   ~ 0
 5V
-Wire Wire Line
-	3150 2100 3200 2100
 $Comp
 L rc2014_monitor-rescue:74HCT32-74xx U?
 U 5 1 5CC2B794
@@ -637,39 +599,13 @@ Connection ~ 5400 3600
 Wire Wire Line
 	5400 3300 5850 3300
 Wire Wire Line
-	3600 1900 3800 1900
-Wire Wire Line
 	5400 3750 5400 3600
 Wire Wire Line
 	5400 3150 5400 3300
 Wire Wire Line
-	4700 1000 4700 1400
-Wire Wire Line
-	2650 1000 4700 1000
+	4800 1000 4800 1400
 Wire Wire Line
 	3150 1800 3800 1800
-$Comp
-L Diode:BAT54AW D1
-U 1 1 5CCA392F
-P 3400 2300
-F 0 "D1" V 3446 2388 50  0000 L CNN
-F 1 "BAT54AW" V 3355 2388 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 3475 2425 50  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 3280 2300 50  0001 C CNN
-	1    3400 2300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3600 1900 3600 2300
-Wire Wire Line
-	3150 1900 3600 1900
-Connection ~ 3600 1900
-Wire Wire Line
-	3150 2000 3400 2000
-Wire Wire Line
-	3200 2100 3200 2600
-Wire Wire Line
-	3200 2600 3400 2600
 Wire Wire Line
 	3150 1700 3800 1700
 Wire Wire Line
@@ -678,4 +614,93 @@ Wire Wire Line
 	3150 1500 3800 1500
 Wire Wire Line
 	3150 1400 3800 1400
+Connection ~ 2650 2400
+Wire Wire Line
+	2150 2400 2150 2100
+Wire Wire Line
+	2150 2000 2150 2100
+Connection ~ 2150 2100
+$Comp
+L rc2014_monitor-rescue:74HCT138-74xx U?
+U 1 1 5CC19E52
+P 2650 1700
+AR Path="/5CC19E52" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E52" Ref="U1"  Part="1" 
+F 0 "U1" H 2650 1750 50  0000 C CNN
+F 1 "74HCT138" H 2600 1650 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2650 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 2650 1700 50  0001 C CNN
+F 4 "Texas Instruments" H -850 -2150 50  0001 C CNN "MFR"
+F 5 "SN74HCT138N" H -850 -2150 50  0001 C CNN "MPN"
+F 6 "Mouser" H -850 -2150 50  0001 C CNN "SPR"
+F 7 "595-SN74HCT138N" H -850 -2150 50  0001 C CNN "SPN"
+F 8 "-" H -850 -2150 50  0001 C CNN "SPURL"
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1400 4300 1400
+Wire Wire Line
+	4000 1500 4300 1500
+Wire Wire Line
+	4000 1600 4300 1600
+Wire Wire Line
+	4000 1700 4300 1700
+Wire Wire Line
+	4000 1800 4300 1800
+Wire Wire Line
+	4000 1900 4300 1900
+$Comp
+L Diode:SD103ATW D1
+U 1 1 5CB2381C
+P 3500 1900
+F 0 "D1" H 3500 1550 50  0000 C CNN
+F 1 "SD103ATW" H 3500 1450 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 1900 50  0001 C CNN
+F 4 "Diodes Incorporated" H 3500 1900 50  0001 C CNN "MFR"
+F 5 "SD103ATW-7-F" H 3500 1900 50  0001 C CNN "MPN"
+F 6 "Mouser" H 3500 1900 50  0001 C CNN "SPR"
+F 7 "621-SD103ATW-F" H 3500 1900 50  0001 C CNN "SPN"
+	1    3500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:SD103ATW D1
+U 2 1 5CB2450A
+P 3500 2100
+F 0 "D1" H 3500 1650 50  0000 C CNN
+F 1 "SD103ATW" H 3500 1550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 2100 50  0001 C CNN
+	2    3500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:SD103ATW D1
+U 3 1 5CB253E2
+P 3500 2000
+F 0 "D1" H 3500 1500 50  0000 C CNN
+F 1 "SD103ATW" H 3500 1400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3500 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/ds30374-80918.pdf" H 3500 2000 50  0001 C CNN
+	3    3500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1900 3350 1900
+Wire Wire Line
+	3150 2000 3350 2000
+Wire Wire Line
+	3150 2100 3350 2100
+Wire Wire Line
+	3650 2000 3650 2100
+Wire Wire Line
+	3650 1900 3800 1900
+Wire Wire Line
+	2650 1000 4800 1000
+Wire Wire Line
+	3650 2000 3650 1900
+Connection ~ 3650 2000
+Connection ~ 3650 1900
 $EndSCHEMATC
