@@ -945,7 +945,7 @@ Wire Notes Line
 Wire Notes Line
 	5950 6950 2450 6950
 $Sheet
-S 2500 4000 1200 800 
+S 3800 2650 1200 800 
 U 5CBDBC11
 F0 "LatchSelector" 50
 F1 "latch_selector.sch" 50
@@ -991,30 +991,144 @@ Text GLabel 1000 5400 2    50   Input ~ 0
 $Comp
 L Connector:Conn_01x01_Female J4
 U 1 1 5CB841EA
-P 2050 3300
-F 0 "J4" H 2078 3326 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2078 3235 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2050 3300 50  0001 C CNN
-F 3 "~" H 2050 3300 50  0001 C CNN
-	1    2050 3300
+P 1900 3250
+F 0 "J4" H 1928 3276 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1928 3185 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1900 3250 50  0001 C CNN
+F 3 "~" H 1900 3250 50  0001 C CNN
+	1    1900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5CB8FB00
-P 1850 3300
+P 1700 3250
 AR Path="/5CB8FB00" Ref="#PWR0119"  Part="1" 
 AR Path="/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0119" H 1850 3050 50  0001 C CNN
-F 1 "GND" H 1855 3127 50  0000 C CNN
-F 2 "" H 1850 3300 50  0001 C CNN
-F 3 "" H 1850 3300 50  0001 C CNN
-	1    1850 3300
+F 0 "#PWR0119" H 1700 3000 50  0001 C CNN
+F 1 "GND" H 1705 3077 50  0000 C CNN
+F 2 "" H 1700 3250 50  0001 C CNN
+F 3 "" H 1700 3250 50  0001 C CNN
+	1    1700 3250
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 5400 2    50   ~ 0
 Power
 Text GLabel 1000 5200 2    50   Input ~ 0
 ~RESET
+$Comp
+L Device:C C9
+U 1 1 5CB1BEC1
+P 3300 4350
+F 0 "C9" H 3415 4396 50  0000 L CNN
+F 1 "100nF" H 3415 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 4200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 3300 4350 50  0001 C CNN
+F 4 "Vishay" H -3350 -2350 50  0001 C CNN "MFR"
+F 5 "1C10Z5U104M050R" H -3350 -2350 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3350 -2350 50  0001 C CNN "SPR"
+F 7 "75-1C10Z5U104M050R" H -3350 -2350 50  0001 C CNN "SPN"
+F 8 "-" H -3350 -2350 50  0001 C CNN "SPURL"
+	1    3300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4200 3300 4200
+$Comp
+L power:+5V #PWR0120
+U 1 1 5CB25D6C
+P 2850 3900
+AR Path="/5CB25D6C" Ref="#PWR0120"  Part="1" 
+AR Path="/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 2850 3750 50  0001 C CNN
+F 1 "+5V" H 2865 4073 50  0000 C CNN
+F 2 "" H 2850 3900 50  0001 C CNN
+F 3 "" H 2850 3900 50  0001 C CNN
+	1    2850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5CB2901B
+P 3700 4400
+F 0 "SW2" V 3654 4548 50  0000 L CNN
+F 1 "SW_Push" V 3745 4548 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 3700 4600 50  0001 C CNN
+F 3 "~" H 3700 4600 50  0001 C CNN
+	1    3700 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4600 3300 4600
+Wire Wire Line
+	3300 4500 3300 4600
+Connection ~ 3300 4600
+Wire Wire Line
+	3700 4200 3300 4200
+Connection ~ 3300 4200
+Text GLabel 4300 4200 2    50   Output ~ 0
+~RESET
+Wire Wire Line
+	4300 4200 4100 4200
+$Comp
+L power:GND #PWR0121
+U 1 1 5CB41C00
+P 3300 4600
+AR Path="/5CB41C00" Ref="#PWR0121"  Part="1" 
+AR Path="/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 3300 4350 50  0001 C CNN
+F 1 "GND" H 3305 4427 50  0000 C CNN
+F 2 "" H 3300 4600 50  0001 C CNN
+F 3 "" H 3300 4600 50  0001 C CNN
+	1    3300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP5
+U 1 1 5CB4C4BB
+P 3900 4200
+F 0 "JP5" H 3900 4435 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3900 4344 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 4200
+Wire Wire Line
+	2850 4500 2850 4600
+Wire Wire Line
+	2850 4600 3300 4600
+$Comp
+L Analog_Switch:DS1813R-5+T&R U9
+U 1 1 5CB1FDC4
+P 2850 4200
+F 0 "U9" H 2622 4246 50  0000 R CNN
+F 1 "DS1813R-5+T&R" H 2622 4155 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 4700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf" H 2850 4700 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 6100
+NoConn ~ 1650 6200
+NoConn ~ 1650 6300
+NoConn ~ 1650 6400
+NoConn ~ 1650 6500
+NoConn ~ 1650 6650
+Text GLabel 1650 6650 2    50   Input ~ 0
+~INT
+Text GLabel 1650 6100 2    50   Output ~ 0
+~BUSACK
+Text GLabel 1650 6200 2    50   Input ~ 0
+~HALT
+Text GLabel 1650 6300 2    50   Input ~ 0
+~BUSRQ
+Text GLabel 1650 6400 2    50   Input ~ 0
+~WAIT
+Text GLabel 1650 6500 2    50   Input ~ 0
+~NMI
 $EndSCHEMATC
