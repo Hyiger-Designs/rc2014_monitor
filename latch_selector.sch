@@ -88,21 +88,21 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpi
 	1    4000 1100
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5450 1650 2    50   Output ~ 0
-M_WR
-Text GLabel 5450 1100 2    50   Output ~ 0
-M_RD
-Text GLabel 3700 1650 0    50   Output ~ 0
-IO_WR
 Text GLabel 3700 1100 0    50   Output ~ 0
+M_WR
+Text GLabel 3700 1650 0    50   Output ~ 0
+M_RD
+Text GLabel 5450 1100 2    50   Output ~ 0
+IO_WR
+Text GLabel 5450 1650 2    50   Output ~ 0
 IO_RD
-Text GLabel 4850 1350 0    50   Input ~ 0
-~MREQ
-Text GLabel 4550 1750 3    50   Input ~ 0
-~WR
-Text GLabel 4550 1000 1    50   Input ~ 0
-~RD
 Text GLabel 4300 1350 2    50   Input ~ 0
+~MREQ
+Text GLabel 4550 1000 1    50   Input ~ 0
+~WR
+Text GLabel 4550 1750 3    50   Input ~ 0
+~RD
+Text GLabel 4850 1350 0    50   Input ~ 0
 ~IORQ
 Wire Wire Line
 	4300 1750 4850 1750
