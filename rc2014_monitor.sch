@@ -113,71 +113,31 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT244 U3
-U 1 1 5CA7C023
-P 6450 4150
-AR Path="/5CA7C023" Ref="U3"  Part="1" 
-AR Path="/5CB63856/5CA7C023" Ref="U?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CA7C023" Ref="U?"  Part="1" 
-F 0 "U3" H 6450 4500 50  0000 C CNN
-F 1 "74HCT244" H 6450 3850 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6450 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 6450 4150 50  0001 C CNN
-F 4 "595-SN74HCT244N" H 0   300 50  0001 C CNN "MouserPN"
-F 5 "Texas Instruments" H 0   300 50  0001 C CNN "MFR"
-F 6 "SN74HCT244N" H 0   300 50  0001 C CNN "MPN"
-F 7 "Mouser" H 0   300 50  0001 C CNN "SPR"
-F 8 "595-SN74HCT244N" H 0   300 50  0001 C CNN "SPN"
-F 9 "-" H 0   300 50  0001 C CNN "SPURL"
-	1    6450 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT244 U4
-U 1 1 5CA7C039
-P 8350 4150
-AR Path="/5CA7C039" Ref="U4"  Part="1" 
-AR Path="/5CB63856/5CA7C039" Ref="U?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CA7C039" Ref="U?"  Part="1" 
-F 0 "U4" H 8350 4500 50  0000 C CNN
-F 1 "74HCT244" H 8350 3850 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8350 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 8350 4150 50  0001 C CNN
-F 4 "595-SN74HCT244N" H 0   300 50  0001 C CNN "MouserPN"
-F 5 "Texas Instruments" H 0   300 50  0001 C CNN "MFR"
-F 6 "SN74HCT244N" H 0   300 50  0001 C CNN "MPN"
-F 7 "Mouser" H 0   300 50  0001 C CNN "SPR"
-F 8 "595-SN74HCT244N" H 0   300 50  0001 C CNN "SPN"
-F 9 "-" H 0   300 50  0001 C CNN "SPURL"
-	1    8350 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0103
 U 1 1 5CA7C0A1
-P 8350 3350
+P 8150 2950
 AR Path="/5CA7C0A1" Ref="#PWR0103"  Part="1" 
 AR Path="/5CB63856/5CA7C0A1" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CA7C0A1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 8350 3200 50  0001 C CNN
-F 1 "+5V" H 8365 3523 50  0000 C CNN
-F 2 "" H 8350 3350 50  0001 C CNN
-F 3 "" H 8350 3350 50  0001 C CNN
-	1    8350 3350
+F 0 "#PWR0103" H 8150 2800 50  0001 C CNN
+F 1 "+5V" H 8450 3050 50  0000 C CNN
+F 2 "" H 8150 2950 50  0001 C CNN
+F 3 "" H 8150 2950 50  0001 C CNN
+	1    8150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5CA7C0A7
-P 8350 4950
+P 8150 4550
 AR Path="/5CA7C0A7" Ref="#PWR0104"  Part="1" 
 AR Path="/5CB63856/5CA7C0A7" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CA7C0A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0104" H 8350 4700 50  0001 C CNN
-F 1 "GND" H 8355 4777 50  0000 C CNN
-F 2 "" H 8350 4950 50  0001 C CNN
-F 3 "" H 8350 4950 50  0001 C CNN
-	1    8350 4950
+F 0 "#PWR0104" H 8150 4300 50  0001 C CNN
+F 1 "GND" H 8155 4377 50  0000 C CNN
+F 2 "" H 8150 4550 50  0001 C CNN
+F 3 "" H 8150 4550 50  0001 C CNN
+	1    8150 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -208,26 +168,6 @@ F 6 "-" H 50  50  50  0001 C CNN "SPR"
 F 7 "-" H 50  50  50  0001 C CNN "SPN"
 F 8 "-" H 50  50  50  0001 C CNN "SPURL"
 	1    8150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT244 U5
-U 1 1 5CA7C04F
-P 10250 4150
-AR Path="/5CA7C04F" Ref="U5"  Part="1" 
-AR Path="/5CB63856/5CA7C04F" Ref="U?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CA7C04F" Ref="U?"  Part="1" 
-F 0 "U5" H 10250 4500 50  0000 C CNN
-F 1 "74HCT244" H 10250 3850 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10250 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hct244.pdf" H 10250 4150 50  0001 C CNN
-F 4 "595-SN74HCT244N" H 0   300 50  0001 C CNN "MouserPN"
-F 5 "Texas Instruments" H 0   300 50  0001 C CNN "MFR"
-F 6 "SN74HCT244N" H 0   300 50  0001 C CNN "MPN"
-F 7 "Mouser" H 0   300 50  0001 C CNN "SPR"
-F 8 "595-SN74HCT244N" H 0   300 50  0001 C CNN "SPN"
-F 9 "-" H 0   300 50  0001 C CNN "SPURL"
-	1    10250 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -270,7 +210,7 @@ F 4 "Amphenol" H -6300 1300 50  0001 C CNN "MFR"
 F 5 "10103594-0001LF" H -6300 1300 50  0001 C CNN "MPN"
 F 6 "Mouser" H -6300 1300 50  0001 C CNN "SPR"
 F 7 "649-10103594-0001LF" H -6300 1300 50  0001 C CNN "SPN"
-F 8 "-" H -6300 1300 50  0001 C CNN "SPURL"
+F 8 "https://www.mouser.com/ProductDetail/Amphenol-FCI/10103594-0001LF?qs=%2Fha2pyFadui3tF6%252BEBESQPkzCvC45QB71td3CV1bdDjkgdfJGIcfa4Qftb3SNhsX" H -6300 1300 50  0001 C CNN "SPURL"
 	1    2650 6900
 	1    0    0    -1  
 $EndComp
@@ -294,13 +234,13 @@ U 1 1 5CB29564
 P 7900 5850
 F 0 "C3" H 8015 5896 50  0000 L CNN
 F 1 "100nF" H 8015 5805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7938 5700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 7900 5850 50  0001 C CNN
-F 4 "Vishay" H 2600 -850 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7938 5700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7900 5850 50  0001 C CNN
+F 4 "KEMET" H 2600 -850 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H 2600 -850 50  0001 C CNN "MPN"
 F 6 "Mouser" H 2600 -850 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "SPN"
-F 8 "-" H 2600 -850 50  0001 C CNN "SPURL"
+F 7 "80-C0805C104K4R" H 2600 -850 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 2600 -850 50  0001 C CNN "SPURL"
 	1    7900 5850
 	1    0    0    -1  
 $EndComp
@@ -310,13 +250,13 @@ U 1 1 5CB2956E
 P 8350 5850
 F 0 "C4" H 8465 5896 50  0000 L CNN
 F 1 "100nF" H 8465 5805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8388 5700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 8350 5850 50  0001 C CNN
-F 4 "Vishay" H 2600 -850 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 5700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 8350 5850 50  0001 C CNN
+F 4 "KEMET" H 2600 -850 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H 2600 -850 50  0001 C CNN "MPN"
 F 6 "Mouser" H 2600 -850 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "SPN"
-F 8 "-" H 2600 -850 50  0001 C CNN "SPURL"
+F 7 "80-C0805C104K4R" H 2600 -850 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 2600 -850 50  0001 C CNN "SPURL"
 	1    8350 5850
 	1    0    0    -1  
 $EndComp
@@ -326,13 +266,13 @@ U 1 1 5CB2F4C8
 P 8800 5850
 F 0 "C5" H 8915 5896 50  0000 L CNN
 F 1 "100nF" H 8915 5805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8838 5700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 8800 5850 50  0001 C CNN
-F 4 "Vishay" H 2600 -850 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8838 5700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 8800 5850 50  0001 C CNN
+F 4 "KEMET" H 2600 -850 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H 2600 -850 50  0001 C CNN "MPN"
 F 6 "Mouser" H 2600 -850 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H 2600 -850 50  0001 C CNN "SPN"
-F 8 "-" H 2600 -850 50  0001 C CNN "SPURL"
+F 7 "80-C0805C104K4R" H 2600 -850 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 2600 -850 50  0001 C CNN "SPURL"
 	1    8800 5850
 	1    0    0    -1  
 $EndComp
@@ -428,99 +368,99 @@ Text GLabel 1000 3800 2    50   Output ~ 0
 A10
 Text Notes 650  3000 0    50   ~ 0
 RC2014 Pro Bus
-Text GLabel 5950 4050 0    50   Input ~ 0
+Text GLabel 5750 3650 0    50   Input ~ 0
 A11
-Text GLabel 5950 4150 0    50   Input ~ 0
+Text GLabel 5750 3750 0    50   Input ~ 0
 A10
-Text GLabel 5950 4250 0    50   Input ~ 0
+Text GLabel 5750 3850 0    50   Input ~ 0
 A9
-Text GLabel 5950 4350 0    50   Input ~ 0
+Text GLabel 5750 3950 0    50   Input ~ 0
 A8
-Text GLabel 5950 3650 0    50   Input ~ 0
+Text GLabel 5750 3250 0    50   Input ~ 0
 A15
-Text GLabel 5950 3750 0    50   Input ~ 0
+Text GLabel 5750 3350 0    50   Input ~ 0
 A14
-Text GLabel 5950 3850 0    50   Input ~ 0
+Text GLabel 5750 3450 0    50   Input ~ 0
 A13
-Text GLabel 5950 3950 0    50   Input ~ 0
+Text GLabel 5750 3550 0    50   Input ~ 0
 A12
-Text GLabel 6950 4050 2    50   Output ~ 0
+Text GLabel 6750 3650 2    50   Output ~ 0
 D_A11
-Text GLabel 6950 4150 2    50   Output ~ 0
+Text GLabel 6750 3750 2    50   Output ~ 0
 D_A10
-Text GLabel 6950 4250 2    50   Output ~ 0
+Text GLabel 6750 3850 2    50   Output ~ 0
 D_A9
-Text GLabel 6950 4350 2    50   Output ~ 0
+Text GLabel 6750 3950 2    50   Output ~ 0
 D_A8
-Text GLabel 6950 3650 2    50   Output ~ 0
+Text GLabel 6750 3250 2    50   Output ~ 0
 D_A15
-Text GLabel 6950 3750 2    50   Output ~ 0
+Text GLabel 6750 3350 2    50   Output ~ 0
 D_A14
-Text GLabel 6950 3850 2    50   Output ~ 0
+Text GLabel 6750 3450 2    50   Output ~ 0
 D_A13
-Text GLabel 6950 3950 2    50   Output ~ 0
+Text GLabel 6750 3550 2    50   Output ~ 0
 D_A12
-Text GLabel 7850 4050 0    50   Input ~ 0
+Text GLabel 7650 3650 0    50   Input ~ 0
 A3
-Text GLabel 7850 4150 0    50   Input ~ 0
+Text GLabel 7650 3750 0    50   Input ~ 0
 A2
-Text GLabel 7850 4250 0    50   Input ~ 0
+Text GLabel 7650 3850 0    50   Input ~ 0
 A1
-Text GLabel 7850 4350 0    50   Input ~ 0
+Text GLabel 7650 3950 0    50   Input ~ 0
 A0
-Text GLabel 7850 3650 0    50   Input ~ 0
+Text GLabel 7650 3250 0    50   Input ~ 0
 A7
-Text GLabel 7850 3750 0    50   Input ~ 0
+Text GLabel 7650 3350 0    50   Input ~ 0
 A6
-Text GLabel 7850 3850 0    50   Input ~ 0
+Text GLabel 7650 3450 0    50   Input ~ 0
 A5
-Text GLabel 7850 3950 0    50   Input ~ 0
+Text GLabel 7650 3550 0    50   Input ~ 0
 A4
-Text GLabel 8850 4050 2    50   Output ~ 0
+Text GLabel 8650 3650 2    50   Output ~ 0
 D_A3
-Text GLabel 8850 4150 2    50   Output ~ 0
+Text GLabel 8650 3750 2    50   Output ~ 0
 D_A2
-Text GLabel 8850 4250 2    50   Output ~ 0
+Text GLabel 8650 3850 2    50   Output ~ 0
 D_A1
-Text GLabel 8850 4350 2    50   Output ~ 0
+Text GLabel 8650 3950 2    50   Output ~ 0
 D_A0
-Text GLabel 8850 3650 2    50   Output ~ 0
+Text GLabel 8650 3250 2    50   Output ~ 0
 D_A7
-Text GLabel 8850 3750 2    50   Output ~ 0
+Text GLabel 8650 3350 2    50   Output ~ 0
 D_A6
-Text GLabel 8850 3850 2    50   Output ~ 0
+Text GLabel 8650 3450 2    50   Output ~ 0
 D_A5
-Text GLabel 8850 3950 2    50   Output ~ 0
+Text GLabel 8650 3550 2    50   Output ~ 0
 D_A4
-Text GLabel 9750 3950 0    50   Input ~ 0
+Text GLabel 9550 3550 0    50   Input ~ 0
 D3
-Text GLabel 9750 3850 0    50   Input ~ 0
+Text GLabel 9550 3450 0    50   Input ~ 0
 D2
-Text GLabel 9750 3750 0    50   Input ~ 0
+Text GLabel 9550 3350 0    50   Input ~ 0
 D1
-Text GLabel 9750 3650 0    50   Input ~ 0
+Text GLabel 9550 3250 0    50   Input ~ 0
 D0
-Text GLabel 9750 4350 0    50   Input ~ 0
+Text GLabel 9550 3950 0    50   Input ~ 0
 D7
-Text GLabel 9750 4250 0    50   Input ~ 0
+Text GLabel 9550 3850 0    50   Input ~ 0
 D6
-Text GLabel 9750 4150 0    50   Input ~ 0
+Text GLabel 9550 3750 0    50   Input ~ 0
 D5
-Text GLabel 9750 4050 0    50   Input ~ 0
+Text GLabel 9550 3650 0    50   Input ~ 0
 D4
-Text GLabel 10750 3950 2    50   Output ~ 0
+Text GLabel 10550 3550 2    50   Output ~ 0
 D_D3
-Text GLabel 10750 3750 2    50   Output ~ 0
+Text GLabel 10550 3350 2    50   Output ~ 0
 D_D1
-Text GLabel 10750 3650 2    50   Output ~ 0
+Text GLabel 10550 3250 2    50   Output ~ 0
 D_D0
-Text GLabel 10750 4350 2    50   Output ~ 0
+Text GLabel 10550 3950 2    50   Output ~ 0
 D_D7
-Text GLabel 10750 4250 2    50   Output ~ 0
+Text GLabel 10550 3850 2    50   Output ~ 0
 D_D6
-Text GLabel 10750 4150 2    50   Output ~ 0
+Text GLabel 10550 3750 2    50   Output ~ 0
 D_D5
-Text GLabel 10750 4050 2    50   Output ~ 0
+Text GLabel 10550 3650 2    50   Output ~ 0
 D_D4
 Text GLabel 5600 6700 2    50   Input ~ 0
 5V
@@ -574,34 +514,18 @@ Text GLabel 7550 1500 0    50   Input ~ 0
 D_D5
 Text GLabel 7550 1600 0    50   Input ~ 0
 D_D4
-Text GLabel 10750 3850 2    50   Output ~ 0
+Text GLabel 10550 3450 2    50   Output ~ 0
 D_D2
 Wire Wire Line
-	8350 3350 10250 3350
+	8150 2950 10050 2950
 Wire Wire Line
-	8350 4950 9750 4950
+	8150 4550 9550 4550
 Wire Wire Line
-	5950 4550 5950 4650
+	7650 4550 8150 4550
 Wire Wire Line
-	5950 4950 6450 4950
+	9550 4550 10050 4550
 Wire Wire Line
-	5950 4650 5950 4950
-Wire Wire Line
-	7850 4550 7850 4650
-Wire Wire Line
-	7850 4950 8350 4950
-Wire Wire Line
-	7850 4650 7850 4950
-Wire Wire Line
-	9750 4550 9750 4650
-Wire Wire Line
-	9750 4950 10250 4950
-Wire Wire Line
-	9750 4650 9750 4950
-Wire Wire Line
-	6450 3350 8350 3350
-Wire Wire Line
-	6450 4950 7850 4950
+	6250 2950 8150 2950
 Wire Wire Line
 	1900 850  2100 850 
 Wire Wire Line
@@ -712,14 +636,10 @@ Wire Wire Line
 	8350 5700 8800 5700
 Wire Wire Line
 	8350 6000 8800 6000
-Connection ~ 8350 3350
-Connection ~ 8350 4950
-Connection ~ 5950 4650
-Connection ~ 6450 4950
-Connection ~ 7850 4950
-Connection ~ 7850 4650
-Connection ~ 9750 4950
-Connection ~ 9750 4650
+Connection ~ 8150 2950
+Connection ~ 8150 4550
+Connection ~ 7650 4550
+Connection ~ 9550 4550
 Connection ~ 6650 2250
 Connection ~ 2100 850 
 Connection ~ 3650 850 
@@ -776,7 +696,7 @@ U 1 1 5CAE11F5
 P 3550 6800
 F 0 "U7" H 3550 7167 50  0000 C CNN
 F 1 "MAX40200AUK" H 3550 7076 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 7300 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3550 7300 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 3550 7300 50  0001 C CNN
 F 4 "Maxim Integrated" H -100 700 50  0001 C CNN "MFR"
 F 5 "MAX40200AUK+T" H -100 700 50  0001 C CNN "MPN"
@@ -793,7 +713,7 @@ U 1 1 5CB0F21D
 P 5000 6800
 F 0 "U8" H 5000 7167 50  0000 C CNN
 F 1 "MAX40200AUK" H 5000 7076 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5000 7300 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5000 7300 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 5000 7300 50  0001 C CNN
 F 4 "Maxim Integrated" H -100 700 50  0001 C CNN "MFR"
 F 5 "MAX40200AUK+T" H -100 700 50  0001 C CNN "MPN"
@@ -811,12 +731,12 @@ P 4050 6850
 F 0 "C7" H 4165 6896 50  0000 L CNN
 F 1 "100nF" H 4165 6805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4088 6700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 4050 6850 50  0001 C CNN
-F 4 "Vishay" H -2600 150 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H -2600 150 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4050 6850 50  0001 C CNN
+F 4 "KEMET" H -2600 150 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2600 150 50  0001 C CNN "MPN"
 F 6 "Mouser" H -2600 150 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H -2600 150 50  0001 C CNN "SPN"
-F 8 "-" H -2600 150 50  0001 C CNN "SPURL"
+F 7 "80-C0805C104K4R" H -2600 150 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2600 150 50  0001 C CNN "SPURL"
 	1    4050 6850
 	1    0    0    -1  
 $EndComp
@@ -827,12 +747,12 @@ P 4450 6850
 F 0 "C8" H 4565 6896 50  0000 L CNN
 F 1 "1uF" H 4565 6805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4488 6700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 4450 6850 50  0001 C CNN
-F 4 "Vishay" H -2200 150 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H -2200 150 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4450 6850 50  0001 C CNN
+F 4 "KEMET" H -2200 150 50  0001 C CNN "MFR"
+F 5 "C0805C105K4RACTU" H -2200 150 50  0001 C CNN "MPN"
 F 6 "Mouser" H -2200 150 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H -2200 150 50  0001 C CNN "SPN"
-F 8 "-" H -2200 150 50  0001 C CNN "SPURL"
+F 7 "80-C0805C105K4R" H -2200 150 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C105K8RAC7210?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbh6p7WVhSDTqQ%3D" H -2200 150 50  0001 C CNN "SPURL"
 	1    4450 6850
 	1    0    0    -1  
 $EndComp
@@ -941,7 +861,7 @@ Wire Notes Line
 Wire Notes Line
 	5850 7650 2350 7650
 $Sheet
-S 4300 2850 1200 800 
+S 2850 2850 1200 800 
 U 5CBDBC11
 F0 "LatchSelector" 50
 F1 "latch_selector.sch" 50
@@ -1020,12 +940,12 @@ P 3850 5250
 F 0 "C9" H 3965 5296 50  0000 L CNN
 F 1 "100nF" H 3965 5205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 5100 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/Sprague%201C-3C%20MLC%20leaded%20capacitors%202000-1211470.pdf" H 3850 5250 50  0001 C CNN
-F 4 "Vishay" H -2800 -1450 50  0001 C CNN "MFR"
-F 5 "1C10Z5U104M050R" H -2800 -1450 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3850 5250 50  0001 C CNN
+F 4 "KEMET" H -2800 -1450 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2800 -1450 50  0001 C CNN "MPN"
 F 6 "Mouser" H -2800 -1450 50  0001 C CNN "SPR"
-F 7 "75-1C10Z5U104M050R" H -2800 -1450 50  0001 C CNN "SPN"
-F 8 "-" H -2800 -1450 50  0001 C CNN "SPURL"
+F 7 "80-C0805C104K4R" H -2800 -1450 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2800 -1450 50  0001 C CNN "SPURL"
 	1    3850 5250
 	1    0    0    -1  
 $EndComp
@@ -1052,7 +972,12 @@ P 4250 5300
 F 0 "SW2" V 4204 5448 50  0000 L CNN
 F 1 "SW_Push" V 4295 5448 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 4250 5500 50  0001 C CNN
-F 3 "~" H 4250 5500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 4250 5500 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "EVQ-PE105K" H 0   0   50  0001 C CNN "MPN"
+F 6 "667-EVQ-PE105K" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H 0   0   50  0001 C CNN "SPURL"
 	1    4250 5300
 	0    1    1    0   
 $EndComp
@@ -1106,13 +1031,17 @@ F 0 "U9" H 3172 5146 50  0000 R CNN
 F 1 "DS1813R-5+T&R" H 3172 5055 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 5600 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf" H 3400 5600 50  0001 C CNN
+F 4 "Maxim Integrated" H 0   0   50  0001 C CNN "MFR"
+F 5 "DS1813R-5+T&R" H 0   0   50  0001 C CNN "MPN"
+F 6 "700-DS1813R-5T&R" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Maxim-Integrated/DS1813R-5%2bTR?qs=sGAEpiMZZMunEhqKs81nFOYiOo3T72djWXRgAqVsfRI%3D" H 0   0   50  0001 C CNN "SPURL"
 	1    3400 5100
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1400 6150
 NoConn ~ 1400 6250
 NoConn ~ 1400 6350
-NoConn ~ 1400 6450
 NoConn ~ 1400 6550
 NoConn ~ 1400 6700
 Text GLabel 1400 6700 2    50   Input ~ 0
@@ -1123,8 +1052,6 @@ Text GLabel 1400 6250 2    50   Input ~ 0
 ~HALT
 Text GLabel 1400 6350 2    50   Input ~ 0
 ~BUSRQ
-Text GLabel 1400 6450 2    50   Input ~ 0
-~WAIT
 Text GLabel 1400 6550 2    50   Input ~ 0
 ~NMI
 Wire Notes Line
@@ -1141,4 +1068,72 @@ Wire Wire Line
 	6400 2250 6650 2250
 Wire Wire Line
 	6050 2250 6650 2250
+Wire Wire Line
+	5750 4250 5750 4550
+$Comp
+L 74xx:74HCT541 U3
+U 1 1 5CB94EBF
+P 6250 3750
+F 0 "U3" H 6050 4400 50  0000 C CNN
+F 1 "74HCT541" H 6250 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 6250 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 6250 3750 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H 0   0   50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4550 6250 4550
+Connection ~ 6250 4550
+Wire Wire Line
+	6250 4550 7650 4550
+Wire Wire Line
+	5750 4250 5750 4150
+Connection ~ 5750 4250
+$Comp
+L 74xx:74HCT541 U4
+U 1 1 5CBBA2FE
+P 8150 3750
+F 0 "U4" H 7950 4400 50  0000 C CNN
+F 1 "74HCT541" H 8150 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 8150 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 8150 3750 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H 0   0   50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 0   0   50  0001 C CNN "SPURL"
+	1    8150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT541 U5
+U 1 1 5CBBDA4F
+P 10050 3750
+F 0 "U5" H 9850 4400 50  0000 C CNN
+F 1 "74HCT541" H 10050 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 10050 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 10050 3750 50  0001 C CNN
+F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H 0   0   50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H 0   0   50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 0   0   50  0001 C CNN "SPURL"
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4250 7650 4550
+Wire Wire Line
+	9550 4250 9550 4550
+Wire Wire Line
+	9550 4250 9550 4150
+Connection ~ 9550 4250
+Wire Wire Line
+	7650 4250 7650 4150
+Connection ~ 7650 4250
 $EndSCHEMATC
