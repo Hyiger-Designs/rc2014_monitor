@@ -865,9 +865,11 @@ F 3 "" H 1900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT74 U12
+L rc2014_monitor-rescue:74HCT74-74xx U12
 U 1 1 5CBB2D0A
 P 3500 3550
+AR Path="/5CBB2D0A" Ref="U12"  Part="1" 
+AR Path="/5CBDBC11/5CBB2D0A" Ref="U12"  Part="1" 
 F 0 "U12" H 3500 3550 50  0000 C CNN
 F 1 "74HCT74" H 3150 3400 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3500 3550 50  0001 C CNN
@@ -881,9 +883,11 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT74 U12
+L rc2014_monitor-rescue:74HCT74-74xx U12
 U 2 1 5CBB3EEE
 P 1750 6800
+AR Path="/5CBB3EEE" Ref="U12"  Part="2" 
+AR Path="/5CBDBC11/5CBB3EEE" Ref="U12"  Part="2" 
 F 0 "U12" H 1750 7281 50  0000 C CNN
 F 1 "74HCT74" H 1750 7190 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 1750 6800 50  0001 C CNN
@@ -897,9 +901,11 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT74 U12
+L rc2014_monitor-rescue:74HCT74-74xx U12
 U 3 1 5CBB6803
 P 3550 6350
+AR Path="/5CBB6803" Ref="U12"  Part="3" 
+AR Path="/5CBDBC11/5CBB6803" Ref="U12"  Part="3" 
 F 0 "U12" H 3780 6396 50  0000 L CNN
 F 1 "74HCT74" H 3780 6305 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3550 6350 50  0001 C CNN
@@ -1262,7 +1268,7 @@ U12A_2
 Text GLabel 1450 3650 3    50   Input ~ 0
 U11A_5
 Text GLabel 4350 4050 0    50   Input ~ 0
-R5
+U11C_10
 Wire Wire Line
 	4350 3850 4350 4500
 Text GLabel 3100 4450 2    50   Input ~ 0
