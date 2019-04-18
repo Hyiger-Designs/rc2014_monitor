@@ -1,4 +1,4 @@
-update=Wednesday, April 17, 2019 at 05:37:07 PM
+update=Wednesday, April 17, 2019 at 07:59:51 PM
 version=1
 last_client=kicad
 [general]
@@ -34,10 +34,10 @@ ViaDrill1=0.3302
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkLineWidth=0.1524
+SilkTextSizeV=1.016
+SilkTextSizeH=1.016
+SilkTextSizeThickness=0.1524
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -58,13 +58,16 @@ SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[pcbnew/Layer.F.Cu]
+Name=F.Cu
+Type=2
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
 Type=2
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Net-(D1-Pad1)\tDefault\r
-Clearance=0.3048
+Clearance=0.2032
 TrackWidth=0.3048
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -75,7 +78,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power
-Clearance=0.3048
+Clearance=0.2032
 TrackWidth=0.3048
 ViaDiameter=0.6858
 ViaDrill=0.3302
