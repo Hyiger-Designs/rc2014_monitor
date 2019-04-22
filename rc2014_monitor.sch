@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP5
+L rc2014_monitor-rescue:TIL311 DISP5
 U 1 1 5CB4BA92
 P 2000 1500
 F 0 "DISP5" H 1700 900 50  0000 C CNN
@@ -31,7 +31,7 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP4
+L rc2014_monitor-rescue:TIL311 DISP4
 U 1 1 5CB4CB07
 P 3550 1500
 F 0 "DISP4" H 3250 900 50  0000 C CNN
@@ -47,7 +47,7 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP3
+L rc2014_monitor-rescue:TIL311 DISP3
 U 1 1 5CB4D9E8
 P 5100 1500
 F 0 "DISP3" H 4800 900 50  0000 C CNN
@@ -63,7 +63,7 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP2
+L rc2014_monitor-rescue:TIL311 DISP2
 U 1 1 5CB570C9
 P 6650 1500
 F 0 "DISP2" H 6350 900 50  0000 C CNN
@@ -79,7 +79,7 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP0
+L rc2014_monitor-rescue:TIL311 DISP0
 U 1 1 5CB570D5
 P 9800 1500
 F 0 "DISP0" H 9500 900 50  0000 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 9800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:TIL311-Display_Character DISP1
+L rc2014_monitor-rescue:TIL311 DISP1
 U 1 1 5CB570CF
 P 8150 1500
 F 0 "DISP1" H 7850 900 50  0000 C CNN
@@ -656,10 +656,10 @@ F 9 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX40200AUK%2bT?qs=%2
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C17
 U 1 1 5CB2CAB8
 P 4250 6350
-F 0 "C7" H 4365 6396 50  0000 L CNN
+F 0 "C17" H 4365 6396 50  0000 L CNN
 F 1 "100nF" H 4365 6305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 6200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4250 6350 50  0001 C CNN
@@ -782,7 +782,7 @@ Wire Notes Line
 Wire Notes Line
 	5850 7150 2350 7150
 $Sheet
-S 6250 2850 1200 800 
+S 9000 2750 1200 800 
 U 5CBDBC11
 F0 "LatchSelector" 50
 F1 "latch_selector.sch" 50
@@ -855,10 +855,10 @@ Power
 Text GLabel 1000 5200 2    50   Input ~ 0
 ~RESET
 $Comp
-L Device:C C10
+L Device:C C9
 U 1 1 5CB1BEC1
 P 3850 4700
-F 0 "C10" H 3965 4746 50  0000 L CNN
+F 0 "C9" H 3965 4746 50  0000 L CNN
 F 1 "100nF" H 3965 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 4550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3850 4700 50  0001 C CNN
@@ -983,10 +983,10 @@ Reset Monitor & Display Blank
 Wire Wire Line
 	6100 5300 6100 5600
 $Comp
-L 74xx:74HCT541 U3
+L 74xx:74HCT541 U1
 U 1 1 5CB94EBF
 P 6600 4800
-F 0 "U3" H 6400 5450 50  0000 C CNN
+F 0 "U1" H 6400 5450 50  0000 C CNN
 F 1 "74HCT541" H 6600 4500 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 6600 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 6600 4800 50  0001 C CNN
@@ -1007,10 +1007,10 @@ Wire Wire Line
 	6100 5300 6100 5200
 Connection ~ 6100 5300
 $Comp
-L 74xx:74HCT541 U4
+L 74xx:74HCT541 U2
 U 1 1 5CBBA2FE
 P 8500 4800
-F 0 "U4" H 8300 5450 50  0000 C CNN
+F 0 "U2" H 8300 5450 50  0000 C CNN
 F 1 "74HCT541" H 8500 4500 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 8500 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 8500 4800 50  0001 C CNN
@@ -1023,10 +1023,10 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT541 U5
+L 74xx:74HCT541 U3
 U 1 1 5CBBDA4F
 P 10400 4800
-F 0 "U5" H 10200 5450 50  0000 C CNN
+F 0 "U3" H 10200 5450 50  0000 C CNN
 F 1 "74HCT541" H 10400 4500 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 10400 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 10400 4800 50  0001 C CNN
@@ -1053,10 +1053,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 6600 4000 6600
 $Comp
-L Device:C C9
+L Device:C C7
 U 1 1 5CCF3BD8
 P 4000 6350
-F 0 "C9" H 4115 6396 50  0000 L CNN
+F 0 "C7" H 4115 6396 50  0000 L CNN
 F 1 "1uF" H 4115 6305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 6200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4000 6350 50  0001 C CNN
@@ -1106,10 +1106,10 @@ Wire Wire Line
 	8500 3850 8500 4000
 $Comp
 L 74xx:74HCT00 U?
-U 4 1 5CBA6ACE
+U 3 1 5CBA6ACE
 P 4650 3950
 AR Path="/5CBDBC11/5CBA6ACE" Ref="U?"  Part="4" 
-AR Path="/5CBA6ACE" Ref="U11"  Part="4" 
+AR Path="/5CBA6ACE" Ref="U11"  Part="3" 
 F 0 "U11" H 4650 4275 50  0000 C CNN
 F 1 "74HCT00" H 4650 4184 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4650 3950 50  0001 C CNN
@@ -1119,7 +1119,7 @@ F 5 "CD74HCT00E" H 2900 -1900 50  0001 C CNN "MPN"
 F 6 "595-CD74HCT00E" H 2900 -1900 50  0001 C CNN "SPN"
 F 7 "Mouser" H 2900 -1900 50  0001 C CNN "SPR"
 F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 2900 -1900 50  0001 C CNN "SPURL"
-	4    4650 3950
+	3    4650 3950
 	1    0    0    -1  
 $EndComp
 Text GLabel 4000 3950 0    50   Input ~ 0
@@ -1132,14 +1132,14 @@ Connection ~ 4350 3950
 Wire Wire Line
 	4350 3950 4350 4050
 Text GLabel 4200 3650 1    50   Input ~ 0
-RN2_2
+RN2_1
 Wire Wire Line
 	4200 3650 4200 3950
 Wire Wire Line
 	4200 3950 4350 3950
 Connection ~ 4200 3950
 Text GLabel 4950 3950 2    50   Output ~ 0
-CLR
+RESET
 Wire Wire Line
 	2000 2200 3550 2200
 Wire Wire Line
@@ -1182,23 +1182,23 @@ Wire Wire Line
 	4500 1900 4500 2500
 Connection ~ 4500 2500
 Wire Wire Line
-	4500 2500 5350 2500
-Wire Wire Line
 	2950 1900 2950 2500
 Connection ~ 2950 2500
 Wire Wire Line
 	2950 2500 4500 2500
-Text GLabel 5350 2700 3    50   Input ~ 0
-CLR
+Text GLabel 5350 2600 3    50   Input ~ 0
+RESET
 Wire Wire Line
 	5900 2400 4350 2400
-Wire Wire Line
-	5350 2700 5350 2500
-Connection ~ 5350 2500
-Wire Wire Line
-	5350 2500 6050 2500
 Wire Notes Line
 	5250 3300 5250 5250
 Wire Notes Line
 	2350 3300 2350 5250
+Wire Wire Line
+	4500 2500 5350 2500
+Wire Wire Line
+	5350 2600 5350 2500
+Connection ~ 5350 2500
+Wire Wire Line
+	5350 2500 6050 2500
 $EndSCHEMATC
