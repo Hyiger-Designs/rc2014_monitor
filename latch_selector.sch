@@ -663,24 +663,6 @@ Wire Wire Line
 	1300 3500 1450 3500
 $Comp
 L rc2014_monitor-rescue:74HCT74-74xx U12
-U 1 1 5CBB2D0A
-P 3600 3500
-AR Path="/5CBB2D0A" Ref="U12"  Part="1" 
-AR Path="/5CBDBC11/5CBB2D0A" Ref="U12"  Part="1" 
-F 0 "U12" H 3600 3500 50  0000 C CNN
-F 1 "74HCT74" H 3250 3350 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3600 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 3600 3500 50  0001 C CNN
-F 4 "Texas Instruments" H 100 -50 50  0001 C CNN "MFR"
-F 5 "CD74HCT74E" H 100 -50 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT74E" H 100 -50 50  0001 C CNN "SPN"
-F 7 "Mouser" H 100 -50 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 100 -50 50  0001 C CNN "SPURL"
-	1    3600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT74-74xx U12
 U 2 1 5CBB3EEE
 P 1750 6600
 AR Path="/5CBB3EEE" Ref="U12"  Part="2" 
@@ -732,7 +714,6 @@ F 3 "" H 4050 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 3200 3600 3200
-NoConn ~ 3900 3400
 Wire Wire Line
 	1750 6300 1450 6300
 Wire Wire Line
@@ -1309,12 +1290,31 @@ P 3150 3000
 AR Path="/5CE829A7" Ref="#PWR?"  Part="1" 
 AR Path="/5CB63856/5CE829A7" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CE829A7" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CE829A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 2850 50  0001 C CNN
+AR Path="/5CBDBC11/5CE829A7" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 3150 2850 50  0001 C CNN
 F 1 "+5V" H 3165 3173 50  0000 C CNN
 F 2 "" H 3150 3000 50  0001 C CNN
 F 3 "" H 3150 3000 50  0001 C CNN
 	1    3150 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT74-74xx U12
+U 1 1 5CBB2D0A
+P 3600 3500
+AR Path="/5CBB2D0A" Ref="U12"  Part="1" 
+AR Path="/5CBDBC11/5CBB2D0A" Ref="U12"  Part="1" 
+F 0 "U12" H 3600 3500 50  0000 C CNN
+F 1 "74HCT74" H 3250 3350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3600 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 3600 3500 50  0001 C CNN
+F 4 "Texas Instruments" H 100 -50 50  0001 C CNN "MFR"
+F 5 "CD74HCT74E" H 100 -50 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT74E" H 100 -50 50  0001 C CNN "SPN"
+F 7 "Mouser" H 100 -50 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 100 -50 50  0001 C CNN "SPURL"
+	1    3600 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3900 3400
 $EndSCHEMATC
