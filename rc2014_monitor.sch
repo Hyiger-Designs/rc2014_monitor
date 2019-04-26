@@ -446,55 +446,53 @@ Text GLabel 10900 4700 2    50   Output ~ 0
 D_D4
 Text GLabel 5600 6200 2    50   Input ~ 0
 5V
-Text GLabel 1400 1250 0    50   Input ~ 0
-D_A15
-Text GLabel 1400 1350 0    50   Input ~ 0
-D_A14
-Text GLabel 1400 1450 0    50   Input ~ 0
-D_A13
 Text GLabel 1400 1550 0    50   Input ~ 0
+D_A15
+Text GLabel 1400 1450 0    50   Input ~ 0
+D_A14
+Text GLabel 1400 1350 0    50   Input ~ 0
+D_A13
+Text GLabel 1400 1250 0    50   Input ~ 0
 D_A12
-Text GLabel 2950 1350 0    50   Input ~ 0
-D_A10
 Text GLabel 2950 1450 0    50   Input ~ 0
+D_A10
+Text GLabel 2950 1350 0    50   Input ~ 0
 D_A9
-Text GLabel 2950 1550 0    50   Input ~ 0
-D_A8
 Text GLabel 2950 1250 0    50   Input ~ 0
+D_A8
+Text GLabel 2950 1550 0    50   Input ~ 0
 D_A11
 Text GLabel 5900 2600 3    50   Input ~ 0
 LATCH
-Text GLabel 6050 1250 0    50   Input ~ 0
-D_A3
-Text GLabel 6050 1350 0    50   Input ~ 0
-D_A2
-Text GLabel 6050 1450 0    50   Input ~ 0
-D_A1
 Text GLabel 6050 1550 0    50   Input ~ 0
+D_A3
+Text GLabel 6050 1450 0    50   Input ~ 0
+D_A2
+Text GLabel 6050 1350 0    50   Input ~ 0
+D_A1
+Text GLabel 6050 1250 0    50   Input ~ 0
 D_A0
-Text GLabel 4500 1250 0    50   Input ~ 0
-D_A7
-Text GLabel 4500 1350 0    50   Input ~ 0
-D_A6
-Text GLabel 4500 1450 0    50   Input ~ 0
-D_A5
 Text GLabel 4500 1550 0    50   Input ~ 0
+D_A7
+Text GLabel 4500 1450 0    50   Input ~ 0
+D_A6
+Text GLabel 4500 1350 0    50   Input ~ 0
+D_A5
+Text GLabel 4500 1250 0    50   Input ~ 0
 D_A4
-Text GLabel 9200 1250 0    50   Input ~ 0
-D_D3
-Text GLabel 9200 1350 0    50   Input ~ 0
-D_D2
-Text GLabel 9200 1450 0    50   Input ~ 0
-D_D1
 Text GLabel 9200 1550 0    50   Input ~ 0
-D_D0
-Text GLabel 7550 1250 0    50   Input ~ 0
-D_D7
-Text GLabel 7550 1350 0    50   Input ~ 0
-D_D6
-Text GLabel 7550 1450 0    50   Input ~ 0
-D_D5
+D_D3
+Text GLabel 9200 1450 0    50   Input ~ 0
+D_D2
+Text GLabel 9200 1350 0    50   Input ~ 0
+D_D1
 Text GLabel 7550 1550 0    50   Input ~ 0
+D_D7
+Text GLabel 7550 1450 0    50   Input ~ 0
+D_D6
+Text GLabel 7550 1350 0    50   Input ~ 0
+D_D5
+Text GLabel 7550 1250 0    50   Input ~ 0
 D_D4
 Text GLabel 10900 4500 2    50   Output ~ 0
 D_D2
@@ -1201,4 +1199,6 @@ Wire Wire Line
 Connection ~ 5350 2500
 Wire Wire Line
 	5350 2500 6050 2500
+Text GLabel 9200 1250 0    50   Input ~ 0
+D_D0
 $EndSCHEMATC

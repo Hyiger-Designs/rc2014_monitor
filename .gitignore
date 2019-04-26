@@ -13,3 +13,7 @@
 .dsn
 
 \.DS_Store
+
+*.zip
+
+gerbers/
