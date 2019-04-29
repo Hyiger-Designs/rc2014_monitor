@@ -16,78 +16,6 @@ Comment4 ""
 $EndDescr
 Text GLabel 9100 4700 2    50   Output ~ 0
 LATCH
-$Comp
-L rc2014_monitor-rescue:74HCT32-74xx U?
-U 4 1 5CBED028
-P 5450 1050
-AR Path="/5CBED028" Ref="U?"  Part="4" 
-AR Path="/5CBDBC11/5CBED028" Ref="U6"  Part="4" 
-F 0 "U6" H 5450 1375 50  0000 C CNN
-F 1 "74HCT32" H 5450 1284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 5450 1050 50  0001 C CNN
-F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
-F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
-F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
-	4    5450 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT32-74xx U?
-U 3 1 5CBED033
-P 5450 1600
-AR Path="/5CBED033" Ref="U?"  Part="3" 
-AR Path="/5CBDBC11/5CBED033" Ref="U6"  Part="3" 
-F 0 "U6" H 5450 1925 50  0000 C CNN
-F 1 "74HCT32" H 5450 1834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 5450 1600 50  0001 C CNN
-F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
-F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
-F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
-	3    5450 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT32-74xx U?
-U 2 1 5CBED03E
-P 4300 1600
-AR Path="/5CBED03E" Ref="U?"  Part="2" 
-AR Path="/5CBDBC11/5CBED03E" Ref="U6"  Part="2" 
-F 0 "U6" H 4300 1925 50  0000 C CNN
-F 1 "74HCT32" H 4300 1834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 4300 1600 50  0001 C CNN
-F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
-F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
-F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
-	2    4300 1600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT32-74xx U?
-U 1 1 5CBED049
-P 4300 1050
-AR Path="/5CBED049" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CBED049" Ref="U6"  Part="1" 
-F 0 "U6" H 4300 1375 50  0000 C CNN
-F 1 "74HCT32" H 4300 1284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 1050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 4300 1050 50  0001 C CNN
-F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
-F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
-F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
-	1    4300 1050
-	-1   0    0    -1  
-$EndComp
 Text GLabel 4000 1050 0    50   Output ~ 0
 M_WR
 Text GLabel 4000 1600 0    50   Output ~ 0
@@ -112,111 +40,6 @@ Wire Wire Line
 	5150 1150 5150 1500
 Wire Wire Line
 	4600 1150 4600 1500
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19DE8
-P 9850 2750
-AR Path="/5CC19DE8" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19DE8" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19DE8" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19DE8" Ref="LED1"  Part="1" 
-F 0 "LED1" H 10000 2800 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 2800 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2750 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
-	1    9850 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19DF4
-P 9850 2850
-AR Path="/5CC19DF4" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19DF4" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19DF4" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19DF4" Ref="LED2"  Part="1" 
-F 0 "LED2" H 10000 2900 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 2900 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2850 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
-	1    9850 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19E00
-P 9850 2950
-AR Path="/5CC19E00" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19E00" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19E00" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E00" Ref="LED3"  Part="1" 
-F 0 "LED3" H 10000 3000 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3000 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2950 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
-	1    9850 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19E0C
-P 9850 3050
-AR Path="/5CC19E0C" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19E0C" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19E0C" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E0C" Ref="LED4"  Part="1" 
-F 0 "LED4" H 10000 3100 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3100 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3050 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
-	1    9850 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19E18
-P 9850 3150
-AR Path="/5CC19E18" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19E18" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19E18" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E18" Ref="LED5"  Part="1" 
-F 0 "LED5" H 10000 3200 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3200 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3150 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
-	1    9850 3150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5CC19E1E
@@ -275,43 +98,6 @@ F 1 "GND" H 8605 3577 50  0000 C CNN
 F 2 "" H 8600 3750 50  0001 C CNN
 F 3 "" H 8600 3750 50  0001 C CNN
 	1    8600 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:SW_Coded_Octal-8-Switch SW?
-U 1 1 5CC19E3C
-P 7450 4050
-AR Path="/5CC19E3C" Ref="SW?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E3C" Ref="SW1"  Part="1" 
-F 0 "SW1" H 7425 4517 50  0000 C CNN
-F 1 "Line Selection" H 7425 4426 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Greyhill_94HBB08RAT_Octal_Angled" H 7375 4175 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 7375 4175 50  0001 C CNN
-F 4 "706-94HBB08RAT" H 7550 3650 50  0001 C CNN "Mouser PN"
-F 5 "Grayhill" H 5150 800 50  0001 C CNN "MFR"
-F 6 "94HBB08RAT" H 5150 800 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5150 800 50  0001 C CNN "SPR"
-F 8 "706-94HBB08RAT" H 5150 800 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/Grayhill/94HBB08RAT?qs=%2Fha2pyFadujzoJnpEH9hPknLi5akSnROxg%2FuGIo%252BL9AzYOuRydAh5g%3D%3D" H 5150 800 50  0001 C CNN "SPURL"
-	1    7450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT151-74xx U?
-U 1 1 5CC19E47
-P 8600 5200
-AR Path="/5CC19E47" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E47" Ref="U5"  Part="1" 
-F 0 "U5" H 8600 5250 50  0000 C CNN
-F 1 "74HCT151" H 8650 5100 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct151.pdf" H 8600 5200 50  0001 C CNN
-F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
-F 5 "CD74HCT151E" H 5100 -800 50  0001 C CNN "MPN"
-F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT151E" H 5100 -800 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT151E?qs=%2Fha2pyFadui%2FKTy9HJ5lB%252BWHslJfOxYk9GVPgs6LLC5guBQAb8eNDA%3D%3D" H 5100 -800 50  0001 C CNN "SPURL"
-	1    8600 5200
 	1    0    0    -1  
 $EndComp
 Text GLabel 8100 5000 0    50   Input ~ 0
@@ -413,65 +199,8 @@ Wire Wire Line
 Wire Wire Line
 	7900 2350 8000 2350
 Connection ~ 8000 2350
-$Comp
-L Device:R_Network06 RN?
-U 1 1 5CC19EA4
-P 10450 3050
-AR Path="/5CC19EA4" Ref="RN?"  Part="1" 
-AR Path="/5CBDBC11/5CC19EA4" Ref="RN1"  Part="1" 
-F 0 "RN1" V 9833 3050 50  0000 C CNN
-F 1 "150R" V 9924 3050 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP7" V 10925 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 10450 3050 50  0001 C CNN
-F 4 "Bourns" V 10450 3050 50  0001 C CNN "MFR"
-F 5 "4609X-101-271LF" V 10450 3050 50  0001 C CNN "MPN"
-F 6 "Mouser" V 10450 3050 50  0001 C CNN "SPR"
-F 7 "652-4609X-1LF-270" V 10450 3050 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/652-4609X-1LF-270" V 10450 3050 50  0001 C CNN "SPURL"
-	1    10450 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED_Small LED?
-U 1 1 5CC19EB2
-P 9850 3250
-AR Path="/5CC19EB2" Ref="LED?"  Part="1" 
-AR Path="/5CB63856/5CC19EB2" Ref="LED?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC19EB2" Ref="LED?"  Part="1" 
-AR Path="/5CBDBC11/5CC19EB2" Ref="LED6"  Part="1" 
-F 0 "LED6" H 10000 3300 50  0000 C CNN
-F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3300 50  0001 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3250 50  0001 C CNN
-F 4 "755-SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "MouserPN"
-F 5 "ROHM Semiconductor" H 5000 -650 50  0001 C CNN "MFR"
-F 6 "SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "MPN"
-F 7 "Mouser" H 5000 -650 50  0001 C CNN "SPR"
-F 8 "755-SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -650 50  0001 C CNN "SPURL"
-	1    9850 3250
-	1    0    0    -1  
-$EndComp
 Text Notes 9600 3250 0    50   ~ 0
 5V
-$Comp
-L rc2014_monitor-rescue:74HCT32-74xx U?
-U 5 1 5CC2B794
-P 6500 1350
-AR Path="/5CC2B794" Ref="U?"  Part="5" 
-AR Path="/5CBDBC11/5CC2B794" Ref="U6"  Part="5" 
-F 0 "U6" H 6730 1396 50  0000 L CNN
-F 1 "74HCT32" H 6730 1305 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6500 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 6500 1350 50  0001 C CNN
-F 4 "Texas Instruments" H -1000 -4300 50  0001 C CNN "MFR"
-F 5 "CD74HCT32E" H -1000 -4300 50  0001 C CNN "MPN"
-F 6 "Mouser" H -1000 -4300 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT32E" H -1000 -4300 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -1000 -4300 50  0001 C CNN "SPURL"
-	5    6500 1350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CC2B79A
@@ -500,60 +229,6 @@ F 1 "+5V" H 6515 1023 50  0000 C CNN
 F 2 "" H 6500 850 50  0001 C CNN
 F 3 "" H 6500 850 50  0001 C CNN
 	1    6500 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC551FC
-P 1000 1300
-AR Path="/5CC551FC" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CC551FC" Ref="C1"  Part="1" 
-F 0 "C1" H 1115 1346 50  0000 L CNN
-F 1 "100nF" H 1115 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1038 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1000 1300 50  0001 C CNN
-F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
-	1    1000 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC55207
-P 1450 1300
-AR Path="/5CC55207" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CC55207" Ref="C2"  Part="1" 
-F 0 "C2" H 1565 1346 50  0000 L CNN
-F 1 "100nF" H 1565 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1450 1300 50  0001 C CNN
-F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
-	1    1450 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC55212
-P 1900 1300
-AR Path="/5CC55212" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CC55212" Ref="C6"  Part="1" 
-F 0 "C6" H 2015 1346 50  0000 L CNN
-F 1 "100nF" H 2015 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1900 1300 50  0001 C CNN
-F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
-	1    1900 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -613,38 +288,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 3250 10250 3250
 $Comp
-L 74xx:74HCT00 U11
-U 1 1 5CB65A1C
-P 4850 3900
-F 0 "U11" H 4850 4225 50  0000 C CNN
-F 1 "74HCT00" H 4850 4134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4850 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct00.pdf" H 4850 3900 50  0001 C CNN
-F 4 "Texas Instruments" H 200 150 50  0001 C CNN "MFR"
-F 5 "CD74HCT00E" H 200 150 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT00E" H 200 150 50  0001 C CNN "SPN"
-F 7 "Mouser" H 200 150 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 200 150 50  0001 C CNN "SPURL"
-	1    4850 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT00 U11
-U 5 1 5CB6BDC5
-P 4150 6650
-F 0 "U11" H 4380 6696 50  0000 L CNN
-F 1 "74HCT00" H 4380 6605 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4150 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct00.pdf" H 4150 6650 50  0001 C CNN
-F 4 "Texas Instruments" H 1450 300 50  0001 C CNN "MFR"
-F 5 "CD74HCT00E" H 1450 300 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT00E" H 1450 300 50  0001 C CNN "SPN"
-F 7 "Mouser" H 1450 300 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 1450 300 50  0001 C CNN "SPURL"
-	5    4150 6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0122
 U 1 1 5CB9B442
 P 1400 4200
@@ -659,42 +302,6 @@ Wire Wire Line
 	1400 4200 1400 4100
 Wire Wire Line
 	1400 3700 1550 3700
-$Comp
-L rc2014_monitor-rescue:74HCT74-74xx U12
-U 2 1 5CBB3EEE
-P 1750 6600
-AR Path="/5CBB3EEE" Ref="U12"  Part="2" 
-AR Path="/5CBDBC11/5CBB3EEE" Ref="U12"  Part="2" 
-F 0 "U12" H 1750 7081 50  0000 C CNN
-F 1 "74HCT74" H 1750 6990 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1750 6600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 1750 6600 50  0001 C CNN
-F 4 "Texas Instruments" H 0   -200 50  0001 C CNN "MFR"
-F 5 "CD74HCT74E" H 0   -200 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT74E" H 0   -200 50  0001 C CNN "SPN"
-F 7 "Mouser" H 0   -200 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 0   -200 50  0001 C CNN "SPURL"
-	2    1750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT74-74xx U12
-U 3 1 5CBB6803
-P 5000 6650
-AR Path="/5CBB6803" Ref="U12"  Part="3" 
-AR Path="/5CBDBC11/5CBB6803" Ref="U12"  Part="3" 
-F 0 "U12" H 5230 6696 50  0000 L CNN
-F 1 "74HCT74" H 5230 6605 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5000 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 5000 6650 50  0001 C CNN
-F 4 "Texas Instruments" H 1450 300 50  0001 C CNN "MFR"
-F 5 "CD74HCT74E" H 1450 300 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT74E" H 1450 300 50  0001 C CNN "SPN"
-F 7 "Mouser" H 1450 300 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 1450 300 50  0001 C CNN "SPURL"
-	3    5000 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 6300 1450 6300
 Wire Wire Line
@@ -724,69 +331,9 @@ F 3 "" H 1750 6900 50  0001 C CNN
 $EndComp
 NoConn ~ 2050 6500
 NoConn ~ 2050 6700
-Wire Wire Line
-	5000 7050 5000 7150
-Wire Wire Line
-	5000 7150 4600 7150
-Wire Wire Line
-	5000 6250 5000 6150
-Wire Wire Line
-	5000 6150 4600 6150
-$Comp
-L power:+5V #PWR?
-U 1 1 5CC1C3D4
-P 4600 6150
-AR Path="/5CC1C3D4" Ref="#PWR?"  Part="1" 
-AR Path="/5CB63856/5CC1C3D4" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC1C3D4" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CC1C3D4" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 4600 6000 50  0001 C CNN
-F 1 "+5V" H 4615 6323 50  0000 C CNN
-F 2 "" H 4600 6150 50  0001 C CNN
-F 3 "" H 4600 6150 50  0001 C CNN
-	1    4600 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC1F4D9
-P 4600 7150
-AR Path="/5CC1F4D9" Ref="#PWR?"  Part="1" 
-AR Path="/5CB63856/5CC1F4D9" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC1F4D9" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CC1F4D9" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 4600 6900 50  0001 C CNN
-F 1 "GND" H 4605 6977 50  0000 C CNN
-F 2 "" H 4600 7150 50  0001 C CNN
-F 3 "" H 4600 7150 50  0001 C CNN
-	1    4600 7150
-	1    0    0    -1  
-$EndComp
 Connection ~ 1750 6900
-Connection ~ 4600 6150
-Wire Wire Line
-	4600 6150 4150 6150
-Connection ~ 4600 7150
-Wire Wire Line
-	4600 7150 4150 7150
 Wire Wire Line
 	4000 3800 4550 3800
-$Comp
-L Device:C C14
-U 1 1 5CC719D3
-P 1400 5600
-F 0 "C14" H 1515 5646 50  0000 L CNN
-F 1 "10nF" H 1515 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1438 5450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1400 5600 50  0001 C CNN
-F 4 "KEMET" H -200 750 50  0001 C CNN "MFR"
-F 5 "C0805C103K4RACTU" H -200 750 50  0001 C CNN "MPN"
-F 6 "80-C0805C103K4R" H -200 750 50  0001 C CNN "SPN"
-F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C103K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd11RVEQKJMtew%3D" H -200 750 50  0001 C CNN "SPURL"
-	1    1400 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 5450 2900 5400
 Wire Wire Line
@@ -832,22 +379,6 @@ Wire Wire Line
 	1300 5400 1300 5000
 Wire Wire Line
 	1300 5000 1700 5000
-$Comp
-L Switch:SW_SPDT SW4
-U 1 1 5CCB3178
-P 4350 5000
-F 0 "SW4" H 4350 5285 50  0000 C CNN
-F 1 "Run/Step Mode" H 4350 5194 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_NKK_BB15AH" H 4350 5000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/295/Atoggles-19525.pdf" H 4350 5000 50  0001 C CNN
-F 4 "NKK" H 200 400 50  0001 C CNN "MFR"
-F 5 "A12JH" H 200 400 50  0001 C CNN "MPN"
-F 6 "633-A12JH" H 200 400 50  0001 C CNN "SPN"
-F 7 "Mouser" H 200 400 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/NKK-Switches/A12JH?qs=sGAEpiMZZMvudeGI7i40XOmPq%2Fic4rHbzQYX0%252Blbv6M%3D" H 200 400 50  0001 C CNN "SPURL"
-	1    4350 5000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4550 5100
 $Comp
 L power:GND #PWR?
@@ -864,51 +395,13 @@ F 3 "" H 4150 5000 50  0001 C CNN
 	1    4150 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5150 3900 2    50   Output ~ 0
-~WAIT
 Text GLabel 1100 5000 0    50   Input ~ 0
 ~M1
 Wire Wire Line
 	1100 5000 1300 5000
 Connection ~ 1300 5000
-$Comp
-L Device:C C?
-U 1 1 5CD43CE0
-P 2300 1300
-AR Path="/5CD43CE0" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CD43CE0" Ref="C11"  Part="1" 
-F 0 "C11" H 2415 1346 50  0000 L CNN
-F 1 "100nF" H 2415 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2300 1300 50  0001 C CNN
-F 4 "KEMET" H -3000 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -3000 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -3000 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -3000 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3000 -5400 50  0001 C CNN "SPURL"
-	1    2300 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 1450 1900 1450
-$Comp
-L Device:C C?
-U 1 1 5CD490A7
-P 2750 1300
-AR Path="/5CD490A7" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CD490A7" Ref="C12"  Part="1" 
-F 0 "C12" H 2865 1346 50  0000 L CNN
-F 1 "100nF" H 2865 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2750 1300 50  0001 C CNN
-F 4 "KEMET" H -2550 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -2550 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -2550 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -2550 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2550 -5400 50  0001 C CNN "SPURL"
-	1    2750 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 1450 2750 1450
 Wire Wire Line
@@ -935,58 +428,11 @@ Text Notes 4600 4900 0    50   ~ 0
 Run
 Text Notes 4600 5100 0    50   ~ 0
 Step
-$Comp
-L Interface:MAX6816 U13
-U 1 1 5CBDF17E
-P 2250 3700
-F 0 "U13" H 2050 4050 50  0000 L CNN
-F 1 "MAX6816" H 2300 4050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 2900 3250 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/1896.pdf" H 2250 3700 50  0001 C CNN
-	1    2250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5CBF5772
-P 1750 3700
-AR Path="/5CBF5772" Ref="SW?"  Part="1" 
-AR Path="/5CBDBC11/5CBF5772" Ref="SW3"  Part="1" 
-F 0 "SW3" V 1704 3848 50  0000 L CNN
-F 1 "SW_Push" V 1795 3848 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1750 3900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 1750 3900 50  0001 C CNN
-F 4 "Panasonic" H -2500 -1600 50  0001 C CNN "MFR"
-F 5 "EVQ-PE105K" H -2500 -1600 50  0001 C CNN "MPN"
-F 6 "667-EVQ-PE105K" H -2500 -1600 50  0001 C CNN "SPN"
-F 7 "Mouser" H -2500 -1600 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H -2500 -1600 50  0001 C CNN "SPURL"
-	1    1750 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 4100 1400 4100
 Wire Wire Line
 	1400 3700 1400 4100
 Connection ~ 1400 4100
-$Comp
-L Device:C C?
-U 1 1 5CC2B65C
-P 3200 1300
-AR Path="/5CC2B65C" Ref="C?"  Part="1" 
-AR Path="/5CBDBC11/5CC2B65C" Ref="C13"  Part="1" 
-F 0 "C13" H 3315 1346 50  0000 L CNN
-F 1 "100nF" H 3315 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3200 1300 50  0001 C CNN
-F 4 "KEMET" H -2100 -5400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -2100 -5400 50  0001 C CNN "MPN"
-F 6 "Mouser" H -2100 -5400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -2100 -5400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2100 -5400 50  0001 C CNN "SPURL"
-	1    3200 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 1150 2750 1150
 Connection ~ 2750 1150
@@ -1011,17 +457,6 @@ F 3 "" H 2250 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT00 U11
-U 2 1 5CC6424C
-P 3700 4300
-F 0 "U11" V 3746 4120 50  0000 R CNN
-F 1 "74HCT00" V 3655 4120 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 3700 4300 50  0001 C CNN
-	2    3700 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5CC8DD00
 P 2200 4800
@@ -1036,38 +471,6 @@ F 3 "" H 2200 4800 50  0001 C CNN
 	1    2200 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74HCT00 U11
-U 4 1 5CC9C701
-P 2900 6600
-F 0 "U11" H 2900 6925 50  0000 C CNN
-F 1 "74HCT00" H 2900 6834 50  0000 C CNN
-F 2 "" H 2900 6600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 2900 6600 50  0001 C CNN
-	4    2900 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 6500 2600 6700
-Connection ~ 2600 6700
-Wire Wire Line
-	2600 6700 2600 6850
-$Comp
-L power:GND #PWR?
-U 1 1 5CCA52E8
-P 2600 6850
-AR Path="/5CCA52E8" Ref="#PWR?"  Part="1" 
-AR Path="/5CB63856/5CCA52E8" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CCA52E8" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CCA52E8" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 2600 6600 50  0001 C CNN
-F 1 "GND" H 2605 6677 50  0000 C CNN
-F 2 "" H 2600 6850 50  0001 C CNN
-F 3 "" H 2600 6850 50  0001 C CNN
-	1    2600 6850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3200 6600
 Wire Wire Line
 	9100 3050 9750 3050
 Wire Wire Line
@@ -1080,67 +483,11 @@ Wire Wire Line
 	8600 2350 10750 2350
 Wire Wire Line
 	9100 3150 9750 3150
-$Comp
-L Device:C C15
-U 1 1 5CC72F07
-P 2900 5600
-F 0 "C15" H 3015 5646 50  0000 L CNN
-F 1 "10nF" H 3015 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2938 5450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2900 5600 50  0001 C CNN
-F 4 "KEMET" H -200 750 50  0001 C CNN "MFR"
-F 5 "C0805C103K4RACTU" H -200 750 50  0001 C CNN "MPN"
-F 6 "80-C0805C103K4R" H -200 750 50  0001 C CNN "SPN"
-F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C103K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd11RVEQKJMtew%3D" H -200 750 50  0001 C CNN "SPURL"
-	1    2900 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 3400 3250 3600
 Wire Wire Line
 	3250 3600 3400 3600
-$Comp
-L rc2014_monitor-rescue:74HCT74-74xx U12
-U 1 1 5CBB2D0A
-P 3700 3700
-AR Path="/5CBB2D0A" Ref="U12"  Part="1" 
-AR Path="/5CBDBC11/5CBB2D0A" Ref="U12"  Part="1" 
-F 0 "U12" H 3700 3700 50  0000 C CNN
-F 1 "74HCT74" H 3350 3550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 3700 3700 50  0001 C CNN
-F 4 "Texas Instruments" H 200 150 50  0001 C CNN "MFR"
-F 5 "CD74HCT74E" H 200 150 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT74E" H 200 150 50  0001 C CNN "SPN"
-F 7 "Mouser" H 200 150 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 200 150 50  0001 C CNN "SPURL"
-	1    3700 3700
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4000 3600
-$Comp
-L Device:R_Small R1
-U 1 1 5CDD85B2
-P 3250 3300
-F 0 "R1" H 3309 3346 50  0000 L CNN
-F 1 "10K" H 3309 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3300 50  0001 C CNN
-F 3 "~" H 3250 3300 50  0001 C CNN
-	1    3250 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5CDDA73F
-P 3700 3300
-F 0 "R2" H 3759 3346 50  0000 L CNN
-F 1 "10K" H 3759 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 3300 50  0001 C CNN
-F 3 "~" H 3700 3300 50  0001 C CNN
-	1    3700 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3200 3700 3100
 Wire Wire Line
@@ -1168,17 +515,6 @@ Connection ~ 3500 3100
 Wire Wire Line
 	3500 3100 3250 3100
 $Comp
-L Device:R_Small R3
-U 1 1 5CDF764E
-P 4900 4450
-F 0 "R3" H 4841 4404 50  0000 R CNN
-F 1 "10K" H 4841 4495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 4450 50  0001 C CNN
-F 3 "~" H 4900 4450 50  0001 C CNN
-	1    4900 4450
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5CE05710
 P 4900 4350
@@ -1194,25 +530,12 @@ F 3 "" H 4900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4000 4550 4650
-Wire Wire Line
 	4900 4550 4900 4650
 Wire Wire Line
 	4900 4650 4550 4650
 Connection ~ 4550 4650
 Wire Wire Line
 	4550 4650 4550 4900
-$Comp
-L Device:R_Small R4
-U 1 1 5CE24E97
-P 3250 5200
-F 0 "R4" H 3191 5154 50  0000 R CNN
-F 1 "10K" H 3191 5245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 5200 50  0001 C CNN
-F 3 "~" H 3250 5200 50  0001 C CNN
-	1    3250 5200
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5CE24E9D
@@ -1233,40 +556,15 @@ Wire Wire Line
 Wire Wire Line
 	3250 5400 2900 5400
 Wire Wire Line
-	3600 4600 3700 4600
-Wire Wire Line
 	2700 5000 2700 4700
 Wire Wire Line
 	2700 4700 3700 4700
-Wire Wire Line
-	3700 4700 3700 4600
-Connection ~ 3700 4600
-Wire Wire Line
-	3700 4600 3800 4600
 Connection ~ 8600 3750
 Wire Wire Line
 	8100 3750 8100 3450
 Wire Wire Line
 	8100 3350 8100 3450
 Connection ~ 8100 3450
-$Comp
-L rc2014_monitor-rescue:74HCT138-74xx U?
-U 1 1 5CC19E52
-P 8600 3050
-AR Path="/5CC19E52" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
-F 0 "U4" H 8600 3100 50  0000 C CNN
-F 1 "74HCT138" H 8550 3000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 8600 3050 50  0001 C CNN
-F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
-F 5 "CD74HCT138E" H 5100 -800 50  0001 C CNN "MPN"
-F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT138E" H 5100 -800 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H 5100 -800 50  0001 C CNN "SPURL"
-	1    8600 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 3350 9100 3350
 Wire Wire Line
@@ -1279,39 +577,6 @@ Wire Wire Line
 	2100 1450 2300 1450
 Wire Wire Line
 	9100 3250 9250 3250
-$Comp
-L Diode:CMXSH-3 D1
-U 1 1 5CC9FE3A
-P 9350 3250
-F 0 "D1" H 9550 3200 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3050 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3250 50  0001 C CNN
-	1    9350 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:CMXSH-3 D1
-U 2 1 5CCA3189
-P 9350 3350
-F 0 "D1" H 9550 3300 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3150 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3350 50  0001 C CNN
-	2    9350 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:CMXSH-3 D1
-U 3 1 5CCA4950
-P 9350 3450
-F 0 "D1" H 9550 3400 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3250 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3450 50  0001 C CNN
-	3    9350 3450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9550 3250 9600 3250
 Wire Wire Line
@@ -1336,5 +601,740 @@ F 2 "Package_DIP:DIP-8_W7.62mm" H 2200 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 2200 5200 50  0001 C CNN
 	1    2200 5200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CMXSH-3 D1
+U 3 1 5CCA4950
+P 9350 3450
+F 0 "D1" H 9550 3400 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3450 50  0001 C CNN
+	3    9350 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:CMXSH-3 D1
+U 2 1 5CCA3189
+P 9350 3350
+F 0 "D1" H 9550 3300 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3350 50  0001 C CNN
+	2    9350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:CMXSH-3 D1
+U 1 1 5CC9FE3A
+P 9350 3250
+F 0 "D1" H 9550 3200 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3250 50  0001 C CNN
+	1    9350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT138-74xx U?
+U 1 1 5CC19E52
+P 8600 3050
+AR Path="/5CC19E52" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
+F 0 "U4" H 8600 3100 50  0000 C CNN
+F 1 "74HCT138" H 8550 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 8600 3050 50  0001 C CNN
+F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
+F 5 "CD74HCT138E" H 5100 -800 50  0001 C CNN "MPN"
+F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT138E" H 5100 -800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H 5100 -800 50  0001 C CNN "SPURL"
+	1    8600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5CE24E97
+P 3250 5200
+F 0 "R4" H 3191 5154 50  0000 R CNN
+F 1 "10K" H 3191 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 5200 50  0001 C CNN
+F 3 "~" H 3250 5200 50  0001 C CNN
+	1    3250 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5CDF764E
+P 4900 4450
+F 0 "R3" H 4841 4404 50  0000 R CNN
+F 1 "10K" H 4841 4495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 4450 50  0001 C CNN
+F 3 "~" H 4900 4450 50  0001 C CNN
+	1    4900 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5CDDA73F
+P 3700 3300
+F 0 "R2" H 3759 3346 50  0000 L CNN
+F 1 "10K" H 3759 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 3300 50  0001 C CNN
+F 3 "~" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5CDD85B2
+P 3250 3300
+F 0 "R1" H 3309 3346 50  0000 L CNN
+F 1 "10K" H 3309 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT74-74xx U12
+U 1 1 5CBB2D0A
+P 3700 3700
+AR Path="/5CBB2D0A" Ref="U12"  Part="1" 
+AR Path="/5CBDBC11/5CBB2D0A" Ref="U12"  Part="1" 
+F 0 "U12" H 3700 3700 50  0000 C CNN
+F 1 "74HCT74" H 3350 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 3700 3700 50  0001 C CNN
+F 4 "Texas Instruments" H 200 150 50  0001 C CNN "MFR"
+F 5 "CD74HCT74E" H 200 150 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT74E" H 200 150 50  0001 C CNN "SPN"
+F 7 "Mouser" H 200 150 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 200 150 50  0001 C CNN "SPURL"
+	1    3700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5CC72F07
+P 2900 5600
+F 0 "C15" H 3015 5646 50  0000 L CNN
+F 1 "10nF" H 3015 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2938 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2900 5600 50  0001 C CNN
+F 4 "KEMET" H -200 750 50  0001 C CNN "MFR"
+F 5 "C0805C103K4RACTU" H -200 750 50  0001 C CNN "MPN"
+F 6 "80-C0805C103K4R" H -200 750 50  0001 C CNN "SPN"
+F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C103K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd11RVEQKJMtew%3D" H -200 750 50  0001 C CNN "SPURL"
+	1    2900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC2B65C
+P 3200 1300
+AR Path="/5CC2B65C" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CC2B65C" Ref="C13"  Part="1" 
+F 0 "C13" H 3315 1346 50  0000 L CNN
+F 1 "100nF" H 3315 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3200 1300 50  0001 C CNN
+F 4 "KEMET" H -2100 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2100 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2100 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2100 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2100 -5400 50  0001 C CNN "SPURL"
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5CBF5772
+P 1750 3700
+AR Path="/5CBF5772" Ref="SW?"  Part="1" 
+AR Path="/5CBDBC11/5CBF5772" Ref="SW3"  Part="1" 
+F 0 "SW3" V 1704 3848 50  0000 L CNN
+F 1 "SW_Push" V 1795 3848 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1750 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 1750 3900 50  0001 C CNN
+F 4 "Panasonic" H -2500 -1600 50  0001 C CNN "MFR"
+F 5 "EVQ-PE105K" H -2500 -1600 50  0001 C CNN "MPN"
+F 6 "667-EVQ-PE105K" H -2500 -1600 50  0001 C CNN "SPN"
+F 7 "Mouser" H -2500 -1600 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H -2500 -1600 50  0001 C CNN "SPURL"
+	1    1750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface:MAX6816 U13
+U 1 1 5CBDF17E
+P 2250 3700
+F 0 "U13" H 2050 4050 50  0000 L CNN
+F 1 "MAX6816" H 2300 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2900 3250 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/1896.pdf" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CD490A7
+P 2750 1300
+AR Path="/5CD490A7" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CD490A7" Ref="C12"  Part="1" 
+F 0 "C12" H 2865 1346 50  0000 L CNN
+F 1 "100nF" H 2865 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2750 1300 50  0001 C CNN
+F 4 "KEMET" H -2550 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2550 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2550 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2550 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2550 -5400 50  0001 C CNN "SPURL"
+	1    2750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CD43CE0
+P 2300 1300
+AR Path="/5CD43CE0" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CD43CE0" Ref="C11"  Part="1" 
+F 0 "C11" H 2415 1346 50  0000 L CNN
+F 1 "100nF" H 2415 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2300 1300 50  0001 C CNN
+F 4 "KEMET" H -3000 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -3000 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3000 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -3000 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3000 -5400 50  0001 C CNN "SPURL"
+	1    2300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW4
+U 1 1 5CCB3178
+P 4350 5000
+F 0 "SW4" H 4350 5285 50  0000 C CNN
+F 1 "Run/Step Mode" H 4350 5194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_NKK_BB15AH" H 4350 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/295/Atoggles-19525.pdf" H 4350 5000 50  0001 C CNN
+F 4 "NKK" H 200 400 50  0001 C CNN "MFR"
+F 5 "A12JH" H 200 400 50  0001 C CNN "MPN"
+F 6 "633-A12JH" H 200 400 50  0001 C CNN "SPN"
+F 7 "Mouser" H 200 400 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/NKK-Switches/A12JH?qs=sGAEpiMZZMvudeGI7i40XOmPq%2Fic4rHbzQYX0%252Blbv6M%3D" H 200 400 50  0001 C CNN "SPURL"
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5CC719D3
+P 1400 5600
+F 0 "C14" H 1515 5646 50  0000 L CNN
+F 1 "10nF" H 1515 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1438 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1400 5600 50  0001 C CNN
+F 4 "KEMET" H -200 750 50  0001 C CNN "MFR"
+F 5 "C0805C103K4RACTU" H -200 750 50  0001 C CNN "MPN"
+F 6 "80-C0805C103K4R" H -200 750 50  0001 C CNN "SPN"
+F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C103K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd11RVEQKJMtew%3D" H -200 750 50  0001 C CNN "SPURL"
+	1    1400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT74-74xx U12
+U 2 1 5CBB3EEE
+P 1750 6600
+AR Path="/5CBB3EEE" Ref="U12"  Part="2" 
+AR Path="/5CBDBC11/5CBB3EEE" Ref="U12"  Part="2" 
+F 0 "U12" H 1750 7081 50  0000 C CNN
+F 1 "74HCT74" H 1750 6990 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1750 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 1750 6600 50  0001 C CNN
+F 4 "Texas Instruments" H 0   -200 50  0001 C CNN "MFR"
+F 5 "CD74HCT74E" H 0   -200 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT74E" H 0   -200 50  0001 C CNN "SPN"
+F 7 "Mouser" H 0   -200 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 0   -200 50  0001 C CNN "SPURL"
+	2    1750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC55212
+P 1900 1300
+AR Path="/5CC55212" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CC55212" Ref="C6"  Part="1" 
+F 0 "C6" H 2015 1346 50  0000 L CNN
+F 1 "100nF" H 2015 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1900 1300 50  0001 C CNN
+F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
+	1    1900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC55207
+P 1450 1300
+AR Path="/5CC55207" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CC55207" Ref="C2"  Part="1" 
+F 0 "C2" H 1565 1346 50  0000 L CNN
+F 1 "100nF" H 1565 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1450 1300 50  0001 C CNN
+F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
+	1    1450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC551FC
+P 1000 1300
+AR Path="/5CC551FC" Ref="C?"  Part="1" 
+AR Path="/5CBDBC11/5CC551FC" Ref="C1"  Part="1" 
+F 0 "C1" H 1115 1346 50  0000 L CNN
+F 1 "100nF" H 1115 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1038 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1000 1300 50  0001 C CNN
+F 4 "KEMET" H -3400 -5400 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -3400 -5400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3400 -5400 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -3400 -5400 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -3400 -5400 50  0001 C CNN "SPURL"
+	1    1000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT32-74xx U?
+U 5 1 5CC2B794
+P 6500 1350
+AR Path="/5CC2B794" Ref="U?"  Part="5" 
+AR Path="/5CBDBC11/5CC2B794" Ref="U6"  Part="5" 
+F 0 "U6" H 6730 1396 50  0000 L CNN
+F 1 "74HCT32" H 6730 1305 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6500 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 6500 1350 50  0001 C CNN
+F 4 "Texas Instruments" H -1000 -4300 50  0001 C CNN "MFR"
+F 5 "CD74HCT32E" H -1000 -4300 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1000 -4300 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT32E" H -1000 -4300 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -1000 -4300 50  0001 C CNN "SPURL"
+	5    6500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19EB2
+P 9850 3250
+AR Path="/5CC19EB2" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19EB2" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19EB2" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19EB2" Ref="LED6"  Part="1" 
+F 0 "LED6" H 10000 3300 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3300 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3250 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -650 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -650 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -650 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -650 50  0001 C CNN "SPURL"
+	1    9850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network06 RN?
+U 1 1 5CC19EA4
+P 10450 3050
+AR Path="/5CC19EA4" Ref="RN?"  Part="1" 
+AR Path="/5CBDBC11/5CC19EA4" Ref="RN1"  Part="1" 
+F 0 "RN1" V 9833 3050 50  0000 C CNN
+F 1 "150R" V 9924 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 10925 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 10450 3050 50  0001 C CNN
+F 4 "Bourns" V 10450 3050 50  0001 C CNN "MFR"
+F 5 "4609X-101-271LF" V 10450 3050 50  0001 C CNN "MPN"
+F 6 "Mouser" V 10450 3050 50  0001 C CNN "SPR"
+F 7 "652-4609X-1LF-270" V 10450 3050 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/652-4609X-1LF-270" V 10450 3050 50  0001 C CNN "SPURL"
+	1    10450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT151-74xx U?
+U 1 1 5CC19E47
+P 8600 5200
+AR Path="/5CC19E47" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E47" Ref="U5"  Part="1" 
+F 0 "U5" H 8600 5250 50  0000 C CNN
+F 1 "74HCT151" H 8650 5100 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct151.pdf" H 8600 5200 50  0001 C CNN
+F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
+F 5 "CD74HCT151E" H 5100 -800 50  0001 C CNN "MPN"
+F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT151E" H 5100 -800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT151E?qs=%2Fha2pyFadui%2FKTy9HJ5lB%252BWHslJfOxYk9GVPgs6LLC5guBQAb8eNDA%3D%3D" H 5100 -800 50  0001 C CNN "SPURL"
+	1    8600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:SW_Coded_Octal-8-Switch SW?
+U 1 1 5CC19E3C
+P 7450 4050
+AR Path="/5CC19E3C" Ref="SW?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E3C" Ref="SW1"  Part="1" 
+F 0 "SW1" H 7425 4517 50  0000 C CNN
+F 1 "Line Selection" H 7425 4426 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Greyhill_94HBB08RAT_Octal_Angled" H 7375 4175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 7375 4175 50  0001 C CNN
+F 4 "706-94HBB08RAT" H 7550 3650 50  0001 C CNN "Mouser PN"
+F 5 "Grayhill" H 5150 800 50  0001 C CNN "MFR"
+F 6 "94HBB08RAT" H 5150 800 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5150 800 50  0001 C CNN "SPR"
+F 8 "706-94HBB08RAT" H 5150 800 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/Grayhill/94HBB08RAT?qs=%2Fha2pyFadujzoJnpEH9hPknLi5akSnROxg%2FuGIo%252BL9AzYOuRydAh5g%3D%3D" H 5150 800 50  0001 C CNN "SPURL"
+	1    7450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19E18
+P 9850 3150
+AR Path="/5CC19E18" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19E18" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19E18" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E18" Ref="LED5"  Part="1" 
+F 0 "LED5" H 10000 3200 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3200 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3150 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
+	1    9850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19E0C
+P 9850 3050
+AR Path="/5CC19E0C" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19E0C" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19E0C" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E0C" Ref="LED4"  Part="1" 
+F 0 "LED4" H 10000 3100 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3100 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 3050 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
+	1    9850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19E00
+P 9850 2950
+AR Path="/5CC19E00" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19E00" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19E00" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E00" Ref="LED3"  Part="1" 
+F 0 "LED3" H 10000 3000 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 3000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2950 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
+	1    9850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19DF4
+P 9850 2850
+AR Path="/5CC19DF4" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19DF4" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19DF4" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19DF4" Ref="LED2"  Part="1" 
+F 0 "LED2" H 10000 2900 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 2900 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2850 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
+	1    9850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5CC19DE8
+P 9850 2750
+AR Path="/5CC19DE8" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5CC19DE8" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC19DE8" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5CC19DE8" Ref="LED1"  Part="1" 
+F 0 "LED1" H 10000 2800 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 9750 2800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9850 2750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 9850 2750 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 5000 -750 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "MPN"
+F 7 "Mouser" H 5000 -750 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 5000 -750 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 5000 -750 50  0001 C CNN "SPURL"
+	1    9850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT32-74xx U?
+U 1 1 5CBED049
+P 4300 1050
+AR Path="/5CBED049" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CBED049" Ref="U6"  Part="1" 
+F 0 "U6" H 4300 1375 50  0000 C CNN
+F 1 "74HCT32" H 4300 1284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 4300 1050 50  0001 C CNN
+F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
+F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
+F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
+	1    4300 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT32-74xx U?
+U 2 1 5CBED03E
+P 4300 1600
+AR Path="/5CBED03E" Ref="U?"  Part="2" 
+AR Path="/5CBDBC11/5CBED03E" Ref="U6"  Part="2" 
+F 0 "U6" H 4300 1925 50  0000 C CNN
+F 1 "74HCT32" H 4300 1834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 4300 1600 50  0001 C CNN
+F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
+F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
+F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
+	2    4300 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT32-74xx U?
+U 3 1 5CBED033
+P 5450 1600
+AR Path="/5CBED033" Ref="U?"  Part="3" 
+AR Path="/5CBDBC11/5CBED033" Ref="U6"  Part="3" 
+F 0 "U6" H 5450 1925 50  0000 C CNN
+F 1 "74HCT32" H 5450 1834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 5450 1600 50  0001 C CNN
+F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
+F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
+F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
+	3    5450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rc2014_monitor-rescue:74HCT32-74xx U?
+U 4 1 5CBED028
+P 5450 1050
+AR Path="/5CBED028" Ref="U?"  Part="4" 
+AR Path="/5CBDBC11/5CBED028" Ref="U6"  Part="4" 
+F 0 "U6" H 5450 1375 50  0000 C CNN
+F 1 "74HCT32" H 5450 1284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5450 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct32.pdf" H 5450 1050 50  0001 C CNN
+F 4 "Texas Instruments" H -750 -4100 50  0001 C CNN "MFR"
+F 5 "CD74HCT32E" H -750 -4100 50  0001 C CNN "MPN"
+F 6 "Mouser" H -750 -4100 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT32E" H -750 -4100 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT32E?qs=sGAEpiMZZMtMa9lbYwD6ZFYFPHiRKj8U7mBOtxyJfY0%3D" H -750 -4100 50  0001 C CNN "SPURL"
+	4    5450 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7050 5000 7150
+Wire Wire Line
+	5000 6250 5000 6150
+Wire Wire Line
+	4600 7150 4150 7150
+Connection ~ 4600 7150
+$Comp
+L power:GND #PWR?
+U 1 1 5CC1F4D9
+P 4600 7150
+AR Path="/5CC1F4D9" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CC1F4D9" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC1F4D9" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CC1F4D9" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 4600 6900 50  0001 C CNN
+F 1 "GND" H 4605 6977 50  0000 C CNN
+F 2 "" H 4600 7150 50  0001 C CNN
+F 3 "" H 4600 7150 50  0001 C CNN
+	1    4600 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7150 4600 7150
+$Comp
+L rc2014_monitor-rescue:74HCT74-74xx U12
+U 3 1 5CBB6803
+P 5000 6650
+AR Path="/5CBB6803" Ref="U12"  Part="3" 
+AR Path="/5CBDBC11/5CBB6803" Ref="U12"  Part="3" 
+F 0 "U12" H 5230 6696 50  0000 L CNN
+F 1 "74HCT74" H 5230 6605 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5000 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct74.pdf" H 5000 6650 50  0001 C CNN
+F 4 "Texas Instruments" H 1450 300 50  0001 C CNN "MFR"
+F 5 "CD74HCT74E" H 1450 300 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT74E" H 1450 300 50  0001 C CNN "SPN"
+F 7 "Mouser" H 1450 300 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2pyFaduhFkQmtvNgydNp2ONwhoDW0lDTi%252BdnWomE%3D" H 1450 300 50  0001 C CNN "SPURL"
+	3    5000 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6150 4150 6150
+Connection ~ 4600 6150
+$Comp
+L power:+5V #PWR?
+U 1 1 5CC1C3D4
+P 4600 6150
+AR Path="/5CC1C3D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CC1C3D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC1C3D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CC1C3D4" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 4600 6000 50  0001 C CNN
+F 1 "+5V" H 4615 6323 50  0000 C CNN
+F 2 "" H 4600 6150 50  0001 C CNN
+F 3 "" H 4600 6150 50  0001 C CNN
+	1    4600 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6150 4600 6150
+$Comp
+L 74xx:74HCT00 U11
+U 5 1 5CB6BDC5
+P 4150 6650
+F 0 "U11" H 4380 6696 50  0000 L CNN
+F 1 "74HCT00" H 4380 6605 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4150 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct00.pdf" H 4150 6650 50  0001 C CNN
+F 4 "Texas Instruments" H 1450 300 50  0001 C CNN "MFR"
+F 5 "CD74HCT00E" H 1450 300 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT00E" H 1450 300 50  0001 C CNN "SPN"
+F 7 "Mouser" H 1450 300 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 1450 300 50  0001 C CNN "SPURL"
+	5    4150 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4000 4550 4650
+Text GLabel 5150 3900 2    50   Output ~ 0
+~WAIT
+Wire Wire Line
+	3700 4700 3700 4600
+Wire Wire Line
+	3700 4600 3800 4600
+Connection ~ 3700 4600
+Wire Wire Line
+	3600 4600 3700 4600
+NoConn ~ 3200 6600
+$Comp
+L power:GND #PWR?
+U 1 1 5CCA52E8
+P 2600 6850
+AR Path="/5CCA52E8" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CCA52E8" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CCA52E8" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CCA52E8" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 2600 6600 50  0001 C CNN
+F 1 "GND" H 2605 6677 50  0000 C CNN
+F 2 "" H 2600 6850 50  0001 C CNN
+F 3 "" H 2600 6850 50  0001 C CNN
+	1    2600 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6700 2600 6850
+Wire Wire Line
+	2600 6500 2600 6700
+Connection ~ 2600 6700
+$Comp
+L 74xx:74HCT00 U11
+U 4 1 5CC9C701
+P 2900 6600
+F 0 "U11" H 2900 6925 50  0000 C CNN
+F 1 "74HCT00" H 2900 6834 50  0000 C CNN
+F 2 "" H 2900 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 2900 6600 50  0001 C CNN
+	4    2900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT00 U11
+U 1 1 5CB65A1C
+P 4850 3900
+F 0 "U11" H 4850 4225 50  0000 C CNN
+F 1 "74HCT00" H 4850 4134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4850 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct00.pdf" H 4850 3900 50  0001 C CNN
+F 4 "Texas Instruments" H 200 150 50  0001 C CNN "MFR"
+F 5 "CD74HCT00E" H 200 150 50  0001 C CNN "MPN"
+F 6 "595-CD74HCT00E" H 200 150 50  0001 C CNN "SPN"
+F 7 "Mouser" H 200 150 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 200 150 50  0001 C CNN "SPURL"
+	1    4850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT00 U11
+U 2 1 5CC6424C
+P 3700 4300
+F 0 "U11" V 3746 4120 50  0000 R CNN
+F 1 "74HCT00" V 3655 4120 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 3700 4300 50  0001 C CNN
+	2    3700 4300
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
