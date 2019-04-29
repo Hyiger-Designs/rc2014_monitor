@@ -167,36 +167,6 @@ F 3 "" H 5450 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
-U 1 1 5CB5974C
-P 2650 6900
-AR Path="/5CB5974C" Ref="#PWR0114"  Part="1" 
-AR Path="/5CB63856/5CB5974C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CB5974C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0114" H 2650 6650 50  0001 C CNN
-F 1 "GND" H 2655 6727 50  0000 C CNN
-F 2 "" H 2650 6900 50  0001 C CNN
-F 3 "" H 2650 6900 50  0001 C CNN
-	1    2650 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro J3
-U 1 1 5CAA0A65
-P 2650 6400
-F 0 "J3" H 2707 6867 50  0000 C CNN
-F 1 "USB_B_Micro" H 2707 6776 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 2800 6350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/18/10103594-1361315.pdf" H 2800 6350 50  0001 C CNN
-F 4 "Amphenol" H -6300 800 50  0001 C CNN "MFR"
-F 5 "10103594-0001LF" H -6300 800 50  0001 C CNN "MPN"
-F 6 "Mouser" H -6300 800 50  0001 C CNN "SPR"
-F 7 "649-10103594-0001LF" H -6300 800 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Amphenol-FCI/10103594-0001LF?qs=%2Fha2pyFadui3tF6%252BEBESQPkzCvC45QB71td3CV1bdDjkgdfJGIcfa4Qftb3SNhsX" H -6300 800 50  0001 C CNN "SPURL"
-	1    2650 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0109
 U 1 1 5CAA9BF0
 P 5900 700
@@ -348,8 +318,6 @@ Text GLabel 1000 3700 2    50   Output ~ 0
 A11
 Text GLabel 1000 3800 2    50   Output ~ 0
 A10
-Text Notes 650  3000 0    50   ~ 0
-RC2014 Pro Bus
 Text GLabel 6100 4700 0    50   Input ~ 0
 A11
 Text GLabel 6100 4800 0    50   Input ~ 0
@@ -559,14 +527,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 2350 9800 2200
 Wire Wire Line
-	2650 6800 2650 6850
-Wire Wire Line
-	2550 6800 2550 6850
-Wire Wire Line
-	2550 6850 2650 6850
-Wire Wire Line
-	2650 6850 2650 6900
-Wire Wire Line
 	5900 800  6550 800 
 Wire Wire Line
 	6600 6050 7050 6050
@@ -595,7 +555,6 @@ Connection ~ 2800 2400
 Connection ~ 5000 800 
 Connection ~ 3450 800 
 Connection ~ 9800 2200
-Connection ~ 2650 6850
 Connection ~ 5900 800 
 Connection ~ 6600 6050
 Connection ~ 6600 6350
@@ -616,9 +575,6 @@ NoConn ~ 10400 1650
 NoConn ~ 10400 1750
 NoConn ~ 1000 6700
 NoConn ~ 1000 6800
-NoConn ~ 2950 6400
-NoConn ~ 2950 6500
-NoConn ~ 2950 6600
 $Comp
 L Analog_Switch:MAX40200AUK U7
 U 1 1 5CAE11F5
@@ -768,9 +724,6 @@ Wire Wire Line
 Connection ~ 5500 6200
 Wire Wire Line
 	5500 6200 5600 6200
-Wire Wire Line
-	2950 6200 3150 6200
-Connection ~ 3150 6200
 Wire Wire Line
 	4250 6500 4250 6600
 Wire Wire Line
@@ -974,8 +927,6 @@ Text GLabel 1400 6600 2    50   Input ~ 0
 ~NMI
 Wire Notes Line
 	2350 5250 5250 5250
-Wire Notes Line
-	5250 3300 2350 3300
 Text Notes 2400 3450 0    50   ~ 0
 Reset Monitor & Display Blank
 Wire Wire Line
@@ -1124,18 +1075,9 @@ Text GLabel 4000 3950 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
 	4350 3850 4350 3950
-Wire Wire Line
-	4000 3950 4200 3950
 Connection ~ 4350 3950
 Wire Wire Line
 	4350 3950 4350 4050
-Text GLabel 4200 3650 1    50   Input ~ 0
-RN2_1
-Wire Wire Line
-	4200 3650 4200 3950
-Wire Wire Line
-	4200 3950 4350 3950
-Connection ~ 4200 3950
 Text GLabel 4950 3950 2    50   Output ~ 0
 RESET
 Wire Wire Line
@@ -1201,4 +1143,86 @@ Wire Wire Line
 	5350 2500 6050 2500
 Text GLabel 9200 1250 0    50   Input ~ 0
 D_D0
+Wire Notes Line
+	5250 3300 2350 3300
+Wire Wire Line
+	4000 3950 4150 3950
+$Comp
+L Device:R_Small R?
+U 1 1 5CC78D11
+P 4150 3700
+AR Path="/5CBDBC11/5CC78D11" Ref="R?"  Part="1" 
+AR Path="/5CC78D11" Ref="R5"  Part="1" 
+F 0 "R5" H 4091 3654 50  0000 R CNN
+F 1 "1K" H 4091 3745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 3700 50  0001 C CNN
+F 3 "~" H 4150 3700 50  0001 C CNN
+	1    4150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 5CC78D17
+P 4150 3600
+AR Path="/5CC78D17" Ref="#PWR0133"  Part="1" 
+AR Path="/5CB63856/5CC78D17" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CC78D17" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CC78D17" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0133" H 4150 3450 50  0001 C CNN
+F 1 "+5V" H 4165 3773 50  0000 C CNN
+F 2 "" H 4150 3600 50  0001 C CNN
+F 3 "" H 4150 3600 50  0001 C CNN
+	1    4150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3800 4150 3950
+Connection ~ 4150 3950
+Wire Wire Line
+	4150 3950 4350 3950
+Connection ~ 3150 6200
+Wire Wire Line
+	2950 6200 3150 6200
+NoConn ~ 2950 6600
+NoConn ~ 2950 6500
+NoConn ~ 2950 6400
+Wire Wire Line
+	2650 6850 2650 6900
+Wire Wire Line
+	2550 6850 2650 6850
+Wire Wire Line
+	2550 6800 2550 6850
+Connection ~ 2650 6850
+Wire Wire Line
+	2650 6800 2650 6850
+$Comp
+L Connector:USB_B_Micro J3
+U 1 1 5CAA0A65
+P 2650 6400
+F 0 "J3" H 2707 6867 50  0000 C CNN
+F 1 "USB_B_Micro" H 2707 6776 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 2800 6350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/10103594-1361315.pdf" H 2800 6350 50  0001 C CNN
+F 4 "Amphenol" H -6300 800 50  0001 C CNN "MFR"
+F 5 "10103594-0001LF" H -6300 800 50  0001 C CNN "MPN"
+F 6 "Mouser" H -6300 800 50  0001 C CNN "SPR"
+F 7 "649-10103594-0001LF" H -6300 800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Amphenol-FCI/10103594-0001LF?qs=%2Fha2pyFadui3tF6%252BEBESQPkzCvC45QB71td3CV1bdDjkgdfJGIcfa4Qftb3SNhsX" H -6300 800 50  0001 C CNN "SPURL"
+	1    2650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5CB5974C
+P 2650 6900
+AR Path="/5CB5974C" Ref="#PWR0114"  Part="1" 
+AR Path="/5CB63856/5CB5974C" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CB5974C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0114" H 2650 6650 50  0001 C CNN
+F 1 "GND" H 2655 6727 50  0000 C CNN
+F 2 "" H 2650 6900 50  0001 C CNN
+F 3 "" H 2650 6900 50  0001 C CNN
+	1    2650 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

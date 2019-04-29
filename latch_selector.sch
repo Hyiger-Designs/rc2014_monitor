@@ -420,7 +420,7 @@ P 10450 3050
 AR Path="/5CC19EA4" Ref="RN?"  Part="1" 
 AR Path="/5CBDBC11/5CC19EA4" Ref="RN1"  Part="1" 
 F 0 "RN1" V 9833 3050 50  0000 C CNN
-F 1 "1K Bussed" V 9924 3050 50  0000 C CNN
+F 1 "150R" V 9924 3050 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP7" V 10925 3050 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 10450 3050 50  0001 C CNN
 F 4 "Bourns" V 10450 3050 50  0001 C CNN "MFR"
@@ -559,31 +559,31 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5CC5522E
-P 1900 1000
+P 2100 1000
 AR Path="/5CC5522E" Ref="#PWR?"  Part="1" 
 AR Path="/5CB63856/5CC5522E" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CC5522E" Ref="#PWR?"  Part="1" 
 AR Path="/5CBDBC11/5CC5522E" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 1900 850 50  0001 C CNN
-F 1 "+5V" H 1915 1173 50  0000 C CNN
-F 2 "" H 1900 1000 50  0001 C CNN
-F 3 "" H 1900 1000 50  0001 C CNN
-	1    1900 1000
+F 0 "#PWR0117" H 2100 850 50  0001 C CNN
+F 1 "+5V" H 2115 1173 50  0000 C CNN
+F 2 "" H 2100 1000 50  0001 C CNN
+F 3 "" H 2100 1000 50  0001 C CNN
+	1    2100 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CC55234
-P 1900 1600
+P 2100 1600
 AR Path="/5CC55234" Ref="#PWR?"  Part="1" 
 AR Path="/5CB63856/5CC55234" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CC55234" Ref="#PWR?"  Part="1" 
 AR Path="/5CBDBC11/5CC55234" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 1900 1350 50  0001 C CNN
-F 1 "GND" H 1905 1427 50  0000 C CNN
-F 2 "" H 1900 1600 50  0001 C CNN
-F 3 "" H 1900 1600 50  0001 C CNN
-	1    1900 1600
+F 0 "#PWR0118" H 2100 1350 50  0001 C CNN
+F 1 "GND" H 2105 1427 50  0000 C CNN
+F 2 "" H 2100 1600 50  0001 C CNN
+F 3 "" H 2100 1600 50  0001 C CNN
+	1    2100 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -595,9 +595,9 @@ Connection ~ 1450 1450
 Wire Wire Line
 	1450 1150 1900 1150
 Wire Wire Line
-	1900 1600 1900 1450
+	2100 1600 2100 1450
 Wire Wire Line
-	1900 1000 1900 1150
+	2100 1000 2100 1150
 Wire Wire Line
 	10750 2350 10750 2750
 Wire Wire Line
@@ -612,8 +612,6 @@ Wire Wire Line
 	9950 3150 10250 3150
 Wire Wire Line
 	9950 3250 10250 3250
-Wire Wire Line
-	9600 3250 9750 3250
 $Comp
 L 74xx:74HCT00 U11
 U 1 1 5CB65A1C
@@ -824,22 +822,6 @@ F 3 "" H 2200 5900 50  0001 C CNN
 	1    2200 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Timer:LMC555xM U10
-U 1 1 5CC31473
-P 2200 5200
-F 0 "U10" H 2200 5200 50  0000 C CNN
-F 1 "LMC555xM" H 1900 5600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 2200 5200 50  0001 C CNN
-F 4 "Texas Instruments" H -200 750 50  0001 C CNN "MFR"
-F 5 "LMC555CMX/NOPB" H -200 750 50  0001 C CNN "MPN"
-F 6 "926-LMC555CMX/NOPB" H -200 750 50  0001 C CNN "SPN"
-F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/LMC555CMX-NOPB?qs=sGAEpiMZZMsFq5dYAzx%252BACDbdkJQ2FOZyUxMuHZ%2FIG4%3D" H -200 750 50  0001 C CNN "SPURL"
-	1    2200 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 5450 1400 5200
 Wire Wire Line
@@ -853,33 +835,33 @@ Wire Wire Line
 $Comp
 L Switch:SW_SPDT SW4
 U 1 1 5CCB3178
-P 4350 4750
-F 0 "SW4" H 4350 5035 50  0000 C CNN
-F 1 "Run/Step Mode" H 4350 4944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_NKK_BB15AH" H 4350 4750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/295/Atoggles-19525.pdf" H 4350 4750 50  0001 C CNN
-F 4 "NKK" H 200 150 50  0001 C CNN "MFR"
-F 5 "A12JH" H 200 150 50  0001 C CNN "MPN"
-F 6 "633-A12JH" H 200 150 50  0001 C CNN "SPN"
-F 7 "Mouser" H 200 150 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/NKK-Switches/A12JH?qs=sGAEpiMZZMvudeGI7i40XOmPq%2Fic4rHbzQYX0%252Blbv6M%3D" H 200 150 50  0001 C CNN "SPURL"
-	1    4350 4750
+P 4350 5000
+F 0 "SW4" H 4350 5285 50  0000 C CNN
+F 1 "Run/Step Mode" H 4350 5194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_NKK_BB15AH" H 4350 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/295/Atoggles-19525.pdf" H 4350 5000 50  0001 C CNN
+F 4 "NKK" H 200 400 50  0001 C CNN "MFR"
+F 5 "A12JH" H 200 400 50  0001 C CNN "MPN"
+F 6 "633-A12JH" H 200 400 50  0001 C CNN "SPN"
+F 7 "Mouser" H 200 400 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/NKK-Switches/A12JH?qs=sGAEpiMZZMvudeGI7i40XOmPq%2Fic4rHbzQYX0%252Blbv6M%3D" H 200 400 50  0001 C CNN "SPURL"
+	1    4350 5000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4550 4850
+NoConn ~ 4550 5100
 $Comp
 L power:GND #PWR?
 U 1 1 5CCBE34D
-P 4150 4750
+P 4150 5000
 AR Path="/5CCBE34D" Ref="#PWR?"  Part="1" 
 AR Path="/5CB63856/5CCBE34D" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CCBE34D" Ref="#PWR?"  Part="1" 
 AR Path="/5CBDBC11/5CCBE34D" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 4150 4500 50  0001 C CNN
-F 1 "GND" H 4155 4577 50  0000 C CNN
-F 2 "" H 4150 4750 50  0001 C CNN
-F 3 "" H 4150 4750 50  0001 C CNN
-	1    4150 4750
+F 0 "#PWR0134" H 4150 4750 50  0001 C CNN
+F 1 "GND" H 4155 4827 50  0000 C CNN
+F 2 "" H 4150 5000 50  0001 C CNN
+F 3 "" H 4150 5000 50  0001 C CNN
+	1    4150 5000
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 3900 2    50   Output ~ 0
@@ -930,25 +912,15 @@ $EndComp
 Wire Wire Line
 	2300 1450 2750 1450
 Wire Wire Line
-	1900 1150 2300 1150
+	1900 1150 2100 1150
 Connection ~ 1900 1150
 Connection ~ 2300 1150
 Wire Wire Line
 	2300 1150 2750 1150
 Connection ~ 1900 1450
 Wire Wire Line
-	1900 1450 2300 1450
+	1900 1450 2100 1450
 Connection ~ 2300 1450
-Text GLabel 4400 3100 3    50   Output ~ 0
-RN2_3
-Text GLabel 4300 3100 3    50   Output ~ 0
-RN2_4
-Text GLabel 4550 4200 0    50   Input ~ 0
-RN2_4
-Wire Wire Line
-	4550 4000 4550 4650
-Text GLabel 2900 5200 2    50   Input ~ 0
-RN2_3
 Wire Notes Line
 	5600 2400 5600 7600
 Wire Notes Line
@@ -959,9 +931,9 @@ Wire Notes Line
 	750  2400 5600 2400
 Text Notes 850  2550 0    50   ~ 0
 Instruction Stepper
-Text Notes 4600 4650 0    50   ~ 0
+Text Notes 4600 4900 0    50   ~ 0
 Run
-Text Notes 4600 4850 0    50   ~ 0
+Text Notes 4600 5100 0    50   ~ 0
 Step
 $Comp
 L Interface:MAX6816 U13
@@ -1064,15 +1036,6 @@ F 3 "" H 2200 4800 50  0001 C CNN
 	1    2200 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 4600 3700 4600
-Wire Wire Line
-	3700 5000 3700 4600
-Wire Wire Line
-	2700 5000 3700 5000
-Connection ~ 3700 4600
-Wire Wire Line
-	3700 4600 3800 4600
 $Comp
 L 74xx:74HCT00 U11
 U 4 1 5CC9C701
@@ -1105,14 +1068,6 @@ F 3 "" H 2600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3200 6600
-Text GLabel 4500 3100 3    50   Output ~ 0
-RN2_1
-Connection ~ 8100 3450
-Wire Wire Line
-	8100 3350 8100 3450
-Wire Wire Line
-	8100 3750 8100 3450
-Connection ~ 8600 3750
 Wire Wire Line
 	9100 3050 9750 3050
 Wire Wire Line
@@ -1123,44 +1078,6 @@ Wire Wire Line
 	9100 2750 9750 2750
 Wire Wire Line
 	8600 2350 10750 2350
-$Comp
-L rc2014_monitor-rescue:74HCT138-74xx U?
-U 1 1 5CC19E52
-P 8600 3050
-AR Path="/5CC19E52" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
-F 0 "U4" H 8600 3100 50  0000 C CNN
-F 1 "74HCT138" H 8550 3000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 8600 3050 50  0001 C CNN
-F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
-F 5 "CD74HCT138E" H 5100 -800 50  0001 C CNN "MPN"
-F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT138E" H 5100 -800 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H 5100 -800 50  0001 C CNN "SPURL"
-	1    8600 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 3450 9300 3450
-Wire Wire Line
-	9100 3350 9300 3350
-$Comp
-L Diode:SD103ATW D1
-U 1 1 5CB2381C
-P 9450 3350
-F 0 "D1" H 9200 3400 50  0000 C CNN
-F 1 "CMXSH-3 TR" H 9250 3150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9450 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/68/cmxsh-3_r1-267628.pdf" H 9450 3350 50  0001 C CNN
-F 4 "Central Semiconductor" H 9450 3350 50  0001 C CNN "MFR"
-F 5 "CMXSH-3 TR" H 9450 3350 50  0001 C CNN "MPN"
-F 6 "Mouser" H 9450 3350 50  0001 C CNN "SPR"
-F 7 "610-CMXSH-3" H 9450 3350 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/610-CMXSH-3" H 5950 1450 50  0001 C CNN "SPURL"
-	1    9450 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 3150 9750 3150
 $Comp
@@ -1177,77 +1094,6 @@ F 6 "80-C0805C103K4R" H -200 750 50  0001 C CNN "SPN"
 F 7 "Mouser" H -200 750 50  0001 C CNN "SPR"
 F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C103K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd11RVEQKJMtew%3D" H -200 750 50  0001 C CNN "SPURL"
 	1    2900 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 3250 9600 3350
-Connection ~ 9600 3350
-Wire Wire Line
-	9600 3350 9600 3450
-$Comp
-L Diode:SD103ATW D1
-U 3 1 5CB253E2
-P 9450 3450
-F 0 "D1" H 9200 3500 50  0000 C CNN
-F 1 "CMXSH-3 TR" H 9250 3350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9450 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/68/cmxsh-3_r1-267628.pdf" H 9450 3450 50  0001 C CNN
-F 4 "Central Semiconductor" H 5950 1450 50  0001 C CNN "MFR"
-F 5 "CMXSH-3 TR" H 5950 1450 50  0001 C CNN "MPN"
-F 6 "610-CMXSH-3" H 5950 1450 50  0001 C CNN "SPN"
-F 7 "Mouser" H 5950 1450 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/610-CMXSH-3" H 5950 1450 50  0001 C CNN "SPURL"
-	3    9450 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 3250 9300 3250
-$Comp
-L Diode:SD103ATW D1
-U 2 1 5CB2450A
-P 9450 3250
-F 0 "D1" H 9200 3300 50  0000 C CNN
-F 1 "CMXSH-3 TR" H 9250 2950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9450 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/68/cmxsh-3_r1-267628.pdf" H 9450 3250 50  0001 C CNN
-F 4 "Central Semiconductor" H 5950 1150 50  0001 C CNN "MFR"
-F 5 "CMXSH-3 TR" H 5950 1150 50  0001 C CNN "MPN"
-F 6 "610-CMXSH-3" H 5950 1150 50  0001 C CNN "SPN"
-F 7 "Mouser" H 5950 1150 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/610-CMXSH-3" H 5950 1150 50  0001 C CNN "SPURL"
-	2    9450 3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 9600 3250
-$Comp
-L Device:R_Network05 RN2
-U 1 1 5CE1266F
-P 4500 2900
-F 0 "RN2" H 4788 2946 50  0000 L CNN
-F 1 "10K" H 4788 2855 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 4875 2900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/600x-776645.pdf" H 4500 2900 50  0001 C CNN
-F 4 "Bourns" H 2400 1500 50  0001 C CNN "MFR"
-F 5 "4606X-101-103LF" H 2400 1500 50  0001 C CNN "MPN"
-F 6 "652-4606X-1LF-10K" H 2400 1500 50  0001 C CNN "SPN"
-F 7 "Mouser" H 2400 1500 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Bourns/4606X-101-103LF?qs=sGAEpiMZZMvrmc6UYKmaNWLUaWe6HkA9JRMdtgjhSp4%3D" H 2400 1500 50  0001 C CNN "SPURL"
-	1    4500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CE2F23E
-P 4300 2700
-AR Path="/5CE2F23E" Ref="#PWR?"  Part="1" 
-AR Path="/5CB63856/5CE2F23E" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CE2F23E" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CE2F23E" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 4300 2550 50  0001 C CNN
-F 1 "+5V" H 4315 2873 50  0000 C CNN
-F 2 "" H 4300 2700 50  0001 C CNN
-F 3 "" H 4300 2700 50  0001 C CNN
-	1    4300 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1273,12 +1119,222 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT74E?qs=%2Fha2
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4000 3600
-Text GLabel 4600 3100 3    50   Output ~ 0
-RN2_5
-Text GLabel 4700 3100 3    50   Output ~ 0
-RN2_6
-Text GLabel 3250 3400 1    50   Input ~ 0
-RN2_5
-Text GLabel 3700 3400 1    50   Input ~ 0
-RN2_6
+$Comp
+L Device:R_Small R1
+U 1 1 5CDD85B2
+P 3250 3300
+F 0 "R1" H 3309 3346 50  0000 L CNN
+F 1 "10K" H 3309 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5CDDA73F
+P 3700 3300
+F 0 "R2" H 3759 3346 50  0000 L CNN
+F 1 "10K" H 3759 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 3300 50  0001 C CNN
+F 3 "~" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3200 3700 3100
+Wire Wire Line
+	3700 3100 3500 3100
+Wire Wire Line
+	3250 3100 3250 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDE40F3
+P 3500 3050
+AR Path="/5CDE40F3" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CDE40F3" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CDE40F3" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CDE40F3" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 3500 2900 50  0001 C CNN
+F 1 "+5V" H 3515 3223 50  0000 C CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3050 3500 3100
+Connection ~ 3500 3100
+Wire Wire Line
+	3500 3100 3250 3100
+$Comp
+L Device:R_Small R3
+U 1 1 5CDF764E
+P 4900 4450
+F 0 "R3" H 4841 4404 50  0000 R CNN
+F 1 "10K" H 4841 4495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 4450 50  0001 C CNN
+F 3 "~" H 4900 4450 50  0001 C CNN
+	1    4900 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CE05710
+P 4900 4350
+AR Path="/5CE05710" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CE05710" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CE05710" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CE05710" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 4900 4200 50  0001 C CNN
+F 1 "+5V" H 4915 4523 50  0000 C CNN
+F 2 "" H 4900 4350 50  0001 C CNN
+F 3 "" H 4900 4350 50  0001 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4000 4550 4650
+Wire Wire Line
+	4900 4550 4900 4650
+Wire Wire Line
+	4900 4650 4550 4650
+Connection ~ 4550 4650
+Wire Wire Line
+	4550 4650 4550 4900
+$Comp
+L Device:R_Small R4
+U 1 1 5CE24E97
+P 3250 5200
+F 0 "R4" H 3191 5154 50  0000 R CNN
+F 1 "10K" H 3191 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 5200 50  0001 C CNN
+F 3 "~" H 3250 5200 50  0001 C CNN
+	1    3250 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CE24E9D
+P 3250 5100
+AR Path="/5CE24E9D" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CE24E9D" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CE24E9D" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CE24E9D" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 3250 4950 50  0001 C CNN
+F 1 "+5V" H 3265 5273 50  0000 C CNN
+F 2 "" H 3250 5100 50  0001 C CNN
+F 3 "" H 3250 5100 50  0001 C CNN
+	1    3250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5300 3250 5400
+Wire Wire Line
+	3250 5400 2900 5400
+Wire Wire Line
+	3600 4600 3700 4600
+Wire Wire Line
+	2700 5000 2700 4700
+Wire Wire Line
+	2700 4700 3700 4700
+Wire Wire Line
+	3700 4700 3700 4600
+Connection ~ 3700 4600
+Wire Wire Line
+	3700 4600 3800 4600
+Connection ~ 8600 3750
+Wire Wire Line
+	8100 3750 8100 3450
+Wire Wire Line
+	8100 3350 8100 3450
+Connection ~ 8100 3450
+$Comp
+L rc2014_monitor-rescue:74HCT138-74xx U?
+U 1 1 5CC19E52
+P 8600 3050
+AR Path="/5CC19E52" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
+F 0 "U4" H 8600 3100 50  0000 C CNN
+F 1 "74HCT138" H 8550 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 8600 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 8600 3050 50  0001 C CNN
+F 4 "Texas Instruments" H 5100 -800 50  0001 C CNN "MFR"
+F 5 "CD74HCT138E" H 5100 -800 50  0001 C CNN "MPN"
+F 6 "Mouser" H 5100 -800 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT138E" H 5100 -800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H 5100 -800 50  0001 C CNN "SPURL"
+	1    8600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3350 9100 3350
+Wire Wire Line
+	9250 3450 9100 3450
+Connection ~ 2100 1150
+Wire Wire Line
+	2100 1150 2300 1150
+Connection ~ 2100 1450
+Wire Wire Line
+	2100 1450 2300 1450
+Wire Wire Line
+	9100 3250 9250 3250
+$Comp
+L Diode:CMXSH-3 D1
+U 1 1 5CC9FE3A
+P 9350 3250
+F 0 "D1" H 9550 3200 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3250 50  0001 C CNN
+	1    9350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:CMXSH-3 D1
+U 2 1 5CCA3189
+P 9350 3350
+F 0 "D1" H 9550 3300 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3350 50  0001 C CNN
+	2    9350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:CMXSH-3 D1
+U 3 1 5CCA4950
+P 9350 3450
+F 0 "D1" H 9550 3400 50  0000 C CNN
+F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3450 50  0001 C CNN
+	3    9350 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 3250 9600 3250
+Wire Wire Line
+	9550 3450 9600 3450
+Wire Wire Line
+	9600 3450 9600 3350
+Wire Wire Line
+	9600 3350 9550 3350
+Wire Wire Line
+	9600 3350 9600 3250
+Connection ~ 9600 3350
+Connection ~ 9600 3250
+Wire Wire Line
+	9600 3250 9750 3250
+$Comp
+L Timer:LMC555xN U14
+U 1 1 5CDF5CF6
+P 2200 5200
+F 0 "U14" H 2200 5200 50  0000 C CNN
+F 1 "LMC555xN" H 1900 5600 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2200 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 2200 5200 50  0001 C CNN
+	1    2200 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
