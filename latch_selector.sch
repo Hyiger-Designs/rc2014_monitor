@@ -199,8 +199,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 2350 8000 2350
 Connection ~ 8000 2350
-Text Notes 9600 3250 0    50   ~ 0
-5V
 $Comp
 L power:GND #PWR?
 U 1 1 5CC2B79A
@@ -565,32 +563,12 @@ Wire Wire Line
 Wire Wire Line
 	8100 3350 8100 3450
 Connection ~ 8100 3450
-Wire Wire Line
-	9250 3350 9100 3350
-Wire Wire Line
-	9250 3450 9100 3450
 Connection ~ 2100 1150
 Wire Wire Line
 	2100 1150 2300 1150
 Connection ~ 2100 1450
 Wire Wire Line
 	2100 1450 2300 1450
-Wire Wire Line
-	9100 3250 9250 3250
-Wire Wire Line
-	9550 3250 9600 3250
-Wire Wire Line
-	9550 3450 9600 3450
-Wire Wire Line
-	9600 3450 9600 3350
-Wire Wire Line
-	9600 3350 9550 3350
-Wire Wire Line
-	9600 3350 9600 3250
-Connection ~ 9600 3350
-Connection ~ 9600 3250
-Wire Wire Line
-	9600 3250 9750 3250
 $Comp
 L Timer:LMC555xN U14
 U 1 1 5CDF5CF6
@@ -601,45 +579,6 @@ F 2 "Package_DIP:DIP-8_W7.62mm" H 2200 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 2200 5200 50  0001 C CNN
 	1    2200 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:CMXSH-3-Diode D1
-U 3 1 5CCA4950
-P 9350 3450
-AR Path="/5CCA4950" Ref="D1"  Part="3" 
-AR Path="/5CBDBC11/5CCA4950" Ref="D1"  Part="3" 
-F 0 "D1" H 9550 3400 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3250 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3450 50  0001 C CNN
-	3    9350 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L rc2014_monitor-rescue:CMXSH-3-Diode D1
-U 2 1 5CCA3189
-P 9350 3350
-AR Path="/5CCA3189" Ref="D1"  Part="2" 
-AR Path="/5CBDBC11/5CCA3189" Ref="D1"  Part="2" 
-F 0 "D1" H 9550 3300 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3150 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3350 50  0001 C CNN
-	2    9350 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L rc2014_monitor-rescue:CMXSH-3-Diode D1
-U 1 1 5CC9FE3A
-P 9350 3250
-AR Path="/5CC9FE3A" Ref="D1"  Part="1" 
-AR Path="/5CBDBC11/5CC9FE3A" Ref="D1"  Part="1" 
-F 0 "D1" H 9550 3200 50  0000 C CNN
-F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3050 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3250 50  0001 C CNN
-	1    9350 3250
-	-1   0    0    1   
 $EndComp
 $Comp
 L rc2014_monitor-rescue:74HCT138-74xx U?
@@ -1343,4 +1282,51 @@ F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 3700 4300 50  0001 C CNN
 	2    3700 4300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Diode:BAT43 D2
+U 1 1 5CC85B65
+P 9500 3350
+F 0 "D2" H 9150 3400 50  0000 C CNN
+F 1 "BAT43" H 9500 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9500 3175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 9500 3350 50  0001 C CNN
+	1    9500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT43 D1
+U 1 1 5CC88CC1
+P 9500 3250
+F 0 "D1" H 9150 3300 50  0000 C CNN
+F 1 "BAT43" H 9500 2900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9500 3075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 9500 3250 50  0001 C CNN
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT43 D3
+U 1 1 5CC89ED5
+P 9500 3450
+F 0 "D3" H 9150 3500 50  0000 C CNN
+F 1 "BAT43" H 9500 3300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9500 3275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 9500 3450 50  0001 C CNN
+	1    9500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3250 9350 3250
+Wire Wire Line
+	9100 3350 9350 3350
+Wire Wire Line
+	9100 3450 9350 3450
+Wire Wire Line
+	9650 3450 9650 3350
+Wire Wire Line
+	9750 3250 9650 3250
+Wire Wire Line
+	9650 3350 9650 3250
+Connection ~ 9650 3350
+Connection ~ 9650 3250
 $EndSCHEMATC
