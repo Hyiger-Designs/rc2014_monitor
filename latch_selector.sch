@@ -603,9 +603,11 @@ F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 2200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:CMXSH-3 D1
+L rc2014_monitor-rescue:CMXSH-3-Diode D1
 U 3 1 5CCA4950
 P 9350 3450
+AR Path="/5CCA4950" Ref="D1"  Part="3" 
+AR Path="/5CBDBC11/5CCA4950" Ref="D1"  Part="3" 
 F 0 "D1" H 9550 3400 50  0000 C CNN
 F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3250 50  0001 C CNN
@@ -614,9 +616,11 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3450 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:CMXSH-3 D1
+L rc2014_monitor-rescue:CMXSH-3-Diode D1
 U 2 1 5CCA3189
 P 9350 3350
+AR Path="/5CCA3189" Ref="D1"  Part="2" 
+AR Path="/5CBDBC11/5CCA3189" Ref="D1"  Part="2" 
 F 0 "D1" H 9550 3300 50  0000 C CNN
 F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3150 50  0001 C CNN
@@ -625,9 +629,11 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30374.pdf" H 9300 3350 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:CMXSH-3 D1
+L rc2014_monitor-rescue:CMXSH-3-Diode D1
 U 1 1 5CC9FE3A
 P 9350 3250
+AR Path="/5CC9FE3A" Ref="D1"  Part="1" 
+AR Path="/5CBDBC11/5CC9FE3A" Ref="D1"  Part="1" 
 F 0 "D1" H 9550 3200 50  0000 C CNN
 F 1 "CMXSH-3" H 9250 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9350 3050 50  0001 C CNN
