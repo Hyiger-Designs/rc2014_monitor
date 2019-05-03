@@ -462,9 +462,6 @@ Text GLabel 1650 4900 2    50   Output ~ 0
 GND
 Text GLabel 1650 5000 2    50   Output ~ 0
 5V
-NoConn ~ 1650 5100
-NoConn ~ 1650 5200
-NoConn ~ 1650 5300
 Text GLabel 1650 5800 2    50   Input ~ 0
 ~NMI
 Text GLabel 1650 5700 2    50   Input ~ 0
@@ -890,17 +887,6 @@ F 3 "~" H 1700 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J2
-U 1 1 5CB17847
-P 1450 5300
-F 0 "J2" H 1368 5917 50  0000 C CNN
-F 1 "Pro Bus" H 1368 5826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1450 5300 50  0001 C CNN
-F 3 "~" H 1450 5300 50  0001 C CNN
-	1    1450 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C17
 U 1 1 5CB2CAB8
 P 3600 6800
@@ -1307,4 +1293,30 @@ Text GLabel 4100 4350 1    50   Output ~ 0
 ~RST
 Wire Wire Line
 	4100 4350 4100 4600
+Text GLabel 1650 5100 2    50   Output ~ 0
+~RFSH
+Text GLabel 1650 5300 2    50   Output ~ 0
+CLK2
+Text GLabel 1450 6900 2    50   Output ~ 0
+CLK2
+NoConn ~ 1450 6900
+Text GLabel 1450 7050 2    50   Output ~ 0
+~RFSH
+NoConn ~ 1450 7050
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5CB17847
+P 1450 5300
+F 0 "J2" H 1368 5917 50  0000 C CNN
+F 1 "Pro Bus" H 1368 5826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1450 5300 50  0001 C CNN
+F 3 "~" H 1450 5300 50  0001 C CNN
+	1    1450 5300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1650 5200 2    50   Input ~ 0
+~RESET2
+Text GLabel 1400 7200 2    50   Input ~ 0
+~RESET2
+NoConn ~ 1400 7200
 $EndSCHEMATC
