@@ -496,52 +496,51 @@ Power
 Text GLabel 1000 5200 2    50   Input ~ 0
 ~RESET
 Wire Wire Line
-	3700 4550 3850 4550
+	3550 4600 3700 4600
 $Comp
 L power:+5V #PWR0120
 U 1 1 5CB25D6C
-P 3400 4250
+P 3250 4300
 AR Path="/5CB25D6C" Ref="#PWR0120"  Part="1" 
 AR Path="/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0120" H 3400 4100 50  0001 C CNN
-F 1 "+5V" H 3415 4423 50  0000 C CNN
-F 2 "" H 3400 4250 50  0001 C CNN
-F 3 "" H 3400 4250 50  0001 C CNN
-	1    3400 4250
+F 0 "#PWR0120" H 3250 4150 50  0001 C CNN
+F 1 "+5V" H 3265 4473 50  0000 C CNN
+F 2 "" H 3250 4300 50  0001 C CNN
+F 3 "" H 3250 4300 50  0001 C CNN
+	1    3250 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4950 3850 4950
+	4100 5000 3700 5000
 Wire Wire Line
-	3850 4850 3850 4950
-Connection ~ 3850 4950
+	3700 4900 3700 5000
+Connection ~ 3700 5000
 Wire Wire Line
-	4250 4550 3850 4550
-Connection ~ 3850 4550
-Text GLabel 4850 4550 2    50   Output ~ 0
+	4100 4600 3700 4600
+Connection ~ 3700 4600
+Text GLabel 4900 4600 2    50   Output ~ 0
 ~RESET
 Wire Wire Line
-	4850 4550 4650 4550
+	4900 4600 4700 4600
 $Comp
 L power:GND #PWR0121
 U 1 1 5CB41C00
-P 3850 4950
+P 3700 5000
 AR Path="/5CB41C00" Ref="#PWR0121"  Part="1" 
 AR Path="/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0121" H 3850 4700 50  0001 C CNN
-F 1 "GND" H 3855 4777 50  0000 C CNN
-F 2 "" H 3850 4950 50  0001 C CNN
-F 3 "" H 3850 4950 50  0001 C CNN
-	1    3850 4950
+F 0 "#PWR0121" H 3700 4750 50  0001 C CNN
+F 1 "GND" H 3705 4827 50  0000 C CNN
+F 2 "" H 3700 5000 50  0001 C CNN
+F 3 "" H 3700 5000 50  0001 C CNN
+	1    3700 5000
 	1    0    0    -1  
 $EndComp
-Connection ~ 4250 4550
 Wire Wire Line
-	3400 4850 3400 4950
+	3250 4900 3250 5000
 Wire Wire Line
-	3400 4950 3850 4950
+	3250 5000 3700 5000
 NoConn ~ 1400 6300
 NoConn ~ 1400 6450
 NoConn ~ 1400 6600
@@ -595,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3850 8500 4000
 Text GLabel 4000 3950 0    50   Input ~ 0
-~RESET
+~RST
 Wire Wire Line
 	2000 2200 3550 2200
 Wire Wire Line
@@ -643,7 +642,7 @@ Connection ~ 2950 2500
 Wire Wire Line
 	2950 2500 4500 2500
 Text GLabel 5350 2600 3    50   Input ~ 0
-RESET
+RST
 Wire Wire Line
 	5900 2400 4350 2400
 Wire Notes Line
@@ -823,60 +822,60 @@ $EndComp
 $Comp
 L rc2014_monitor-rescue:DS1813R-5+T&R-Analog_Switch U9
 U 1 1 5CB1FDC4
-P 3400 4550
-F 0 "U9" H 3172 4596 50  0000 R CNN
-F 1 "DS1813R-5+T&R" H 3172 4505 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3400 5050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf" H 3400 5050 50  0001 C CNN
-F 4 "Maxim Integrated" H 0   -550 50  0001 C CNN "MFR"
-F 5 "DS1813R-5+T&R" H 0   -550 50  0001 C CNN "MPN"
-F 6 "700-DS1813R-5T&R" H 0   -550 50  0001 C CNN "SPN"
-F 7 "Mouser" H 0   -550 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Maxim-Integrated/DS1813R-5%2bTR?qs=sGAEpiMZZMunEhqKs81nFOYiOo3T72djWXRgAqVsfRI%3D" H 0   -550 50  0001 C CNN "SPURL"
-	1    3400 4550
+P 3250 4600
+F 0 "U9" H 3022 4646 50  0000 R CNN
+F 1 "DS1813R-5+T&R" H 3022 4555 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3250 5100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf" H 3250 5100 50  0001 C CNN
+F 4 "Maxim Integrated" H -150 -500 50  0001 C CNN "MFR"
+F 5 "DS1813R-5+T&R" H -150 -500 50  0001 C CNN "MPN"
+F 6 "700-DS1813R-5T&R" H -150 -500 50  0001 C CNN "SPN"
+F 7 "Mouser" H -150 -500 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Maxim-Integrated/DS1813R-5%2bTR?qs=sGAEpiMZZMunEhqKs81nFOYiOo3T72djWXRgAqVsfRI%3D" H -150 -500 50  0001 C CNN "SPURL"
+	1    3250 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_2_Open JP5
 U 1 1 5CB4C4BB
-P 4450 4550
-F 0 "JP5" H 4450 4785 50  0000 C CNN
-F 1 "Reset Enable" H 4450 4694 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4450 4550 50  0001 C CNN
-F 3 "~" H 4450 4550 50  0001 C CNN
-	1    4450 4550
+P 4500 4600
+F 0 "JP5" H 4500 4835 50  0000 C CNN
+F 1 "Reset Enable" H 4500 4744 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4500 4600 50  0001 C CNN
+F 3 "~" H 4500 4600 50  0001 C CNN
+	1    4500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5CB2901B
-P 4250 4750
-F 0 "SW2" V 4204 4898 50  0000 L CNN
-F 1 "SW_Push" V 4295 4898 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4250 4950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 4250 4950 50  0001 C CNN
-F 4 "Panasonic" H 0   -550 50  0001 C CNN "MFR"
-F 5 "EVQ-PE105K" H 0   -550 50  0001 C CNN "MPN"
-F 6 "667-EVQ-PE105K" H 0   -550 50  0001 C CNN "SPN"
-F 7 "Mouser" H 0   -550 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H 0   -550 50  0001 C CNN "SPURL"
-	1    4250 4750
+P 4100 4800
+F 0 "SW2" V 4054 4948 50  0000 L CNN
+F 1 "SW_Push" V 4145 4948 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4100 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 4100 5000 50  0001 C CNN
+F 4 "Panasonic" H -150 -500 50  0001 C CNN "MFR"
+F 5 "EVQ-PE105K" H -150 -500 50  0001 C CNN "MPN"
+F 6 "667-EVQ-PE105K" H -150 -500 50  0001 C CNN "SPN"
+F 7 "Mouser" H -150 -500 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H -150 -500 50  0001 C CNN "SPURL"
+	1    4100 4800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C9
 U 1 1 5CB1BEC1
-P 3850 4700
-F 0 "C9" H 3965 4746 50  0000 L CNN
-F 1 "100nF" H 3965 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 4550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3850 4700 50  0001 C CNN
-F 4 "KEMET" H -2800 -2000 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H -2800 -2000 50  0001 C CNN "MPN"
-F 6 "Mouser" H -2800 -2000 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H -2800 -2000 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2800 -2000 50  0001 C CNN "SPURL"
-	1    3850 4700
+P 3700 4750
+F 0 "C9" H 3815 4796 50  0000 L CNN
+F 1 "100nF" H 3815 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 4600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3700 4750 50  0001 C CNN
+F 4 "KEMET" H -2950 -1950 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2950 -1950 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2950 -1950 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2950 -1950 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2950 -1950 50  0001 C CNN "SPURL"
+	1    3700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1096,7 +1095,7 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 Text GLabel 4950 3950 2    50   Output ~ 0
-RESET
+RST
 Connection ~ 4150 3950
 Wire Wire Line
 	4150 3950 4350 3950
@@ -1301,4 +1300,11 @@ F 3 "~" H 3850 6350 50  0001 C CNN
 	1    3850 6350
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4100 4600 4300 4600
+Connection ~ 4100 4600
+Text GLabel 4100 4350 1    50   Output ~ 0
+~RST
+Wire Wire Line
+	4100 4350 4100 4600
 $EndSCHEMATC
