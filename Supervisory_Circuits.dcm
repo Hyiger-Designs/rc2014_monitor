@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1233Z-5+
+D 5V EconoReset
+F https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf
+$ENDCMP
+#
+#End Doc Library
