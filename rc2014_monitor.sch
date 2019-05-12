@@ -453,20 +453,6 @@ Text GLabel 1650 5400 2    50   Output ~ 0
 ~BUSACK
 Text GLabel 1000 5400 2    50   Input ~ 0
 ~INT
-$Comp
-L power:GND #PWR03
-U 1 1 5CB8FB00
-P 1500 3000
-AR Path="/5CB8FB00" Ref="#PWR03"  Part="1" 
-AR Path="/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 1500 2750 50  0001 C CNN
-F 1 "GND" H 1505 2827 50  0000 C CNN
-F 2 "" H 1500 3000 50  0001 C CNN
-F 3 "" H 1500 3000 50  0001 C CNN
-	1    1500 3000
-	1    0    0    -1  
-$EndComp
 Text Notes 2650 6100 2    50   ~ 0
 Power
 Text GLabel 1000 5200 2    50   Input ~ 0
@@ -783,17 +769,6 @@ F 6 "Mouser" H -2950 -1950 50  0001 C CNN "SPR"
 F 7 "80-C0805C102K4R" H -2950 -1950 50  0001 C CNN "SPN"
 F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C102K4RACTU?qs=%2Fha2pyFadugbjD%2F0nhYM24P2zyosOzhJTBE7wCxhama1%252Bf6tSW9efA%3D%3D" H -2950 -1950 50  0001 C CNN "SPURL"
 	1    3700 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 5CB841EA
-P 1700 3000
-F 0 "J1" H 1728 3026 50  0000 L CNN
-F 1 "M3 Mounting Hole" H 1728 2935 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1700 3000 50  0001 C CNN
-F 3 "~" H 1700 3000 50  0001 C CNN
-	1    1700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1377,6 +1352,31 @@ F 1 "+5V" H 8515 4023 50  0000 C CNN
 F 2 "" H 8500 3850 50  0001 C CNN
 F 3 "" H 8500 3850 50  0001 C CNN
 	1    8500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5CB841EA
+P 1700 3000
+F 0 "J1" H 1728 3026 50  0000 L CNN
+F 1 "M3 Mounting Hole" H 1728 2935 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1700 3000 50  0001 C CNN
+F 3 "~" H 1700 3000 50  0001 C CNN
+	1    1700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5CB8FB00
+P 1500 3000
+AR Path="/5CB8FB00" Ref="#PWR03"  Part="1" 
+AR Path="/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CB8FB00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR03" H 1500 2750 50  0001 C CNN
+F 1 "GND" H 1505 2827 50  0000 C CNN
+F 2 "" H 1500 3000 50  0001 C CNN
+F 3 "" H 1500 3000 50  0001 C CNN
+	1    1500 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
