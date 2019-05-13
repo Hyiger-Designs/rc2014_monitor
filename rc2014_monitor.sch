@@ -17,15 +17,15 @@ $EndDescr
 $Comp
 L power:GND #PWR09
 U 1 1 5CA7C0A7
-P 8500 5750
+P 5000 5550
 AR Path="/5CA7C0A7" Ref="#PWR09"  Part="1" 
 AR Path="/5CB63856/5CA7C0A7" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CA7C0A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR09" H 8500 5500 50  0001 C CNN
-F 1 "GND" H 8505 5577 50  0000 C CNN
-F 2 "" H 8500 5750 50  0001 C CNN
-F 3 "" H 8500 5750 50  0001 C CNN
-	1    8500 5750
+F 0 "#PWR09" H 5000 5300 50  0001 C CNN
+F 1 "GND" H 5005 5377 50  0000 C CNN
+F 2 "" H 5000 5550 50  0001 C CNN
+F 3 "" H 5000 5550 50  0001 C CNN
+	1    5000 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -73,15 +73,15 @@ $EndComp
 $Comp
 L power:+5V #PWR07
 U 1 1 5CB4017A
-P 7350 3150
+P 3150 2850
 AR Path="/5CB4017A" Ref="#PWR07"  Part="1" 
 AR Path="/5CB63856/5CB4017A" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CB4017A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 7350 3000 50  0001 C CNN
-F 1 "+5V" H 7365 3323 50  0000 C CNN
-F 2 "" H 7350 3150 50  0001 C CNN
-F 3 "" H 7350 3150 50  0001 C CNN
-	1    7350 3150
+F 0 "#PWR07" H 3150 2700 50  0001 C CNN
+F 1 "+5V" H 3165 3023 50  0000 C CNN
+F 2 "" H 3150 2850 50  0001 C CNN
+F 3 "" H 3150 2850 50  0001 C CNN
+	1    3150 2850
 	1    0    0    -1  
 $EndComp
 Text GLabel 1000 5900 2    50   Output ~ 0
@@ -146,67 +146,67 @@ Text GLabel 1000 3700 2    50   Output ~ 0
 A11
 Text GLabel 1000 3800 2    50   Output ~ 0
 A10
-Text GLabel 6100 4700 0    50   Input ~ 0
+Text GLabel 2600 4500 0    50   Input ~ 0
 A11
-Text GLabel 6100 4800 0    50   Input ~ 0
+Text GLabel 2600 4600 0    50   Input ~ 0
 A10
-Text GLabel 6100 4900 0    50   Input ~ 0
+Text GLabel 2600 4700 0    50   Input ~ 0
 A9
-Text GLabel 6100 5000 0    50   Input ~ 0
+Text GLabel 2600 4800 0    50   Input ~ 0
 A8
-Text GLabel 6100 4300 0    50   Input ~ 0
+Text GLabel 2600 4100 0    50   Input ~ 0
 A15
-Text GLabel 6100 4400 0    50   Input ~ 0
+Text GLabel 2600 4200 0    50   Input ~ 0
 A14
-Text GLabel 6100 4500 0    50   Input ~ 0
+Text GLabel 2600 4300 0    50   Input ~ 0
 A13
-Text GLabel 6100 4600 0    50   Input ~ 0
+Text GLabel 2600 4400 0    50   Input ~ 0
 A12
-Text GLabel 9000 4700 2    50   Output ~ 0
+Text GLabel 5500 4500 2    50   Output ~ 0
 D_A3
-Text GLabel 9000 4800 2    50   Output ~ 0
+Text GLabel 5500 4600 2    50   Output ~ 0
 D_A2
-Text GLabel 9000 4900 2    50   Output ~ 0
+Text GLabel 5500 4700 2    50   Output ~ 0
 D_A1
-Text GLabel 9000 5000 2    50   Output ~ 0
+Text GLabel 5500 4800 2    50   Output ~ 0
 D_A0
-Text GLabel 9000 4300 2    50   Output ~ 0
+Text GLabel 5500 4100 2    50   Output ~ 0
 D_A7
-Text GLabel 9000 4400 2    50   Output ~ 0
+Text GLabel 5500 4200 2    50   Output ~ 0
 D_A6
-Text GLabel 9000 4500 2    50   Output ~ 0
+Text GLabel 5500 4300 2    50   Output ~ 0
 D_A5
-Text GLabel 9000 4600 2    50   Output ~ 0
+Text GLabel 5500 4400 2    50   Output ~ 0
 D_A4
-Text GLabel 9900 4600 0    50   Input ~ 0
+Text GLabel 6400 4400 0    50   Input ~ 0
 D3
-Text GLabel 9900 4500 0    50   Input ~ 0
+Text GLabel 6400 4300 0    50   Input ~ 0
 D2
-Text GLabel 9900 4400 0    50   Input ~ 0
+Text GLabel 6400 4200 0    50   Input ~ 0
 D1
-Text GLabel 9900 4300 0    50   Input ~ 0
+Text GLabel 6400 4100 0    50   Input ~ 0
 D0
-Text GLabel 9900 5000 0    50   Input ~ 0
+Text GLabel 6400 4800 0    50   Input ~ 0
 D7
-Text GLabel 9900 4900 0    50   Input ~ 0
+Text GLabel 6400 4700 0    50   Input ~ 0
 D6
-Text GLabel 9900 4800 0    50   Input ~ 0
+Text GLabel 6400 4600 0    50   Input ~ 0
 D5
-Text GLabel 9900 4700 0    50   Input ~ 0
+Text GLabel 6400 4500 0    50   Input ~ 0
 D4
-Text GLabel 10900 4600 2    50   Output ~ 0
+Text GLabel 7400 4400 2    50   Output ~ 0
 D_D3
-Text GLabel 10900 4400 2    50   Output ~ 0
+Text GLabel 7400 4200 2    50   Output ~ 0
 D_D1
-Text GLabel 10900 4300 2    50   Output ~ 0
+Text GLabel 7400 4100 2    50   Output ~ 0
 D_D0
-Text GLabel 10900 5000 2    50   Output ~ 0
+Text GLabel 7400 4800 2    50   Output ~ 0
 D_D7
-Text GLabel 10900 4900 2    50   Output ~ 0
+Text GLabel 7400 4700 2    50   Output ~ 0
 D_D6
-Text GLabel 10900 4800 2    50   Output ~ 0
+Text GLabel 7400 4600 2    50   Output ~ 0
 D_D5
-Text GLabel 10900 4700 2    50   Output ~ 0
+Text GLabel 7400 4500 2    50   Output ~ 0
 D_D4
 Text GLabel 6400 6700 2    50   Input ~ 0
 5V
@@ -258,16 +258,16 @@ Text GLabel 7550 1350 0    50   Input ~ 0
 D_D5
 Text GLabel 7550 1250 0    50   Input ~ 0
 D_D4
-Text GLabel 10900 4500 2    50   Output ~ 0
+Text GLabel 7400 4300 2    50   Output ~ 0
 D_D2
 Wire Wire Line
-	8500 4000 10400 4000
+	5000 3800 6900 3800
 Wire Wire Line
-	8500 5600 9900 5600
+	5000 5400 6400 5400
 Wire Wire Line
-	8000 5600 8500 5600
+	4500 5400 5000 5400
 Wire Wire Line
-	9900 5600 10400 5600
+	6400 5400 6900 5400
 Wire Wire Line
 	1900 800  2100 800 
 Wire Wire Line
@@ -321,12 +321,12 @@ Wire Wire Line
 Wire Wire Line
 	5900 800  6550 800 
 Wire Wire Line
-	7350 3150 7800 3150
+	3150 2850 3600 2850
 Wire Wire Line
-	7350 3450 7800 3450
-Connection ~ 8500 4000
-Connection ~ 8500 5600
-Connection ~ 9900 5600
+	3150 3150 3600 3150
+Connection ~ 5000 3800
+Connection ~ 5000 5400
+Connection ~ 6400 5400
 Connection ~ 6650 2200
 Connection ~ 2100 800 
 Connection ~ 3650 800 
@@ -347,8 +347,8 @@ Connection ~ 5000 800
 Connection ~ 3450 800 
 Connection ~ 9800 2200
 Connection ~ 5900 800 
-Connection ~ 7350 3150
-Connection ~ 7350 3450
+Connection ~ 3150 2850
+Connection ~ 3150 3150
 NoConn ~ 1000 6900
 NoConn ~ 1000 7000
 NoConn ~ 1000 7100
@@ -426,15 +426,15 @@ Wire Wire Line
 Wire Wire Line
 	4450 7000 4450 7100
 $Sheet
-S 9000 2750 1200 800 
+S 8850 4200 1200 800 
 U 5CBDBC11
 F0 "LatchSelector" 50
 F1 "latch_selector.sch" 50
 $EndSheet
 Wire Wire Line
-	6900 3150 7350 3150
+	2700 2850 3150 2850
 Wire Wire Line
-	6900 3450 7350 3450
+	2700 3150 3150 3150
 Wire Notes Line
 	2350 5950 2350 7650
 Text GLabel 1650 4900 2    50   Output ~ 0
@@ -457,34 +457,6 @@ Text Notes 2650 6100 2    50   ~ 0
 Power
 Text GLabel 1000 5200 2    50   Input ~ 0
 ~RESET
-Wire Wire Line
-	3550 4600 3700 4600
-Wire Wire Line
-	3700 4900 3700 5000
-Connection ~ 3700 5000
-Connection ~ 3700 4600
-Text GLabel 4950 4600 2    50   Output ~ 0
-~RESET
-Wire Wire Line
-	4950 4600 4750 4600
-$Comp
-L power:GND #PWR06
-U 1 1 5CB41C00
-P 3700 5000
-AR Path="/5CB41C00" Ref="#PWR06"  Part="1" 
-AR Path="/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CB41C00" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 3700 4750 50  0001 C CNN
-F 1 "GND" H 3705 4827 50  0000 C CNN
-F 2 "" H 3700 5000 50  0001 C CNN
-F 3 "" H 3700 5000 50  0001 C CNN
-	1    3700 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 4900 3250 5000
-Wire Wire Line
-	3250 5000 3700 5000
 NoConn ~ 1400 6300
 NoConn ~ 1400 6450
 NoConn ~ 1400 6600
@@ -499,27 +471,23 @@ Text GLabel 1400 6450 2    50   Input ~ 0
 ~BUSRQ
 Text GLabel 1400 6600 2    50   Input ~ 0
 ~NMI
-Wire Notes Line
-	2350 5250 5250 5250
-Text Notes 2400 3400 0    50   ~ 0
-Reset Monitor & Display Blank
 Wire Wire Line
-	6100 5300 6100 5600
+	2600 5100 2600 5400
 Wire Wire Line
-	6100 5600 6600 5600
+	2600 5400 3100 5400
 Wire Wire Line
-	6100 5300 6100 5200
-Connection ~ 6100 5300
+	2600 5100 2600 5000
+Connection ~ 2600 5100
 Wire Wire Line
-	8000 5300 8000 5600
+	4500 5100 4500 5400
 Wire Wire Line
-	9900 5300 9900 5600
+	6400 5100 6400 5400
 Wire Wire Line
-	9900 5300 9900 5200
-Connection ~ 9900 5300
+	6400 5100 6400 5000
+Connection ~ 6400 5100
 Wire Wire Line
-	8000 5300 8000 5200
-Connection ~ 8000 5300
+	4500 5100 4500 5000
+Connection ~ 4500 5100
 Wire Wire Line
 	3150 7000 3150 7100
 Text GLabel 1000 5300 2    50   Output ~ 0
@@ -529,11 +497,9 @@ CLK
 NoConn ~ 1400 6000
 NoConn ~ 1400 6150
 Wire Wire Line
-	8500 5750 8500 5600
+	5000 5550 5000 5400
 Wire Wire Line
-	8500 3850 8500 4000
-Text GLabel 4150 3750 0    50   Input ~ 0
-~RST
+	5000 3650 5000 3800
 Wire Wire Line
 	2000 2200 3550 2200
 Wire Wire Line
@@ -580,14 +546,8 @@ Wire Wire Line
 Connection ~ 2950 2500
 Wire Wire Line
 	2950 2500 4500 2500
-Text GLabel 5350 2600 3    50   Input ~ 0
-RST
 Wire Wire Line
 	5900 2400 4350 2400
-Wire Notes Line
-	5250 3300 5250 5250
-Wire Notes Line
-	2350 3300 2350 5250
 Wire Wire Line
 	4500 2500 5350 2500
 Wire Wire Line
@@ -597,10 +557,6 @@ Wire Wire Line
 	5350 2500 6050 2500
 Text GLabel 9200 1250 0    50   Input ~ 0
 D_D0
-Wire Notes Line
-	5250 3300 2350 3300
-Wire Wire Line
-	3900 4450 3900 4600
 Connection ~ 3350 6700
 Wire Wire Line
 	3150 6700 3350 6700
@@ -683,92 +639,49 @@ $EndComp
 $Comp
 L 74xx:74HCT541 U5
 U 1 1 5CBBDA4F
-P 10400 4800
-F 0 "U5" H 10200 5450 50  0000 C CNN
-F 1 "74HCT541" H 10400 4500 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 10400 4800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 10400 4800 50  0001 C CNN
-F 4 "Texas Instruments" H 350 1050 50  0001 C CNN "MFR"
-F 5 "CD74HCT541E" H 350 1050 50  0001 C CNN "MPN"
-F 6 "595-D74HCT541E" H 350 1050 50  0001 C CNN "SPN"
-F 7 "Mouser" H 350 1050 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 350 1050 50  0001 C CNN "SPURL"
-	1    10400 4800
+P 6900 4600
+F 0 "U5" H 6700 5250 50  0000 C CNN
+F 1 "74HCT541" H 6900 4300 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 6900 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 6900 4600 50  0001 C CNN
+F 4 "Texas Instruments" H -3150 850 50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H -3150 850 50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H -3150 850 50  0001 C CNN "SPN"
+F 7 "Mouser" H -3150 850 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H -3150 850 50  0001 C CNN "SPURL"
+	1    6900 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HCT541 U4
 U 1 1 5CBBA2FE
-P 8500 4800
-F 0 "U4" H 8300 5450 50  0000 C CNN
-F 1 "74HCT541" H 8500 4500 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 8500 4800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 8500 4800 50  0001 C CNN
-F 4 "Texas Instruments" H 350 1050 50  0001 C CNN "MFR"
-F 5 "CD74HCT541E" H 350 1050 50  0001 C CNN "MPN"
-F 6 "595-D74HCT541E" H 350 1050 50  0001 C CNN "SPN"
-F 7 "Mouser" H 350 1050 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 350 1050 50  0001 C CNN "SPURL"
-	1    8500 4800
+P 5000 4600
+F 0 "U4" H 4800 5250 50  0000 C CNN
+F 1 "74HCT541" H 5000 4300 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 5000 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 5000 4600 50  0001 C CNN
+F 4 "Texas Instruments" H -3150 850 50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H -3150 850 50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H -3150 850 50  0001 C CNN "SPN"
+F 7 "Mouser" H -3150 850 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H -3150 850 50  0001 C CNN "SPURL"
+	1    5000 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HCT541 U3
 U 1 1 5CB94EBF
-P 6600 4800
-F 0 "U3" H 6400 5450 50  0000 C CNN
-F 1 "74HCT541" H 6600 4500 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 6600 4800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 6600 4800 50  0001 C CNN
-F 4 "Texas Instruments" H 350 1050 50  0001 C CNN "MFR"
-F 5 "CD74HCT541E" H 350 1050 50  0001 C CNN "MPN"
-F 6 "595-D74HCT541E" H 350 1050 50  0001 C CNN "SPN"
-F 7 "Mouser" H 350 1050 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H 350 1050 50  0001 C CNN "SPURL"
-	1    6600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP1
-U 1 1 5CB4C4BB
-P 4550 4600
-F 0 "JP1" H 4550 4835 50  0000 C CNN
-F 1 "Reset Enable" H 4550 4744 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4550 4600 50  0001 C CNN
-F 3 "~" H 4550 4600 50  0001 C CNN
-	1    4550 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5CB2901B
-P 4150 4800
-F 0 "SW1" V 4104 4948 50  0000 L CNN
-F 1 "SW_Push" V 4195 4948 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4150 5000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6035s-1289049.pdf" H 4150 5000 50  0001 C CNN
-F 4 "Panasonic" H -100 -500 50  0001 C CNN "MFR"
-F 5 "EVQ-PE105K" H -100 -500 50  0001 C CNN "MPN"
-F 6 "667-EVQ-PE105K" H -100 -500 50  0001 C CNN "SPN"
-F 7 "Mouser" H -100 -500 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-PE105K?qs=%2Fha2pyFadugglJJqpTU02cKG%252Bs45o0bnECBACmtiTWvOJDNRmR0Ydw%3D%3D" H -100 -500 50  0001 C CNN "SPURL"
-	1    4150 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5CB1BEC1
-P 3700 4750
-F 0 "C2" H 3815 4796 50  0000 L CNN
-F 1 "1nF" H 3815 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 4600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3700 4750 50  0001 C CNN
-F 4 "KEMET" H -2950 -1950 50  0001 C CNN "MFR"
-F 5 "C0805C102K4RACTU" H -2950 -1950 50  0001 C CNN "MPN"
-F 6 "Mouser" H -2950 -1950 50  0001 C CNN "SPR"
-F 7 "80-C0805C102K4R" H -2950 -1950 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C102K4RACTU?qs=%2Fha2pyFadugbjD%2F0nhYM24P2zyosOzhJTBE7wCxhama1%252Bf6tSW9efA%3D%3D" H -2950 -1950 50  0001 C CNN "SPURL"
-	1    3700 4750
+P 3100 4600
+F 0 "U3" H 2900 5250 50  0000 C CNN
+F 1 "74HCT541" H 3100 4300 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 3100 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct541.pdf" H 3100 4600 50  0001 C CNN
+F 4 "Texas Instruments" H -3150 850 50  0001 C CNN "MFR"
+F 5 "CD74HCT541E" H -3150 850 50  0001 C CNN "MPN"
+F 6 "595-D74HCT541E" H -3150 850 50  0001 C CNN "SPN"
+F 7 "Mouser" H -3150 850 50  0001 C CNN "SPR"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT541E?qs=%2Fha2pyFaduie5qHQw9Y5A05fOr7dWZf5pDnELmZX0BLQ0czT8MzrEQ%3D%3D" H -3150 850 50  0001 C CNN "SPURL"
+	1    3100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -824,49 +737,49 @@ $EndComp
 $Comp
 L Device:C C5
 U 1 1 5CB2F4C8
-P 7800 3300
-F 0 "C5" H 7915 3346 50  0000 L CNN
-F 1 "100nF" H 7915 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7800 3300 50  0001 C CNN
-F 4 "KEMET" H 1600 -3400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H 1600 -3400 50  0001 C CNN "MPN"
-F 6 "Mouser" H 1600 -3400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H 1600 -3400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 1600 -3400 50  0001 C CNN "SPURL"
-	1    7800 3300
+P 3600 3000
+F 0 "C5" H 3715 3046 50  0000 L CNN
+F 1 "100nF" H 3715 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3638 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3600 3000 50  0001 C CNN
+F 4 "KEMET" H -2600 -3700 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2600 -3700 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2600 -3700 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2600 -3700 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2600 -3700 50  0001 C CNN "SPURL"
+	1    3600 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5CB2956E
-P 7350 3300
-F 0 "C4" H 7465 3346 50  0000 L CNN
-F 1 "100nF" H 7465 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7350 3300 50  0001 C CNN
-F 4 "KEMET" H 1600 -3400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H 1600 -3400 50  0001 C CNN "MPN"
-F 6 "Mouser" H 1600 -3400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H 1600 -3400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 1600 -3400 50  0001 C CNN "SPURL"
-	1    7350 3300
+P 3150 3000
+F 0 "C4" H 3265 3046 50  0000 L CNN
+F 1 "100nF" H 3265 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3188 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3150 3000 50  0001 C CNN
+F 4 "KEMET" H -2600 -3700 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2600 -3700 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2600 -3700 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2600 -3700 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2600 -3700 50  0001 C CNN "SPURL"
+	1    3150 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5CB29564
-P 6900 3300
-F 0 "C3" H 7015 3346 50  0000 L CNN
-F 1 "100nF" H 7015 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 6900 3300 50  0001 C CNN
-F 4 "KEMET" H 1600 -3400 50  0001 C CNN "MFR"
-F 5 "C0805C104K4RACTU" H 1600 -3400 50  0001 C CNN "MPN"
-F 6 "Mouser" H 1600 -3400 50  0001 C CNN "SPR"
-F 7 "80-C0805C104K4R" H 1600 -3400 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H 1600 -3400 50  0001 C CNN "SPURL"
-	1    6900 3300
+P 2700 3000
+F 0 "C3" H 2815 3046 50  0000 L CNN
+F 1 "100nF" H 2815 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2700 3000 50  0001 C CNN
+F 4 "KEMET" H -2600 -3700 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -2600 -3700 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2600 -3700 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -2600 -3700 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -2600 -3700 50  0001 C CNN "SPURL"
+	1    2700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -965,26 +878,6 @@ F 8 "-" H 50  0   50  0001 C CNN "SPURL"
 	1    2000 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 3750 2    50   Output ~ 0
-RST
-$Comp
-L 74xx:74HCT00 U?
-U 3 1 5CBA6ACE
-P 4650 3750
-AR Path="/5CBDBC11/5CBA6ACE" Ref="U?"  Part="4" 
-AR Path="/5CBA6ACE" Ref="U1"  Part="3" 
-F 0 "U1" H 4650 4075 50  0000 C CNN
-F 1 "74HCT00" H 4650 3984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4650 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct00.pdf" H 4650 3750 50  0001 C CNN
-F 4 "Texas Instruments" H 2900 -2100 50  0001 C CNN "MFR"
-F 5 "CD74HCT00E" H 2900 -2100 50  0001 C CNN "MPN"
-F 6 "595-CD74HCT00E" H 2900 -2100 50  0001 C CNN "SPN"
-F 7 "Mouser" H 2900 -2100 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT00E?qs=%2Fha2pyFadui%2FKTy9HJ5lB2bvnS2yYlFmKLu9w5G%252BX5xMG4CMjJrhdg%3D%3D" H 2900 -2100 50  0001 C CNN "SPURL"
-	3    4650 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 4050 1900 4050
 Wire Wire Line
@@ -1078,56 +971,56 @@ $EndComp
 Wire Wire Line
 	4800 7150 4800 7100
 Connection ~ 4800 7100
-Connection ~ 8000 5600
-Connection ~ 6600 5600
+Connection ~ 4500 5400
+Connection ~ 3100 5400
 Wire Wire Line
-	6600 5600 8000 5600
+	3100 5400 4500 5400
 Wire Wire Line
-	6600 4000 8500 4000
-Text GLabel 8000 4600 0    50   Input ~ 0
+	3100 3800 5000 3800
+Text GLabel 4500 4400 0    50   Input ~ 0
 A4
-Text GLabel 8000 4500 0    50   Input ~ 0
+Text GLabel 4500 4300 0    50   Input ~ 0
 A5
-Text GLabel 8000 4400 0    50   Input ~ 0
+Text GLabel 4500 4200 0    50   Input ~ 0
 A6
-Text GLabel 8000 4300 0    50   Input ~ 0
+Text GLabel 4500 4100 0    50   Input ~ 0
 A7
-Text GLabel 8000 5000 0    50   Input ~ 0
+Text GLabel 4500 4800 0    50   Input ~ 0
 A0
-Text GLabel 8000 4900 0    50   Input ~ 0
+Text GLabel 4500 4700 0    50   Input ~ 0
 A1
-Text GLabel 8000 4800 0    50   Input ~ 0
+Text GLabel 4500 4600 0    50   Input ~ 0
 A2
-Text GLabel 8000 4700 0    50   Input ~ 0
+Text GLabel 4500 4500 0    50   Input ~ 0
 A3
-Text GLabel 7100 4600 2    50   Output ~ 0
+Text GLabel 3600 4400 2    50   Output ~ 0
 D_A12
-Text GLabel 7100 4500 2    50   Output ~ 0
+Text GLabel 3600 4300 2    50   Output ~ 0
 D_A13
-Text GLabel 7100 4400 2    50   Output ~ 0
+Text GLabel 3600 4200 2    50   Output ~ 0
 D_A14
-Text GLabel 7100 4300 2    50   Output ~ 0
+Text GLabel 3600 4100 2    50   Output ~ 0
 D_A15
-Text GLabel 7100 5000 2    50   Output ~ 0
+Text GLabel 3600 4800 2    50   Output ~ 0
 D_A8
-Text GLabel 7100 4900 2    50   Output ~ 0
+Text GLabel 3600 4700 2    50   Output ~ 0
 D_A9
-Text GLabel 7100 4800 2    50   Output ~ 0
+Text GLabel 3600 4600 2    50   Output ~ 0
 D_A10
-Text GLabel 7100 4700 2    50   Output ~ 0
+Text GLabel 3600 4500 2    50   Output ~ 0
 D_A11
 $Comp
 L power:GND #PWR08
 U 1 1 5CB46BB0
-P 7350 3450
+P 3150 3150
 AR Path="/5CB46BB0" Ref="#PWR08"  Part="1" 
 AR Path="/5CB63856/5CB46BB0" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CB46BB0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 7350 3200 50  0001 C CNN
-F 1 "GND" H 7355 3277 50  0000 C CNN
-F 2 "" H 7350 3450 50  0001 C CNN
-F 3 "" H 7350 3450 50  0001 C CNN
-	1    7350 3450
+F 0 "#PWR08" H 3150 2900 50  0001 C CNN
+F 1 "GND" H 3155 2977 50  0000 C CNN
+F 2 "" H 3150 3150 50  0001 C CNN
+F 3 "" H 3150 3150 50  0001 C CNN
+	1    3150 3150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1148,13 +1041,6 @@ F 3 "~" H 4450 6400 50  0001 C CNN
 	1    4450 6400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4150 4600 4350 4600
-Connection ~ 4150 4600
-Text GLabel 4150 4350 1    50   Output ~ 0
-~RST
-Wire Wire Line
-	4150 4350 4150 4600
 Text GLabel 1650 5100 2    50   Output ~ 0
 ~RFSH
 Text GLabel 1650 5300 2    50   Output ~ 0
@@ -1181,83 +1067,6 @@ Text GLabel 1650 5200 2    50   Input ~ 0
 Text GLabel 1400 7200 2    50   Input ~ 0
 ~RESET2
 NoConn ~ 1400 7200
-$Comp
-L rc2014_monitor-rescue:DS1233Z-5+-Supervisory_Circuits U2
-U 1 1 5CD0450C
-P 3250 4650
-F 0 "U2" H 3021 4721 50  0000 R CNN
-F 1 "DS1233Z-5+" H 3021 4630 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3500 4890 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/256/DS1233-1389125.pdf" V 3600 4350 60  0001 C CNN
-F 4 "Maxim Integrated" H 3250 4650 50  0001 C CNN "MFR"
-F 5 "DS1233Z-5+" H 3250 4650 50  0001 C CNN "MPN"
-F 6 "700-DS1233Z-5" H 3250 4650 50  0001 C CNN "SPN"
-F 7 "Mouser" H 3250 4650 50  0001 C CNN "SPR"
-F 8 "https://www.mouser.com/ProductDetail/Maxim-Integrated/DS1233Z-5%2b?qs=sGAEpiMZZMunEhqKs81nFDyoBDife22LI0j2foOmT0E%3D" H 3250 4650 50  0001 C CNN "SPURL"
-	1    3250 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR05
-U 1 1 5CB25D6C
-P 3250 4350
-AR Path="/5CB25D6C" Ref="#PWR05"  Part="1" 
-AR Path="/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CB25D6C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 3250 4200 50  0001 C CNN
-F 1 "+5V" H 3265 4523 50  0000 C CNN
-F 2 "" H 3250 4350 50  0001 C CNN
-F 3 "" H 3250 4350 50  0001 C CNN
-	1    3250 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 4900 3250 4900
-Wire Wire Line
-	3350 4900 3250 4900
-Connection ~ 3250 4900
-$Comp
-L Device:R_Small R?
-U 1 1 5CC78D11
-P 3900 4350
-AR Path="/5CBDBC11/5CC78D11" Ref="R?"  Part="1" 
-AR Path="/5CC78D11" Ref="R1"  Part="1" 
-F 0 "R1" H 3841 4304 50  0000 R CNN
-F 1 "1K" H 3841 4395 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 4350 50  0001 C CNN
-F 3 "~" H 3900 4350 50  0001 C CNN
-	1    3900 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR04
-U 1 1 5CC78D17
-P 3900 4250
-AR Path="/5CC78D17" Ref="#PWR04"  Part="1" 
-AR Path="/5CB63856/5CC78D17" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CC78D17" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5CC78D17" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 3900 4100 50  0001 C CNN
-F 1 "+5V" H 3915 4423 50  0000 C CNN
-F 2 "" H 3900 4250 50  0001 C CNN
-F 3 "" H 3900 4250 50  0001 C CNN
-	1    3900 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 4600 3700 4600
-Wire Wire Line
-	4350 3650 4350 3750
-Wire Wire Line
-	4150 3750 4350 3750
-Connection ~ 4350 3750
-Wire Wire Line
-	4350 3750 4350 3850
-Wire Wire Line
-	3900 4600 4150 4600
-Connection ~ 3900 4600
-Wire Wire Line
-	3700 5000 4150 5000
 Wire Wire Line
 	3750 7100 4200 7100
 Wire Wire Line
@@ -1343,15 +1152,15 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5CDE77B5
-P 8500 3850
+P 5000 3650
 AR Path="/5CDE77B5" Ref="#PWR0101"  Part="1" 
 AR Path="/5CB63856/5CDE77B5" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5CDE77B5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 8500 3700 50  0001 C CNN
-F 1 "+5V" H 8515 4023 50  0000 C CNN
-F 2 "" H 8500 3850 50  0001 C CNN
-F 3 "" H 8500 3850 50  0001 C CNN
-	1    8500 3850
+F 0 "#PWR0101" H 5000 3500 50  0001 C CNN
+F 1 "+5V" H 5015 3823 50  0000 C CNN
+F 2 "" H 5000 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0001 C CNN
+	1    5000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1379,4 +1188,6 @@ F 3 "" H 1500 3000 50  0001 C CNN
 	1    1500 3000
 	1    0    0    -1  
 $EndComp
+Text GLabel 5350 2600 3    50   Output ~ 0
+GND
 $EndSCHEMATC

@@ -147,9 +147,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 950  2100 1850
 Wire Wire Line
-	2200 1450 900  1450
+	2200 1450 1450 1450
 Wire Wire Line
-	2200 1550 950  1550
+	2200 1550 1650 1550
 Wire Wire Line
 	900  4200 2200 4200
 Wire Wire Line
@@ -161,8 +161,6 @@ Connection ~ 2050 3800
 Connection ~ 2050 3900
 Connection ~ 2700 4800
 NoConn ~ 3200 3300
-Wire Wire Line
-	2200 1350 850  1350
 Wire Wire Line
 	900  4200 900  2600
 Wire Wire Line
@@ -184,14 +182,6 @@ Wire Wire Line
 Connection ~ 950  2700
 Wire Wire Line
 	950  2700 950  1550
-Wire Wire Line
-	2000 2700 2000 2550
-Connection ~ 2000 2550
-Wire Wire Line
-	2000 2550 2000 950 
-Wire Wire Line
-	2000 950  2100 950 
-Connection ~ 2100 950 
 $Comp
 L power:GND #PWR?
 U 1 1 5CC2B79A
@@ -894,25 +884,6 @@ F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT151E?qs=%2Fha
 	1    0    0    -1  
 $EndComp
 $Comp
-L rc2014_monitor-rescue:SW_Coded_Octal-8-Switch SW?
-U 1 1 5CC19E3C
-P 1550 2650
-AR Path="/5CC19E3C" Ref="SW?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E3C" Ref="SW3"  Part="1" 
-F 0 "SW3" H 1525 3117 50  0000 C CNN
-F 1 "Line Selection" H 1525 3026 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Greyhill_94HBB08RAT_Octal_Angled" H 1475 2775 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/626/DIP_Series_94H-334494.pdf" H 1475 2775 50  0001 C CNN
-F 4 "706-94HBB08RAT" H 1650 2250 50  0001 C CNN "Mouser PN"
-F 5 "Grayhill" H -750 -600 50  0001 C CNN "MFR"
-F 6 "94HBB08RAT" H -750 -600 50  0001 C CNN "MPN"
-F 7 "Mouser" H -750 -600 50  0001 C CNN "SPR"
-F 8 "706-94HBB08RAT" H -750 -600 50  0001 C CNN "SPN"
-F 9 "https://www.mouser.com/ProductDetail/Grayhill/94HBB08RAT?qs=%2Fha2pyFadujzoJnpEH9hPknLi5akSnROxg%2FuGIo%252BL9AzYOuRydAh5g%3D%3D" H -750 -600 50  0001 C CNN "SPURL"
-	1    1550 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED_Small LED?
 U 1 1 5CC19E18
 P 3950 1750
@@ -1442,4 +1413,116 @@ Wire Wire Line
 Connection ~ 8700 3950
 Wire Wire Line
 	8700 3950 8450 3950
+$Comp
+L Switch:SW_DIP_x03 SW1
+U 1 1 5CDEC6A9
+P 1350 2700
+F 0 "SW1" H 1350 3167 50  0000 C CNN
+F 1 "SW_DIP_x03" H 1350 3076 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Piano_CTS_Series194-3MSTN_W7.62mm_P2.54mm" H 1350 2700 50  0001 C CNN
+F 3 "~" H 1350 2700 50  0001 C CNN
+	1    1350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 950  1450 950 
+Wire Wire Line
+	1200 950  1200 1050
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDEEDAD
+P 1450 900
+AR Path="/5CDEEDAD" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CDEEDAD" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CDEEDAD" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CDEEDAD" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 1450 750 50  0001 C CNN
+F 1 "+5V" H 1465 1073 50  0000 C CNN
+F 2 "" H 1450 900 50  0001 C CNN
+F 3 "" H 1450 900 50  0001 C CNN
+	1    1450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 900  1450 950 
+Connection ~ 1450 950 
+Wire Wire Line
+	1450 950  1200 950 
+$Comp
+L Device:R_Small R1
+U 1 1 5CDEEDB6
+P 1200 1150
+F 0 "R1" H 1259 1196 50  0000 L CNN
+F 1 "10K" H 1259 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 1150 50  0001 C CNN
+F 3 "~" H 1200 1150 50  0001 C CNN
+	1    1200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1250 1200 1350
+Wire Wire Line
+	1200 1350 850  1350
+Wire Wire Line
+	1450 950  1450 1050
+$Comp
+L Device:R_Small R6
+U 1 1 5CDFD830
+P 1450 1150
+F 0 "R6" H 1509 1196 50  0000 L CNN
+F 1 "10K" H 1509 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1450 1150 50  0001 C CNN
+F 3 "~" H 1450 1150 50  0001 C CNN
+	1    1450 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 1350
+Wire Wire Line
+	2200 1350 1200 1350
+Wire Wire Line
+	1450 1250 1450 1450
+Connection ~ 1450 1450
+Wire Wire Line
+	1450 1450 900  1450
+Wire Wire Line
+	1650 950  1650 1050
+$Comp
+L Device:R_Small R7
+U 1 1 5CE08962
+P 1650 1150
+F 0 "R7" H 1709 1196 50  0000 L CNN
+F 1 "10K" H 1709 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 1150 50  0001 C CNN
+F 3 "~" H 1650 1150 50  0001 C CNN
+	1    1650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1250 1650 1550
+Connection ~ 1650 1550
+Wire Wire Line
+	1650 1550 950  1550
+Wire Wire Line
+	1650 2500 1650 2600
+Wire Wire Line
+	1650 2700 1650 2600
+Connection ~ 1650 2600
+Wire Wire Line
+	1650 2700 1650 2850
+Connection ~ 1650 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5CE260EF
+P 1650 2850
+AR Path="/5CE260EF" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5CE260EF" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5CE260EF" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5CE260EF" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1650 2600 50  0001 C CNN
+F 1 "GND" H 1655 2677 50  0000 C CNN
+F 2 "" H 1650 2850 50  0001 C CNN
+F 3 "" H 1650 2850 50  0001 C CNN
+	1    1650 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
