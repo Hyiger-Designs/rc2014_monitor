@@ -1248,7 +1248,7 @@ Text GLabel 1400 7200 2    50   Input ~ 0
 ~RESET2
 NoConn ~ 1400 7200
 $Comp
-L Supervisory_Circuits:DS1233Z-5+ U9
+L rc2014_monitor-rescue:DS1233Z-5+-Supervisory_Circuits U9
 U 1 1 5CD0450C
 P 3250 4650
 F 0 "U9" H 3021 4721 50  0000 R CNN
