@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:rc2014_monitor-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -479,12 +479,6 @@ Wire Wire Line
 	7800 3200 7800 2900
 Wire Wire Line
 	7800 2900 8800 2900
-Connection ~ 2700 2350
-Wire Wire Line
-	2200 2350 2200 2050
-Wire Wire Line
-	2200 1950 2200 2050
-Connection ~ 2200 2050
 Connection ~ 2750 7000
 Wire Wire Line
 	2750 7000 2950 7000
@@ -505,24 +499,6 @@ F 6 "926-LMC555CN/NOPB" H 7300 3400 50  0001 C CNN "SPN"
 F 7 "Mouser" H 7300 3400 50  0001 C CNN "SPR"
 F 8 "https://www.mouser.com/ProductDetail/926-LMC555CN-NOPB" H 7300 3400 50  0001 C CNN "SPURL"
 	1    7300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rc2014_monitor-rescue:74HCT138-74xx U?
-U 1 1 5CC19E52
-P 2700 1650
-AR Path="/5CC19E52" Ref="U?"  Part="1" 
-AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
-F 0 "U4" H 2700 1700 50  0000 C CNN
-F 1 "74HCT138" H 2650 1600 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2700 1650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 2700 1650 50  0001 C CNN
-F 4 "Texas Instruments" H -800 -2200 50  0001 C CNN "MFR"
-F 5 "CD74HCT138E" H -800 -2200 50  0001 C CNN "MPN"
-F 6 "Mouser" H -800 -2200 50  0001 C CNN "SPR"
-F 7 "595-CD74HCT138E" H -800 -2200 50  0001 C CNN "SPN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H -800 -2200 50  0001 C CNN "SPURL"
-	1    2700 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1300,18 +1276,12 @@ F 3 "" H 7000 5200 50  0001 C CNN
 $EndComp
 NoConn ~ 7300 4700
 NoConn ~ 7300 4900
-Text Label 1900 1350 0    50   ~ 0
+Text Label 2000 1350 0    50   ~ 0
 A
-Text Label 1900 1450 0    50   ~ 0
+Text Label 2000 1450 0    50   ~ 0
 B
-Text Label 1900 1550 0    50   ~ 0
+Text Label 2000 1550 0    50   ~ 0
 C
-Wire Wire Line
-	1800 1350 2200 1350
-Wire Wire Line
-	1800 1550 2200 1550
-Wire Wire Line
-	1800 1450 2200 1450
 Wire Wire Line
 	1800 4100 2200 4100
 Wire Wire Line
@@ -1327,55 +1297,108 @@ C
 Wire Notes Line
 	650  6500 650  600 
 Wire Wire Line
-	1900 2600 1950 2600
-Wire Wire Line
-	1900 2700 1950 2700
-Wire Wire Line
-	1900 2800 1950 2800
-Wire Wire Line
-	900  2900 900  3100
-NoConn ~ 1300 2900
-$Comp
-L power:GND #PWR?
-U 1 1 5D5736FB
-P 900 3100
-AR Path="/5D5736FB" Ref="#PWR?"  Part="1" 
-AR Path="/5CB63856/5D5736FB" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5D5736FB" Ref="#PWR?"  Part="1" 
-AR Path="/5CBDBC11/5D5736FB" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 900 2850 50  0001 C CNN
-F 1 "GND" H 905 2927 50  0000 C CNN
-F 2 "" H 900 3100 50  0001 C CNN
-F 3 "" H 900 3100 50  0001 C CNN
-	1    900  3100
-	1    0    0    -1  
-$EndComp
-Text Label 1950 2700 0    50   ~ 0
-B
-Text Label 1950 2800 0    50   ~ 0
-C
+	900  1350 900  1450
+NoConn ~ 1525 1250
 $Comp
 L Switch:SW_DIP_x03 SW1
 U 1 1 5D5736FC
-P 1600 2800
-F 0 "SW1" H 1600 3267 50  0000 C CNN
-F 1 "SW_DIP_x03" H 1600 3176 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Piano_CTS_Series194-3MSTN_W7.62mm_P2.54mm" H 1600 2800 50  0001 C CNN
-F 3 "~" H 1600 2800 50  0001 C CNN
-	1    1600 2800
+P 1200 1550
+F 0 "SW1" H 1200 2017 50  0000 C CNN
+F 1 "SW_DIP_x03" H 1200 1926 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Piano_CTS_Series194-3MSTN_W7.62mm_P2.54mm" H 1200 1550 50  0001 C CNN
+F 3 "~" H 1200 1550 50  0001 C CNN
+	1    1200 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Network04 RN2
 U 1 1 5D5736FD
-P 1100 2700
-F 0 "RN2" V 1425 2700 50  0000 C CNN
-F 1 "1K" V 1334 2700 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 1375 2700 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 2700 50  0001 C CNN
-	1    1100 2700
-	0    -1   -1   0   
+P 1625 1050
+F 0 "RN2" V 1950 1050 50  0000 C CNN
+F 1 "1K" V 1859 1050 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 1900 1050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1625 1050 50  0001 C CNN
+	1    1625 1050
+	-1   0    0    -1  
 $EndComp
-Text Label 1950 2600 0    50   ~ 0
-A
+Connection ~ 2700 2350
+Wire Wire Line
+	2200 1950 2200 2050
+Wire Wire Line
+	2200 2350 2200 2050
+Connection ~ 2200 2050
+$Comp
+L rc2014_monitor-rescue:74HCT138-74xx U?
+U 1 1 5CC19E52
+P 2700 1650
+AR Path="/5CC19E52" Ref="U?"  Part="1" 
+AR Path="/5CBDBC11/5CC19E52" Ref="U4"  Part="1" 
+F 0 "U4" H 2700 1700 50  0000 C CNN
+F 1 "74HCT138" H 2650 1600 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2700 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hct138.pdf" H 2700 1650 50  0001 C CNN
+F 4 "Texas Instruments" H -800 -2200 50  0001 C CNN "MFR"
+F 5 "CD74HCT138E" H -800 -2200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -800 -2200 50  0001 C CNN "SPR"
+F 7 "595-CD74HCT138E" H -800 -2200 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CD74HCT138E?qs=sGAEpiMZZMtxONTBFIcRfpjgwdJpzldARH0rPECqBNk%3D" H -800 -2200 50  0001 C CNN "SPURL"
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1450 1725 1450
+Wire Wire Line
+	2200 1350 1825 1350
+Wire Wire Line
+	1625 1250 1625 1550
+Wire Wire Line
+	1725 1250 1725 1450
+Wire Wire Line
+	1825 1250 1825 1350
+Connection ~ 900  1450
+Wire Wire Line
+	900  1450 900  1550
+Wire Wire Line
+	900  1450 700  1450
+$Comp
+L power:+5V #PWR?
+U 1 1 5D42948B
+P 1825 850
+AR Path="/5D42948B" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5D42948B" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D42948B" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5D42948B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1825 700 50  0001 C CNN
+F 1 "+5V" H 1840 1023 50  0000 C CNN
+F 2 "" H 1825 850 50  0001 C CNN
+F 3 "" H 1825 850 50  0001 C CNN
+	1    1825 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5736FB
+P 700 1450
+AR Path="/5D5736FB" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5D5736FB" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D5736FB" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5D5736FB" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 700 1200 50  0001 C CNN
+F 1 "GND" H 700 1300 50  0000 C CNN
+F 2 "" H 700 1450 50  0001 C CNN
+F 3 "" H 700 1450 50  0001 C CNN
+	1    700  1450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1625 1550
+Wire Wire Line
+	1625 1550 1500 1550
+Connection ~ 1725 1450
+Connection ~ 1825 1350
+Wire Wire Line
+	1625 1550 2200 1550
+Wire Wire Line
+	1500 1350 1825 1350
+Wire Wire Line
+	1500 1450 1725 1450
 $EndSCHEMATC
