@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:rc2014_monitor-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -224,8 +224,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 6850 2750 7000
 Wire Wire Line
-	4850 950  4850 1350
-Wire Wire Line
 	4050 1350 4350 1350
 Wire Wire Line
 	4050 1450 4350 1450
@@ -399,8 +397,6 @@ Wire Wire Line
 	3200 1450 3850 1450
 Wire Wire Line
 	3200 1350 3850 1350
-Wire Wire Line
-	2700 950  4850 950 
 Wire Wire Line
 	3200 1750 3850 1750
 Wire Wire Line
@@ -1282,18 +1278,6 @@ Text Label 2000 1450 0    50   ~ 0
 B
 Text Label 2000 1550 0    50   ~ 0
 C
-Wire Wire Line
-	1800 4100 2200 4100
-Wire Wire Line
-	1800 4200 2200 4200
-Wire Wire Line
-	1800 4300 2200 4300
-Text Label 1900 4100 0    50   ~ 0
-A
-Text Label 1900 4200 0    50   ~ 0
-B
-Text Label 1900 4300 0    50   ~ 0
-C
 Wire Notes Line
 	650  6500 650  600 
 Wire Wire Line
@@ -1401,4 +1385,31 @@ Wire Wire Line
 	1500 1350 1825 1350
 Wire Wire Line
 	1500 1450 1725 1450
+$Comp
+L power:+5V #PWR?
+U 1 1 5D44220F
+P 4850 1350
+AR Path="/5D44220F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB63856/5D44220F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D44220F" Ref="#PWR?"  Part="1" 
+AR Path="/5CBDBC11/5D44220F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 1200 50  0001 C CNN
+F 1 "+5V" H 4865 1523 50  0000 C CNN
+F 2 "" H 4850 1350 50  0001 C CNN
+F 3 "" H 4850 1350 50  0001 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4100 1830 4100
+Wire Wire Line
+	1830 4100 1830 1350
+Wire Wire Line
+	2200 4200 1720 4200
+Wire Wire Line
+	1720 4200 1720 1450
+Wire Wire Line
+	2200 4300 1620 4300
+Wire Wire Line
+	1620 4300 1620 1550
 $EndSCHEMATC
