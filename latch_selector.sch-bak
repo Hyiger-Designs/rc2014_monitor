@@ -1278,18 +1278,6 @@ Text Label 2000 1450 0    50   ~ 0
 B
 Text Label 2000 1550 0    50   ~ 0
 C
-Wire Wire Line
-	1800 4100 2200 4100
-Wire Wire Line
-	1800 4200 2200 4200
-Wire Wire Line
-	1800 4300 2200 4300
-Text Label 1900 4100 0    50   ~ 0
-A
-Text Label 1900 4200 0    50   ~ 0
-B
-Text Label 1900 4300 0    50   ~ 0
-C
 Wire Notes Line
 	650  6500 650  600 
 Wire Wire Line
@@ -1412,4 +1400,16 @@ F 3 "" H 4850 1350 50  0001 C CNN
 	1    4850 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2200 4100 1830 4100
+Wire Wire Line
+	1830 4100 1830 1350
+Wire Wire Line
+	2200 4200 1720 4200
+Wire Wire Line
+	1720 4200 1720 1450
+Wire Wire Line
+	2200 4300 1620 4300
+Wire Wire Line
+	1620 4300 1620 1550
 $EndSCHEMATC

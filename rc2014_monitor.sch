@@ -106,8 +106,6 @@ Text GLabel 1000 5700 2    50   Output ~ 0
 ~RD
 Text GLabel 1000 5600 2    50   Output ~ 0
 ~WR
-Text GLabel 1000 5500 2    50   Output ~ 0
-~MREQ
 Text GLabel 1000 5100 2    50   Output ~ 0
 ~M1
 Text GLabel 1000 4900 2    50   Output ~ 0
@@ -417,18 +415,8 @@ Text GLabel 1650 4900 2    50   Output ~ 0
 GND
 Text GLabel 1650 5000 2    50   Output ~ 0
 5V
-Text GLabel 1650 5800 2    50   Input ~ 0
-~NMI
 Text GLabel 1650 5700 2    50   Input ~ 0
 ~WAIT
-Text GLabel 1650 5600 2    50   Input ~ 0
-~BUSRQ
-Text GLabel 1650 5500 2    50   Input ~ 0
-~HALT
-Text GLabel 1650 5400 2    50   Output ~ 0
-~BUSACK
-Text GLabel 1000 5400 2    50   Input ~ 0
-~INT
 Text Notes 2650 6100 2    50   ~ 0
 Power
 Text GLabel 1000 5200 2    50   Input ~ 0
@@ -461,20 +449,6 @@ Wire Wire Line
 	3250 4900 3250 5000
 Wire Wire Line
 	3250 5000 3700 5000
-NoConn ~ 1400 6300
-NoConn ~ 1400 6450
-NoConn ~ 1400 6600
-NoConn ~ 1400 6750
-Text GLabel 1400 6750 2    50   Input ~ 0
-~INT
-Text GLabel 1400 6150 2    50   Output ~ 0
-~BUSACK
-Text GLabel 1400 6300 2    50   Input ~ 0
-~HALT
-Text GLabel 1400 6450 2    50   Input ~ 0
-~BUSRQ
-Text GLabel 1400 6600 2    50   Input ~ 0
-~NMI
 Wire Notes Line
 	2350 5250 5250 5250
 Text Notes 2400 3400 0    50   ~ 0
@@ -484,18 +458,9 @@ Wire Wire Line
 Wire Wire Line
 	6100 5600 6600 5600
 Wire Wire Line
-	6100 5300 6100 5200
-Connection ~ 6100 5300
-Wire Wire Line
 	8000 5300 8000 5600
 Wire Wire Line
 	9900 5300 9900 5600
-Wire Wire Line
-	9900 5300 9900 5200
-Connection ~ 9900 5300
-Wire Wire Line
-	8000 5300 8000 5200
-Connection ~ 8000 5300
 Wire Wire Line
 	3550 7100 4000 7100
 Wire Wire Line
@@ -503,12 +468,6 @@ Wire Wire Line
 Connection ~ 4000 7100
 Wire Wire Line
 	4000 7100 4250 7100
-Text GLabel 1000 5300 2    50   Output ~ 0
-CLK
-Text GLabel 1400 6000 2    50   Output ~ 0
-CLK
-NoConn ~ 1400 6000
-NoConn ~ 1400 6150
 Wire Wire Line
 	8500 5750 8500 5600
 Wire Wire Line
@@ -1056,16 +1015,6 @@ Text GLabel 4150 4350 1    50   Output ~ 0
 ~RST
 Wire Wire Line
 	4150 4350 4150 4600
-Text GLabel 1650 5100 2    50   Output ~ 0
-~RFSH
-Text GLabel 1650 5300 2    50   Output ~ 0
-CLK2
-Text GLabel 1450 6900 2    50   Output ~ 0
-CLK2
-NoConn ~ 1450 6900
-Text GLabel 1450 7050 2    50   Output ~ 0
-~RFSH
-NoConn ~ 1450 7050
 $Comp
 L Connector_Generic:Conn_01x10 J2
 U 1 1 5CB17847
@@ -1077,11 +1026,6 @@ F 3 "~" H 1450 5300 50  0001 C CNN
 	1    1450 5300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1650 5200 2    50   Input ~ 0
-~RESET2
-Text GLabel 1400 7200 2    50   Input ~ 0
-~RESET2
-NoConn ~ 1400 7200
 $Comp
 L rc2014_monitor-rescue:DS1233Z-5+-Supervisory_Circuits U9
 U 1 1 5CD0450C
@@ -1173,4 +1117,27 @@ Wire Wire Line
 Connection ~ 1800 4350
 Wire Wire Line
 	1800 4350 1900 4350
+Wire Wire Line
+	6100 5200 5775 5200
+Text GLabel 5775 5200 0    50   Input ~ 0
+RST
+Wire Wire Line
+	8000 5200 7675 5200
+Text GLabel 7675 5200 0    50   Input ~ 0
+RST
+Wire Wire Line
+	9900 5200 9575 5200
+Text GLabel 9575 5200 0    50   Input ~ 0
+RST
+Text GLabel 1000 5500 2    50   Output ~ 0
+~MREQ
+NoConn ~ 1650 5100
+NoConn ~ 1650 5200
+NoConn ~ 1650 5300
+NoConn ~ 1650 5400
+NoConn ~ 1650 5500
+NoConn ~ 1650 5600
+NoConn ~ 1650 5800
+NoConn ~ 1000 5300
+NoConn ~ 1000 5400
 $EndSCHEMATC

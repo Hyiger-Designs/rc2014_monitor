@@ -1307,10 +1307,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1625 1050 50  0001 C CNN
 $EndComp
 Connection ~ 2700 2350
 Wire Wire Line
-	2200 1950 2200 2050
-Wire Wire Line
 	2200 2350 2200 2050
-Connection ~ 2200 2050
 $Comp
 L rc2014_monitor-rescue:74HCT138-74xx U?
 U 1 1 5CC19E52
@@ -1412,4 +1409,8 @@ Wire Wire Line
 	2200 4300 1620 4300
 Wire Wire Line
 	1620 4300 1620 1550
+Wire Wire Line
+	2200 1950 1875 1950
+Text GLabel 1875 1950 0    50   Input ~ 0
+RST
 $EndSCHEMATC
