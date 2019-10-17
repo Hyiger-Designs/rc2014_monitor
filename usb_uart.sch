@@ -1,0 +1,362 @@
+EESchema Schematic File Version 4
+LIBS:rc2014_monitor-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 2700 3850 2700
+Wire Wire Line
+	4400 3600 4300 3600
+Wire Wire Line
+	4300 3600 4300 3000
+Wire Wire Line
+	4300 3000 4400 3000
+Wire Wire Line
+	4300 3600 4300 3800
+Connection ~ 4300 3600
+$Comp
+L Device:C_Small C?
+U 1 1 5DC75CD6
+P 4300 3900
+AR Path="/5DC75CD6" Ref="C?"  Part="1" 
+AR Path="/5DC6188C/5DC75CD6" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 3946 50  0000 L CNN
+F 1 "100nF" H 4415 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4338 3750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4300 3900 50  0001 C CNN
+F 4 "KEMET" H -1000 -2800 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -1000 -2800 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1000 -2800 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -1000 -2800 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -1000 -2800 50  0001 C CNN "SPURL"
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DC78020
+P 3950 3300
+AR Path="/5CBDBC11/5DC78020" Ref="R?"  Part="1" 
+AR Path="/5DC78020" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC78020" Ref="R?"  Part="1" 
+F 0 "R?" V 3891 3254 50  0000 R CNN
+F 1 "27R" V 3950 3400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 3300 50  0001 C CNN
+F 3 "~" H 3950 3300 50  0001 C CNN
+	1    3950 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DC78B11
+P 3950 3400
+AR Path="/5CBDBC11/5DC78B11" Ref="R?"  Part="1" 
+AR Path="/5DC78B11" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC78B11" Ref="R?"  Part="1" 
+F 0 "R?" V 3891 3354 50  0000 R CNN
+F 1 "27R" V 3950 3500 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 3300 4400 3300
+Wire Wire Line
+	4050 3400 4400 3400
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5DC7A06E
+P 2950 3300
+F 0 "J?" H 3007 3767 50  0000 C CNN
+F 1 "USB_B_Micro" H 3007 3676 50  0000 C CNN
+F 2 "" H 3100 3250 50  0001 C CNN
+F 3 "~" H 3100 3250 50  0001 C CNN
+	1    2950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3100 3350 3100
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5DC7D47E
+P 3500 3100
+F 0 "FB?" V 3263 3100 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 3354 3100 50  0000 C CNN
+F 2 "" V 3430 3100 50  0001 C CNN
+F 3 "~" H 3500 3100 50  0001 C CNN
+	1    3500 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3100 3850 3100
+Wire Wire Line
+	3850 3100 3850 2700
+Wire Wire Line
+	3250 3300 3850 3300
+Wire Wire Line
+	3250 3400 3850 3400
+$Comp
+L Device:C_Small C?
+U 1 1 5DC824B8
+P 3350 3600
+AR Path="/5DC824B8" Ref="C?"  Part="1" 
+AR Path="/5DC6188C/5DC824B8" Ref="C?"  Part="1" 
+F 0 "C?" H 3465 3646 50  0000 L CNN
+F 1 "10nF" H 3465 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3388 3450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3350 3600 50  0001 C CNN
+F 4 "KEMET" H -1950 -3100 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -1950 -3100 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1950 -3100 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -1950 -3100 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -1950 -3100 50  0001 C CNN "SPURL"
+	1    3350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3500 3250 3700
+Wire Wire Line
+	3250 3700 3350 3700
+Wire Wire Line
+	3350 3500 3350 3100
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 3100 3400 3100
+Wire Wire Line
+	3350 3700 3350 3850
+Wire Wire Line
+	3350 3850 2950 3850
+Wire Wire Line
+	2950 3850 2950 3700
+Connection ~ 3350 3700
+Wire Wire Line
+	4300 4000 4300 4100
+Wire Wire Line
+	5200 2650 5200 2700
+NoConn ~ 5800 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5DC72845
+P 4450 2350
+AR Path="/5CBDBC11/5DC72845" Ref="R?"  Part="1" 
+AR Path="/5DC72845" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC72845" Ref="R?"  Part="1" 
+F 0 "R?" H 4391 2304 50  0000 R CNN
+F 1 "1K" H 4391 2395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 2350 50  0001 C CNN
+F 3 "~" H 4450 2350 50  0001 C CNN
+	1    4450 2350
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 2700 3850 1950
+Text GLabel 5200 1950 2    50   Output ~ 0
+5V
+Wire Wire Line
+	4100 2200 4100 2250
+Wire Wire Line
+	4100 1950 3850 1950
+Wire Wire Line
+	4100 2000 4100 1950
+Wire Wire Line
+	4700 2200 4700 2250
+Wire Wire Line
+	4700 2000 4700 1950
+Wire Wire Line
+	4700 1950 5200 1950
+$Comp
+L Device:C_Small C?
+U 1 1 5DC7109C
+P 4700 2100
+AR Path="/5DC7109C" Ref="C?"  Part="1" 
+AR Path="/5DC6188C/5DC7109C" Ref="C?"  Part="1" 
+F 0 "C?" H 4815 2146 50  0000 L CNN
+F 1 "100nF" H 4815 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4700 2100 50  0001 C CNN
+F 4 "KEMET" H -600 -4600 50  0001 C CNN "MFR"
+F 5 "C0805C104K4RACTU" H -600 -4600 50  0001 C CNN "MPN"
+F 6 "Mouser" H -600 -4600 50  0001 C CNN "SPR"
+F 7 "80-C0805C104K4R" H -600 -4600 50  0001 C CNN "SPN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2F1Gdrl2EbPVM%3D" H -600 -4600 50  0001 C CNN "SPURL"
+	1    4700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DC6E67B
+P 4100 2100
+AR Path="/5CBDBC11/5DC6E67B" Ref="R?"  Part="1" 
+AR Path="/5DC6E67B" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC6E67B" Ref="R?"  Part="1" 
+F 0 "R?" H 4041 2054 50  0000 R CNN
+F 1 "100K" H 4041 2145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 2100 50  0001 C CNN
+F 3 "~" H 4100 2100 50  0001 C CNN
+	1    4100 2100
+	-1   0    0    1   
+$EndComp
+Connection ~ 4100 1950
+Wire Wire Line
+	4250 1950 4100 1950
+Connection ~ 4700 1950
+Wire Wire Line
+	4650 1950 4700 1950
+Wire Wire Line
+	4100 2250 4450 2250
+Wire Wire Line
+	4450 2250 4700 2250
+Connection ~ 4450 2250
+$Comp
+L Transistor_FET:IRLML6402 Q?
+U 1 1 5DC62C3D
+P 4450 2050
+F 0 "Q?" V 4793 2050 50  0000 C CNN
+F 1 "IRLML6402" V 4702 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 1975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 4450 2050 50  0001 L CNN
+	1    4450 2050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4450 2450 5950 2450
+Wire Wire Line
+	5950 3800 5800 3800
+Wire Wire Line
+	5950 2450 5950 3800
+Text Label 6000 3700 0    50   ~ 0
+RXLED
+Text Label 6000 3600 0    50   ~ 0
+TXLED
+Text Label 6250 2500 0    50   ~ 0
+VCCIO
+Connection ~ 6250 2700
+Wire Wire Line
+	6250 2700 6250 2500
+Wire Wire Line
+	6250 2700 6400 2700
+Wire Wire Line
+	6400 2700 6400 2800
+Wire Wire Line
+	6250 2800 6250 2700
+Wire Wire Line
+	6400 3250 6400 3000
+Wire Wire Line
+	6250 3250 6250 3000
+$Comp
+L Device:R_Small R?
+U 1 1 5DC9337A
+P 6400 2900
+AR Path="/5CBDBC11/5DC9337A" Ref="R?"  Part="1" 
+AR Path="/5DC9337A" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC9337A" Ref="R?"  Part="1" 
+F 0 "R?" H 6341 2854 50  0000 R CNN
+F 1 "270R" H 6341 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 2900 50  0001 C CNN
+F 3 "~" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DC9276B
+P 6250 2900
+AR Path="/5CBDBC11/5DC9276B" Ref="R?"  Part="1" 
+AR Path="/5DC9276B" Ref="R?"  Part="1" 
+AR Path="/5DC6188C/5DC9276B" Ref="R?"  Part="1" 
+F 0 "R?" H 6191 2854 50  0000 R CNN
+F 1 "270R" H 6191 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 2900 50  0001 C CNN
+F 3 "~" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 3700 6400 3450
+Wire Wire Line
+	5800 3700 6400 3700
+Wire Wire Line
+	6250 3600 6250 3450
+Wire Wire Line
+	5800 3600 6250 3600
+$Comp
+L Device:LED_Small LED?
+U 1 1 5DC8BE3D
+P 6250 3350
+AR Path="/5DC8BE3D" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5DC8BE3D" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5DC8BE3D" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5DC8BE3D" Ref="LED?"  Part="1" 
+F 0 "LED?" H 6400 3400 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 6150 3400 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6250 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 6250 3350 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 1400 -150 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 1400 -150 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 1400 -150 50  0001 C CNN "MPN"
+F 7 "Mouser" H 1400 -150 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 1400 -150 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 1400 -150 50  0001 C CNN "SPURL"
+	1    6250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small LED?
+U 1 1 5DC8BE31
+P 6400 3350
+AR Path="/5DC8BE31" Ref="LED?"  Part="1" 
+AR Path="/5CB63856/5DC8BE31" Ref="LED?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5DC8BE31" Ref="LED?"  Part="1" 
+AR Path="/5CBDBC11/5DC8BE31" Ref="LED?"  Part="1" 
+F 0 "LED?" H 6550 3400 50  0000 C CNN
+F 1 "SMD Red 620nm 40mcd 2.2V; 20mA" H 6300 3400 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6400 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/sml-h1(c)-e-1508182.pdf" V 6400 3350 50  0001 C CNN
+F 4 "755-SML-H12U8TT86C" H 1550 -250 50  0001 C CNN "MouserPN"
+F 5 "ROHM Semiconductor" H 1550 -250 50  0001 C CNN "MFR"
+F 6 "SML-H12U8TT86C" H 1550 -250 50  0001 C CNN "MPN"
+F 7 "Mouser" H 1550 -250 50  0001 C CNN "SPR"
+F 8 "755-SML-H12U8TT86C" H 1550 -250 50  0001 C CNN "SPN"
+F 9 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SML-H12U8TT86C?qs=%2Fha2pyFaduj1IExYAWg6jlOEpkl2Yj3R%252Bfjq8GLCKAI%2FGw1BN%2FbjLQGcALCykVKc" H 1550 -250 50  0001 C CNN "SPURL"
+	1    6400 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4300 3000
+Wire Wire Line
+	4300 3000 4300 2650
+Text Label 4500 2650 0    50   ~ 0
+VCCIO
+Wire Wire Line
+	4300 2650 5200 2650
+Connection ~ 5000 4100
+Wire Wire Line
+	5200 4100 5000 4100
+Wire Wire Line
+	4300 4100 5000 4100
+$Comp
+L Interface_USB:FT230XS U?
+U 1 1 5DC62839
+P 5100 3400
+AR Path="/5CBDBC11/5DC62839" Ref="U?"  Part="1" 
+AR Path="/5DC6188C/5DC62839" Ref="U?"  Part="1" 
+F 0 "U?" H 5100 4281 50  0000 C CNN
+F 1 "FT230XS" H 5100 4190 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 5550 2750 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT230X.html" H 5100 3400 50  0001 C CNN
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
